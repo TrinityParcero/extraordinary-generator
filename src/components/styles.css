@@ -1,0 +1,428 @@
+body {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin: 10px;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+#namePage {
+    max-width: 920px;
+}
+#trinket {
+    margin-top: 4%;
+}
+#homePage {
+    display: block;
+    margin-top: 6%;
+}
+#homePage img {
+    border: 2px solid black;
+    height: 180px;
+}
+#homePage a {
+    font-size: 1.4em;
+}
+li a:hover {
+    opacity: 0.7;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+li {
+    display: inline;
+}
+#namePage #name {
+    font-size: 1em;
+    font-family: 'Catamaran', serif;
+    margin-top: 1px;
+    padding-top: 0;
+    color: black;
+    text-align: center;
+}
+#name {
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.block {
+    float: left;
+}
+.column {
+    float: left;
+    width: 800px;
+}
+.option {
+    display: inline-block;
+    padding: 2px;
+}
+.options {
+    display: inline-block;
+}
+.twoGroup {
+    display: block;
+}
+#eth {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 480px;
+    float: left;
+}
+#eth fieldset {
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 4px;
+}
+#eth #misc {
+    height: 80px;
+}
+#namePage fieldset {
+    text-align: left;
+}
+#generator {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    width: 440px;
+    height: 600px;
+    float: left;
+    top: 10px;
+    position: relative;
+}
+#generator p {
+    text-align: left;
+    padding: 1%;
+}
+#namePage #generator p {
+    padding: 10px;
+    text-align: center;
+}
+#namePage #generator {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    width: 300px;
+    height: 180px;
+    margin-left: 80px;
+}
+#trinket #generator {
+    float: left;
+    padding: 10px 20px;
+    background-color: black;
+    width: 400px;
+    min-height: 180px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    height: auto;
+}
+#gen {
+    margin: 0 auto;
+}
+#namePage #gen {
+    font-size: 1em;
+    width: 140px;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-left: 50px;
+    float: left;
+}
+#trinket #gen {
+    width: 780px;
+}
+#trinket p {
+    font-size: 1em;
+}
+#gen fieldset {
+    width: 120px;
+    display: inline-block;
+    margin-right: 100px;
+}
+#namePage #gen fieldset {
+    margin: 4px;
+    width: 300px;
+}
+#generated {
+    background-color: white;
+    text-decoration: none;
+    padding: 0;
+    vertical-align: middle;
+    margin: 10px auto;
+}
+#num {
+    width: 30%;
+    float: left;
+    margin-right: 105px;
+}
+#num fieldset {
+    float: left;
+}
+#namePage .allButton {
+    display: inline-block;
+}
+.allButton,
+.noneButton {
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    float: right;
+    bottom: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8em;
+    line-height: 0.8em;
+}
+.noneButton {
+    clear: both;
+}
+.row .block {
+    height: inherit;
+    width: 300px;
+    float: left;
+    margin-right: 100px;
+}
+.row {
+    width: 800px;
+    height: 400px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+#nameFieldset,
+#alignmentFieldset {
+    height: 380px;
+}
+#race,
+#sources,
+#class,
+#background {
+    width: 760px;
+}
+fieldset {
+    text-align: left;
+    margin-bottom: 20px;
+}
+#trinket fieldset {
+    margin: 0 auto;
+    text-align: center;
+}
+.column .block {
+    margin-bottom: 5px;
+}
+header {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 2000px;
+    margin-top: 1%;
+}
+main #name fieldset,
+main #alignment fieldset {
+    width: 300px;
+}
+img {
+    display: block;
+}
+img:hover {
+    opacity: 0.7;
+}
+legend {
+    font-size: 1em;
+}
+label {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 0.8em;
+}
+header h1 {
+    color: black;
+    margin: 0;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+header a {
+    float: left;
+}
+* {
+    color: black;
+    text-align: center;
+    font-family: 'Catamaran', serif;
+}
+h1 {
+    font-size: 3em;
+}
+p {
+    font-size: 0.8em;
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 0;
+    text-align: left;
+}
+#name {
+    font-size: 1em;
+    font-family: 'Catamaran', serif;
+    margin-top: 1px;
+    padding-top: 0;
+    color: black;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border: 1.4px solid dimgrey;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+}
+button:hover {
+    border: white;
+    background-color: lightgray;
+}
+button:active {
+    background-color: black;
+    color: white;
+    border: none;
+}
+footer {
+    background: black;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    width: 100%;
+}
+footer p {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+#trinket label {
+    font-size: 1em;
+}
+
+/* TABLET */
+@media screen and (max-width: 900px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    #gen {
+        margin-top: 20px;
+    }
+    #gen fieldset {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    #generator button {
+        margin-bottom: 20%;
+    }
+    #namePage #generator {
+        width: 210px;
+        height: 265px;
+        float: right;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: 10%;
+        position: static;
+    }
+    #sources {
+        width: 380px;
+    }
+    #trinket #generator {
+        width: 400px;
+        margin-top: 20px;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 550px) {
+    * {
+        float: clear;
+        margin: 0 auto;
+        position: static;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    header {
+        margin: 2%;
+    }
+    header h1 {
+        font-size: 2em;
+        float: left;
+        margin-left: 30px;
+    }
+    .option {
+        display: block;
+        margin: 2px;
+        padding: 0px;
+        width: 100px;
+    }
+    #trinket #gen {
+        width: 250px;
+        margin-top: 20px;
+        position: absolute;
+        right: 135px;
+    }
+    #trinket #gen p {
+        font-size: 0.8em;
+    }
+    #trinket #gen fieldset {
+        width: 250px;
+    }
+    #trinket #generator {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        width: 250px;
+        float: none;
+        display: block;
+    }
+    #namePage #generator {
+        display: block;
+        margin: 0 auto;
+        display: block;
+        float: left;
+        margin-left: 40px;
+        margin-bottom: 20%;
+    }
+    #name {
+        font-size: 0.8em;
+        float: left;
+        margin-left: 30px;
+    }
+    #sources {
+        width: 250px;
+    }
+    #trinket div {
+        width: 100%;
+    }
+    #eth fieldset {
+        width: 100px;
+        height: 200px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #eastEuropean,
+    #asian {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+    #european {
+        padding-bottom: 30px;
+    }
+    .twoGroup {
+        display: block;
+        margin-right: 100px;
+    }
+}

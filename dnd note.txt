@@ -1,9 +1,0 @@
-open5e apis for character generator
-
-add reset button for name gen now that select all is fixed
-
-make a new home icon
-
-fix inconsistent footer bars
-
-clean up style for generated trinkets 
