@@ -1,3 +1,4 @@
+/* general styles */
 body {
     margin: 0 auto;
     margin-bottom: 40px;
@@ -6,28 +7,13 @@ a {
     text-decoration: none;
     font-size: 1em;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
 }
 main {
-    max-width: 900px;
+    max-width: 1000px;
+    width: 75vw;
     margin: 0 auto;
-}
-#namePage {
-    max-width: 920px;
-}
-#trinket {
-    margin-top: 4%;
-}
-#homePage {
     display: block;
-    margin-top: 6%;
-}
-#homePage img {
-    border: 2px solid black;
-    height: 180px;
-}
-#homePage a {
-    font-size: 1.4em;
 }
 li a:hover {
     opacity: 0.7;
@@ -38,18 +24,6 @@ ul {
 }
 li {
     display: inline;
-}
-#namePage #name {
-    font-size: 1em;
-    font-family: 'Catamaran', serif;
-    margin-top: 1px;
-    padding-top: 0;
-    color: black;
-    text-align: center;
-}
-#name {
-    margin: 0 auto;
-    vertical-align: middle;
 }
 .block {
     float: left;
@@ -68,25 +42,6 @@ li {
 .twoGroup {
     display: block;
 }
-#eth {
-    margin: 0 auto;
-    padding: 10px 20px;
-    width: 480px;
-    float: left;
-}
-#eth fieldset {
-    display: inline-block;
-    width: 500px;
-    height: 50px;
-    margin: 10px;
-    margin-top: 4px;
-}
-#eth #misc {
-    height: 80px;
-}
-#namePage fieldset {
-    text-align: left;
-}
 #generator {
     display: block;
     padding: 10px;
@@ -101,54 +56,10 @@ li {
     text-align: left;
     padding: 1%;
 }
-#namePage #generator p {
-    padding: 10px;
-    text-align: center;
-}
-#namePage #generator {
-    display: block;
-    padding: 10px;
-    background-color: black;
-    width: 300px;
-    height: 180px;
-    margin-left: 80px;
-}
-#trinket #generator {
-    float: left;
-    padding: 10px 20px;
-    background-color: black;
-    width: 400px;
-    min-height: 180px;
-    margin-bottom: 100px;
-    margin-top: 40px;
-    height: auto;
-}
-#gen {
-    margin: 0 auto;
-}
-#namePage #gen {
-    font-size: 1em;
-    width: 140px;
-    vertical-align: middle;
-    margin: 0 auto;
-    padding: 10px 20px;
-    margin-left: 50px;
-    float: left;
-}
-#trinket #gen {
-    width: 780px;
-}
-#trinket p {
-    font-size: 1em;
-}
 #gen fieldset {
     width: 120px;
     display: inline-block;
     margin-right: 100px;
-}
-#namePage #gen fieldset {
-    margin: 4px;
-    width: 300px;
 }
 #generated {
     background-color: white;
@@ -164,9 +75,6 @@ li {
 }
 #num fieldset {
     float: left;
-}
-#namePage .allButton {
-    display: inline-block;
 }
 .allButton,
 .noneButton {
@@ -198,23 +106,9 @@ li {
     vertical-align: middle;
     text-align: center;
 }
-#nameFieldset,
-#alignmentFieldset {
-    height: 380px;
-}
-#race,
-#sources,
-#class,
-#background {
-    width: 760px;
-}
 fieldset {
     text-align: left;
     margin-bottom: 20px;
-}
-#trinket fieldset {
-    margin: 0 auto;
-    text-align: center;
 }
 .column .block {
     margin-bottom: 5px;
@@ -223,11 +117,7 @@ header {
     margin: 0 auto;
     width: 60%;
     max-width: 2000px;
-    margin-top: 1%;
-}
-main #name fieldset,
-main #alignment fieldset {
-    width: 300px;
+    margin-top: 5px;
 }
 img {
     display: block;
@@ -265,15 +155,6 @@ p {
     margin-bottom: 0;
     text-align: left;
 }
-#name {
-    font-size: 1em;
-    font-family: 'Catamaran', serif;
-    margin-top: 1px;
-    padding-top: 0;
-    color: black;
-    text-align: center;
-}
-
 button {
     background-color: white;
     border: 1.4px solid dimgrey;
@@ -306,40 +187,154 @@ footer p {
     padding-top: 0;
     margin-top: 0;
 }
+
+/* home page */
+#homePage {
+    display: block;
+    margin-top: 6%;
+}
+#homePage img {
+    border: 2px solid black;
+    height: 180px;
+}
+#homePage a {
+    font-size: 1.4em;
+}
+
+/* name page */
+#namePage {
+    margin-top: 40px;
+}
+#eth {
+    padding: 10px 20px;
+    width: 480px;
+    float: left;
+}
+#eth fieldset {
+    width: 480px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 4px;
+}
+#eth #misc {
+    height: 80px;
+}
+#namePage fieldset {
+    text-align: left;
+}
+#namePage #generator p {
+    padding: 10px;
+    text-align: center;
+}
+#namePage #generator {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    width: 300px;
+    height: 180px;
+    margin-left: 80px;
+}
+#namePage #gen {
+    font-size: 1em;
+    width: 140px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-left: 50px;
+    float: left;
+}
+#namePage #gen fieldset {
+    margin: 4px;
+    width: 300px;
+}
+#namePage .allButton {
+    display: inline-block;
+}
+
+/* trinket page */
+#trinket {
+    margin-top: 4%;
+    max-width: 900px;
+}
+#trinket #generator {
+    float: left;
+    padding: 10px 20px;
+    background-color: black;
+    width: 400px;
+    min-height: 180px;
+    margin-bottom: 100px;
+    height: auto;
+}
+#trinket #gen {
+    width: 780px;
+}
+#trinket p {
+    font-size: 1em;
+}
+#trinket fieldset {
+    text-align: center;
+}
 #trinket label {
     font-size: 1em;
 }
 
+/* character page */
+#nameFieldset,
+#alignmentFieldset {
+    height: 380px;
+}
+#race,
+#sources,
+#class,
+#background {
+    width: 760px;
+}
+main #name fieldset,
+main #alignment fieldset {
+    width: 300px;
+}
+#name {
+    font-size: 1em;
+    font-family: 'Catamaran', serif;
+    margin-top: 1px;
+    padding-top: 0;
+    color: black;
+    text-align: center;
+}
+
 /* TABLET */
 @media screen and (max-width: 900px) {
-    header h1 {
-        font-size: 2.5em;
+    main {
+        width: 80vw;
     }
-    #gen {
-        margin-top: 20px;
+    #namePage {
+        margin-top: 0px;
     }
-    #gen fieldset {
+    #namePage #gen fieldset {
         width: 200px;
-        margin-bottom: 30px;
+        margin: 0 auto;
     }
-    #generator button {
-        margin-bottom: 20%;
+    #namePage #gen {
+        margin-left: 0px;
+        margin-bottom: 8%;
     }
     #namePage #generator {
-        width: 210px;
-        height: 265px;
-        float: right;
-        margin-top: 30px;
-        margin-left: 50px;
-        margin-bottom: 10%;
-        position: static;
+        width: 280px;
     }
-    #sources {
-        width: 380px;
+    #trinket #sources {
+        width: 90%;
+    }
+    #trinket #num fieldset {
+        width: 150px;
+    }
+    #trinket #num {
+        width: 150px;
+        margin-right: 70px;
+    }
+    #trinket #num label {
+        margin-right: 5px;
     }
     #trinket #generator {
-        width: 400px;
-        margin-top: 20px;
+        width: 300px;
     }
 }
 
@@ -350,48 +345,58 @@ footer p {
         margin: 0 auto;
         position: static;
     }
-    h1 {
-        font-size: 2.5em;
+    main {
+        width: 90vw;
+    }
+    hr {
+        display: none;
     }
     header {
-        margin: 2%;
+        background-color: black;
+        width: 100%;
+        margin: 0 auto;
+        color: white;
     }
     header h1 {
-        font-size: 2em;
-        float: left;
+        font-size: 1.8em;
         margin-left: 30px;
+        color: white;
     }
-    .option {
-        display: block;
-        margin: 2px;
-        padding: 0px;
-        width: 100px;
+    ul {
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    li a {
+        font-size: 0.8em;
+        color: white;
     }
     #trinket #gen {
-        width: 250px;
-        margin-top: 20px;
-        position: absolute;
-        right: 135px;
+        width: 100%;
+    }
+    #trinket #num {
+        margin: 0 auto;
+    }
+    #trinket {
+        margin-top: 6%;
     }
     #trinket #gen p {
         font-size: 0.8em;
     }
     #trinket #gen fieldset {
         width: 250px;
+        margin-right: 0px;
+        float: none;
     }
     #trinket #generator {
-        margin-top: 50px;
-        margin-bottom: 200px;
-        width: 250px;
-        float: none;
+        width: 80%;
         display: block;
+        position: static;
     }
     #namePage #generator {
         display: block;
         margin: 0 auto;
-        display: block;
-        float: left;
-        margin-left: 40px;
+        float: right;
+        width: 300px;
         margin-bottom: 20%;
     }
     #name {
@@ -399,30 +404,45 @@ footer p {
         float: left;
         margin-left: 30px;
     }
-    #sources {
+    #trinket #sources {
         width: 250px;
+        text-align: left;
     }
     #trinket div {
         width: 100%;
     }
-    #eth fieldset {
-        width: 100px;
-        height: 200px;
-        float: left;
-        margin-left: 20px;
+    #namePage div {
+        width: 90%;
+        padding: 0px;
+    }
+    #namePage .option {
+        width: 50%;
+        margin-bottom: 2%;
+        text-align: left;
+    }
+    #namePage #gen {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #eth fieldset,
+    #namePage #gen fieldset {
+        width: 80%;
+        height: auto;
+    }
+    #eth #misc {
+        height: auto;
+    }
+    #gen label {
+        margin-right: 20px;
+    }
+    .allButton,
+    .noneButton {
         margin-right: 0px;
-        margin-bottom: 10px;
-    }
-    #eastEuropean,
-    #asian {
-        padding-left: 5px;
-        padding-right: 0px;
-    }
-    #european {
-        padding-bottom: 30px;
+        float: none;
     }
     .twoGroup {
         display: block;
-        margin-right: 100px;
+        margin: 0 auto;
+        width: 100%;
     }
 }
