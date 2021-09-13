@@ -100,7 +100,7 @@ class CheckboxFieldset extends React.Component{
                 {this.values.map(inputValue =>
                     <div className="option">
                         <input type="checkbox" id={`${this.id}${this.values.indexOf(inputValue)+1}`} name={this.name} 
-                        value={inputValue.replace(' ', '').replace('\'', '').toLowerCase()} />
+                        value={inputValue.replaceAll(' ', '').replaceAll('\'', '').toLowerCase()} />
                         <label htmlFor={`${this.id}${this.values.indexOf(inputValue)+1}`}>{inputValue}</label>
                     </div>
                 )}

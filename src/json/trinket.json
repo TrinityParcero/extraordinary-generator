@@ -1,5 +1,5 @@
 {
-    "phb": [
+    "playershandbook": [
         "a mummified goblin hand.",
         "a piece of crystal that faintly glows in the moonlight.",
         "a gold coin minted in an unknown land.",
@@ -100,7 +100,7 @@
         "a wooden box with a ceramic bottom that holds a living worm with a head on each end of its body.",
         "a metal urn containing the ashes of a hero"
     ],
-    "ee": [
+    "elementalevil": [
         "a compass that always points to Mulmaster.",
         "a paper fan that won’t produce a breeze no matter how hard it’s waved.",
         "a petrified potato that resembles someone important to you.",
@@ -201,7 +201,7 @@
         "an eyepatch made of obsidian and a black leather cord.",
         "a glass bottle with a tiny ship of unfamiliar design inside"
     ],
-    "cos": [
+    "curseofstrahd": [
         "a picture you drew as a child of your imaginary friend.",
         "a lock that opens when blood is dripped in its keyhole.",
         "clothes stolen from a scarecrow.",
@@ -252,7 +252,7 @@
         "a black wooden pipe that creates puffs of smoke that look like skulls.",
         "a vial of perfume, the scent of which only certain creatures can detect"
     ],
-    "llok": [
+    "lostlaboratoryofkwalish": [
         "a handheld device containing a glowing green gem that darkens when no oxygen is present.",
         "a foot-long, egg-shaped object made from stitched leather.",
         "a black metal cylinder that dictates the history of an unknown plant or animal species when held.",
