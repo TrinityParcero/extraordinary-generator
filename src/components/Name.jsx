@@ -1,5 +1,7 @@
 import React from "react";
+
 import { CheckboxFieldset, GenderSelector, LastNameToggle, NumToggle } from './InputHelpers';
+import { prepareNameSet} from "../nameLogic";
 
 function Names() {
   return (
@@ -16,7 +18,7 @@ function Names() {
             </div>
 
             <div className="twoGroup">
-                <CheckboxFieldset id="eastEuropean" legend="East European" name="eth" selectAll={true} deselectAll={true}
+                <CheckboxFieldset id="easteuropean" legend="East European" name="eth" selectAll={true} deselectAll={true}
                 values={["Russian", "Polish", "Hungarian", "Finnish", "Armenian"]}/>
 
                 <CheckboxFieldset id="european" legend="European" name="eth" selectAll={true} deselectAll={true}
@@ -44,7 +46,7 @@ function Names() {
 
         <div id="generator">
             <p id="generated"></p>
-            <button id="genButton">generate</button>
+            <button id="genButton" onClick={prepareNameSet}>generate</button>
         </div>
     </main>
   );
