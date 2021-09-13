@@ -1,3 +1,5 @@
+const nameData = require('./json/name.json');
+
 /**
  * takes input and compiles an appropriate list of possible names
  * 
@@ -5,92 +7,87 @@
  * @returns {object} set of names to use in generation
  */
 const prepareNameSet = (names) => {
+    const genBox = document.getElementById('generator');
     const validNames = {
         firstNames: [],
         lastNames: [],
     };
 
-    // necessary to cast to array - is initially a NodeList which cannot be filtered
     const allSelections = Array.from(document.querySelectorAll('input:checked'));
 
-    const ethSelections = allSelections.filter(element => element.name === 'eth');
-    console.log(ethSelections);
+    let ethSelections = [];
+    let genderSelection;
+    let lastNames;
+    let numSelection;
 
-    /*
-    const selectedGender = (document.querySelectorAll('input[name=gender]')).map(gender => gender.checked);
-    const selectedNum = (document.querySelector);
+    for (const input of allSelections) {
+        switch (input.name) {
+            case 'eth':
+                ethSelections.push(input.value);
+                break;
+            case 'gender':
+                genderSelection = input.value;
+                break;
+            case 'num':
+                numSelection = input.value;
+                break;
+            case 'last':
+                lastNames = input.value;
+                break;
+            default:
+        }
+    }
+
+    // check to make sure we've got all the necessary selections
+    if (ethSelections.length < 1 ||
+        !numSelection || !genderSelection ||
+        lastNames === undefined) {
+        return;
+    }
+
+    // this will be important for camelcasing later
+    genderSelection = `${genderSelection.charAt(0).toUpperCase()}${genderSelection.slice(1)}`;
 
     // futz with size of genBox
-    if (selectedNum === '1') {
-        refObject.genBox.style.height = '100px';
-    } else if (selectedNum === '5') {
-        refObject.genBox.style.height = '200px';
-    } else if (selectedNum === '10') {
-        refObject.genBox.style.height = '350px';
+    if (numSelection === '1') {
+        genBox.style.height = '100px';
+    } else if (numSelection === '5') {
+        genBox.style.height = '200px';
+    } else if (numSelection === '10') {
+        genBox.style.height = '350px';
     }
 
-    // for each ethselected
-    for (let i = 0; i < selectedOrigins.length; i++) {
-        // string property name to search names for
-        let propName;
-
-        // check the gender buttons
-        if (selectedGender === 'female') {
-            //return eth + Female to firstNames
-            if (selectedOrigins[i] != undefined) {
-                //welsh is a special case
-                //names are unisex
-                if (selectedOrigins[i] === 'welsh') {
-                    validNames.firstNames.push(...names['welsh']);
-                } else {
-                    propName = `${selectedOrigins[i]}Female`;
-                    validNames.firstNames.push(...names[propName]);
-                }
+    for (const eth of ethSelections) {
+        // welsh is a special case, names are unisex
+        if (eth === 'welsh') {
+            validNames.firstNames.push(...nameData.welsh);
+        }
+        else if (genderSelection === 'Both') {
+            const maleNames = nameData[`${eth}Male`];
+            const femaleNames = nameData[`${eth}Female`];
+            if (maleNames) {
+                validNames.firstNames.push(...maleNames);
             }
-        } else if (selectedGender === 'male') {
-            // return eth + Male to firstNames
-            if (selectedOrigins[i] != undefined) {
-                // welsh is a special case
-                // names are unisex
-                if (selectedOrigins[i] === 'welsh') {
-                    validNames.firstNames.push(names['welsh']);
-                } else {
-                    propName = `${selectedOrigins[i]}Male`;
-                    validNames.firstNames.push(...names[propName]);
-                }
+            if (femaleNames) {
+                validNames.firstNames.push(...femaleNames);
             }
-        } else {
-            //return eth + Female and eth + Male to firstNames
-            if (selectedOrigins[i] !== undefined && selectedOrigins[i] !== 'welsh') {
-                propName = `${selectedOrigins[i]}Female`;
-                validNames.firstNames.push(...names[propName]);
-            }
-            if (selectedOrigins[i] !== undefined && selectedOrigins[i] !== 'welsh') {
-                propName = `${selectedOrigins[i]}Male`;
-                validNames.firstNames.push(...names[propName]);
-            } else {
-                //welsh is a special case
-                //names are unisex
-                if (selectedOrigins[i] == 'welsh') {
-                    validNames.firstNames.push(...names['welsh']);
-                }
+        }
+        else {
+            const genderNames = nameData[`${eth}${genderSelection}`];
+            console.log(genderNames);
+            if (genderNames) {
+                validNames.firstNames.push(...genderNames);
             }
         }
 
-        //check the last name button
-        if (lastNameEnabled.checked) {
-            //return eth + Family to lastNames
-            if (selectedOrigins[i] != undefined) {
-                propName = `${selectedOrigins[i]}Family`;
-                //not all eths have a family category
-                if (names[propName] != undefined) {
-                    validNames.lastNames.push(...names[propName]);
-                }
+        if (lastNames === 'true') {
+            const familyNames = nameData[`${eth}Family`];
+            if (familyNames) {
+                validNames.lastNames.push(...familyNames);
             }
         }
     }
 
-    */
     return validNames;
 };
 
