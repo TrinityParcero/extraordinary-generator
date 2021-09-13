@@ -303,34 +303,38 @@ main #alignment fieldset {
 
 /* TABLET */
 @media screen and (max-width: 900px) {
-    header h1 {
-        font-size: 2.5em;
+    main {
+        width: 80vw;
     }
-    #gen {
-        margin-top: 20px;
+    #namePage {
+        margin-top: 0px;
     }
-    #gen fieldset {
+    #namePage #gen fieldset {
         width: 200px;
-        margin-bottom: 30px;
+        margin: 0 auto;
     }
-    #generator button {
-        margin-bottom: 20%;
+    #namePage #gen {
+        margin-left: 0px;
+        margin-bottom: 8%;
     }
     #namePage #generator {
-        width: 210px;
-        height: 265px;
-        float: right;
-        margin-top: 30px;
-        margin-left: 50px;
-        margin-bottom: 10%;
-        position: static;
+        width: 280px;
     }
-    #sources {
-        width: 380px;
+    #trinket #sources {
+        width: 90%;
+    }
+    #trinket #num fieldset {
+        width: 150px;
+    }
+    #trinket #num {
+        width: 150px;
+        margin-right: 70px;
+    }
+    #trinket #num label {
+        margin-right: 5px;
     }
     #trinket #generator {
-        width: 400px;
-        margin-top: 20px;
+        width: 300px;
     }
 }
 
