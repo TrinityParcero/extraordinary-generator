@@ -6,7 +6,7 @@ function Header(props){
     <header>
       <nav>
         <div>
-          <Link className="navbar-brand" to="/">
+          <Link to="/">
             <h1>The Extraordinary</h1> 
             <h1>Generator of Things</h1>
             <hr></hr>
