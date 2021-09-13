@@ -1,7 +1,7 @@
 import React from "react";
 
 import { CheckboxFieldset, GenderSelector, LastNameToggle, NumToggle } from './InputHelpers';
-import { prepareNameSet} from "../nameLogic";
+import { generateNames} from "../nameLogic";
 
 function Names() {
   return (
@@ -46,7 +46,7 @@ function Names() {
 
         <div id="generator">
             <p id="generated"></p>
-            <button id="genButton" onClick={prepareNameSet}>generate</button>
+            <button id="genButton" onClick={generateNames}>generate</button>
         </div>
     </main>
   );

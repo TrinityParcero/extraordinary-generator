@@ -74,7 +74,6 @@ const prepareNameSet = (names) => {
         }
         else {
             const genderNames = nameData[`${eth}${genderSelection}`];
-            console.log(genderNames);
             if (genderNames) {
                 validNames.firstNames.push(...genderNames);
             }
@@ -91,7 +90,66 @@ const prepareNameSet = (names) => {
     return validNames;
 };
 
+/**
+ * picks <numNames> random names from given first and last names
+ * 
+ * @param {array} firstNames possible first names
+ * @param {array} lastNames possible last names
+ * @returns {array} generated names
+ */
+const getRandomNames = (firstNames, lastNames) => {
+    const generatedNames = [];
+
+    let lastNameEnabled = false;
+    if (lastNames.length > 0) {
+        lastNameEnabled = true;
+    }
+
+    const numNames = (Array.from(document.querySelectorAll('input:checked')).filter(input => input.name === 'num'))[0].value;
+
+    for (let i = 0; i < numNames; i++) {
+        let firstName;
+        let lastName;
+        // generate first name
+        let rando = Math.floor(Math.random() * Math.floor(firstNames.length));
+        firstName = firstNames[rando];
+
+        if (lastNameEnabled) {
+            rando = Math.floor(Math.random() * Math.floor(lastNames.length));
+            lastName = lastNames[rando];
+        }
+
+        if (lastName) {
+            const name = `${firstName} ${lastName}`;
+            generatedNames.push(name);
+        } else {
+            generatedNames.push(firstName);
+        }
+    }
+    return generatedNames;
+};
+
+/**
+ * adds generated names to the html display
+ * 
+ * @param {array} names names to display
+ */
+const displayNames = (names) => {
+    const genText = document.getElementById('generated');
+
+    genText.innerHTML = '';
+    for (const name of names) {
+        genText.innerHTML += `${name}<br>`;
+    }
+};
+
+const generateNames = () => {
+    const possibleNames = prepareNameSet();
+    const generatedNames = getRandomNames(possibleNames.firstNames, possibleNames.lastNames);
+    displayNames(generatedNames);
+};
+
 
 export {
-    prepareNameSet
+    generateNames
 };
