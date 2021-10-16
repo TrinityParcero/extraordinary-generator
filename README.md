@@ -24,7 +24,7 @@ Random character generator that lets you tailor result by race, class, etc.
 
 Status
 
--   In progress - Icebox. Will be picked up once Node/React redesign of name and trinket generators is complete, as I'll pull components and stuff from those to complete this more cleanly and efficiently.
+-   In progress! Stay tuned!
 
 ### Trinkets
 
