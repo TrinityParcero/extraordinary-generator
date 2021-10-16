@@ -1,5 +1,29 @@
 import React from "react";
-import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle, Collapsible } from './InputHelpers';
+
+import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle} from '../InputHelpers';
+import { Collapsible } from '../Collapsible';
+
+import { generateChar } from '../../charLogic';
+
+/**
+ * onclick for 'do whatever' button in name gen section
+ * selects default options for each query
+ */
+function doWhateverName(){
+    // select all name eth options
+    const eths = document.querySelectorAll('input[name=eth]');
+    for(const input of eths){
+        input.checked = true;
+    }
+
+    // select third gender option
+    const whateverGender = document.getElementById('gender3');
+    whateverGender.checked = true;
+
+    // select yes for last name
+    const lastNames = document.getElementById('last1');
+    lastNames.checked = true;
+}
 
 function Characters() {
   return (
@@ -15,7 +39,7 @@ function Characters() {
             <div className="block" id="name">
             <Collapsible name="name" content='nameFieldset'/>
                 <fieldset id="nameFieldset">
-                    <button className="allButton" id="nameAll">
+                    <button className="allButton" id="nameAll" onClick={doWhateverName}>
                         do whatever
                     </button>
                     <legend>Name</legend>
@@ -113,7 +137,7 @@ function Characters() {
 
     <div id="generator">
         <p id="generated"></p>
-        <button id="genButton">generate</button>
+        <button id="genButton" onClick={generateChar}>generate</button>
     </div>
 </main>
   );

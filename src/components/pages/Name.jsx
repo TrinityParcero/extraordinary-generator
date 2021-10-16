@@ -1,7 +1,7 @@
 import React from "react";
 
-import { CheckboxFieldset, GenderSelector, LastNameToggle, NumToggle } from './InputHelpers';
-import { generateNames} from "../nameLogic";
+import { CheckboxFieldset, GenderSelector, LastNameToggle, NumToggle } from '../InputHelpers';
+import { generateNames} from "../../nameLogic";
 
 function Names() {
   return (

@@ -1,69 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class AllButton extends React.Component{
-    constructor(props){
-        super(props);
-        this.id = props.id;
-        this.text = props.text;
-
-        this.selectAllOptions = this.selectAllOptions.bind(this);
-    }
-
-    selectAllOptions(){
-        // get the relevant checkboxes
-        const fieldset = (Array.from(document.querySelectorAll(`fieldset[id=${this.id}]`)))[0];
-        const children = Array.from(fieldset.children);
-        const options = children.filter(element => element.className === 'option');
-        const checkboxes = options.map(option => option.children[0]);
-        
-        // check em all
-        for(const checkbox of checkboxes){
-            if(!checkbox.checked){
-                checkbox.checked = true;
-            }
-        }
-    }
-
-    render(){
-        if(!this.text){
-            this.text = "select all";
-        }
-
-        return(
-            <button id={`${this.id}All`} onClick={this.selectAllOptions} className="allButton">{this.text}</button>
-        );
-    }
-};
-
-class NoneButton extends React.Component{
-    constructor(props){
-        super(props);
-        this.id = props.id;
-        this.deselectAllOptions = this.deselectAllOptions.bind(this);
-    }
-
-    deselectAllOptions(){
-        // get the relevant checkboxes
-        const fieldset = (Array.from(document.querySelectorAll(`fieldset[id=${this.id}]`)))[0];
-        const children = Array.from(fieldset.children);
-        const options = children.filter(element => element.className === 'option');
-        const checkboxes = options.map(option => option.children[0]);
-        
-        // check em all
-        for(const checkbox of checkboxes){
-            if(checkbox.checked){
-                checkbox.checked = false;
-            }
-        }
-    }
-
-    render(){
-        return(
-            <button id={`${this.id}None`} onClick={this.deselectAllOptions} className="noneButton">deselect all</button>
-        );
-    }
-};
+import { AllButton, NoneButton } from './MultiButtons';
 
 class CheckboxFieldset extends React.Component{
     constructor(props){
@@ -76,10 +14,9 @@ class CheckboxFieldset extends React.Component{
         this.values = props.values;           // value and label for each checkbox option
     }
 
-    // TODO: make no legend an option
-
     render(){
         let multiButtons = null;
+        let legendElement = null;
         if(this.selectAll){
             if(this.deselectAll){
                 multiButtons = 
@@ -95,14 +32,20 @@ class CheckboxFieldset extends React.Component{
                 </div>;
             }
         }
+        if(this.legend){
+            legendElement = 
+                <legend>
+                    {this.legend}
+                </legend>
+        }
         return (
             <fieldset id={this.id}>
-                <legend>{this.legend}</legend>
+                {legendElement}
                 {multiButtons}
                 {this.values.map(inputValue =>
                     <div className="option">
                         <input type="checkbox" id={`${this.id}${this.values.indexOf(inputValue)+1}`} name={this.name} 
-                        value={inputValue.replaceAll(' ', '').replaceAll('\'', '').toLowerCase()} />
+                        value={inputValue.replaceAll(' ', '').replaceAll('\'', '').toLowerCase()} defaultChecked={true}/>
                         <label htmlFor={`${this.id}${this.values.indexOf(inputValue)+1}`}>{inputValue}</label>
                     </div>
                 )}
@@ -135,7 +78,7 @@ class GenderSelector extends React.Component{
                 </div>
 
                 <div className="option">
-                    <input type="radio" id="gender3" name="gender" value="both" />
+                    <input type="radio" id="gender3" name="gender" value="both" checked={true}/>
                     <label htmlFor="gender3">Whatever</label>
                 </div>
             </fieldset>
@@ -169,7 +112,7 @@ class LastNameToggle extends React.Component{
     render(){
         return(
             <fieldset>
-                <input type="radio" id="last1" name="last" value="true" />
+                <input type="radio" id="last1" name="last" value="true" checked={true}/>
                 <label htmlFor="last1">Yes</label>
                 <input type="radio" id="last2" name="last" value="false" />
                 <label htmlFor="last2">No</label>
@@ -182,7 +125,7 @@ class NumToggle extends React.Component{
     render(){
         return(
             <fieldset>
-                <input type="radio" id="num1" name="num" value="1" />
+                <input type="radio" id="num1" name="num" value="1" checked={true}/>
                 <label htmlFor="num1">1</label>
 
                 <input type="radio" id="num2" name="num" value="5" />
@@ -195,36 +138,6 @@ class NumToggle extends React.Component{
     }
 };
 
-class Collapsible extends React.Component{
-    constructor(props){
-        super(props);
-        this.name = props.name;
-        this.content = props.content;
-        this.toggleCollapse = this.toggleCollapse.bind(this);
-    }
-    toggleCollapse(){
-        const contentElement = document.getElementById(this.content);
-        const arrow = document.getElementById(`${this.name}CollapseArrow`);
-        if (contentElement.style.display === "block") {
-            contentElement.style.display = "none";
-            arrow.innerHTML='&#65310';
-        } 
-        else {
-            contentElement.style.display = "block";
-            arrow.innerHTML='&#8744;';
-        }
-    }
-    render(){
-        return(
-            <button type="button" className="collapsible" onClick={this.toggleCollapse}>
-                <p>{this.name}</p>
-                <p className="collapseArrow" id={`${this.name}CollapseArrow`}>&#65310;</p>
-            </button>
-        );
-    }
-}
-
 export {
-    CheckboxFieldset, GenderSelector, AlignmentSelector, 
-    LastNameToggle, NumToggle, AllButton, NoneButton, Collapsible
+    CheckboxFieldset, GenderSelector, AlignmentSelector, LastNameToggle, NumToggle
 };
