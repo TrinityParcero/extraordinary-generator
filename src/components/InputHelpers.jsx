@@ -150,6 +150,7 @@ class AlignmentSelector extends React.Component{
                 <button className="allButton" id="alignmentAll">
                     select all
                 </button>
+                <span className="pairedSelectors">
                 <fieldset>
                     <button className="allButton" id="goodAll">Good</button>
                     <div className="option">
@@ -167,6 +168,8 @@ class AlignmentSelector extends React.Component{
                         <label htmlFor="good3">Chaotic Good</label>
                     </div>
                 </fieldset>
+                </span>
+                <span className="pairedSelectors">
                 <fieldset>
                     <button className="allButton" id="neutralAll">Neutral</button>
                     <div className="option">
@@ -184,6 +187,8 @@ class AlignmentSelector extends React.Component{
                         <label htmlFor="neutral3">Chaotic Neutral</label>
                     </div>
                 </fieldset>
+                </span>
+                <span className="pairedSelectors">
                 <fieldset>
                     <button className="allButton" id="allEvil">Evil</button>
                     <div className="option">
@@ -201,6 +206,7 @@ class AlignmentSelector extends React.Component{
                         <label htmlFor="evil3">Chaotic Evil</label>
                     </div>
                 </fieldset>
+                </span>
             </fieldset>
         );
     }
@@ -236,7 +242,32 @@ class NumToggle extends React.Component{
     }
 };
 
+class Collapsible extends React.Component{
+    constructor(props){
+        super(props);
+        this.name = props.name;
+        this.content = props.content;
+        this.toggleCollapse = this.toggleCollapse.bind(this);
+    }
+    toggleCollapse(){
+        const contentElement = document.getElementById(this.content);
+        if (contentElement.style.display === "block") {
+            contentElement.style.display = "none";
+        } 
+        else {
+            contentElement.style.display = "block";
+        }
+    }
+    render(){
+        return(
+            <button type="button" className="collapsible" onClick={this.toggleCollapse}>
+                {this.name}
+            </button>
+        );
+    }
+}
+
 export {
-    CheckboxFieldset, GenderSelector, AlignmentSelector, LastNameToggle, NumToggle,
-    AllButton, NoneButton
+    CheckboxFieldset, GenderSelector, AlignmentSelector, 
+    LastNameToggle, NumToggle, AllButton, NoneButton, Collapsible
 };

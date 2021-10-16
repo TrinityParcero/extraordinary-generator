@@ -1,22 +1,19 @@
 import React from "react";
-import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle } from './InputHelpers';
+import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle, Collapsible } from './InputHelpers';
 
 function Characters() {
   return (
-    <main>
-    <p>Very in-progress, pardon the mess!</p>
+    <main id="charPage">
     <div className="column">
-        <div className="block" id="sources">
-            <CheckboxFieldset id="sources" legend="Include material from" name="source" selectAll={true} deselectAll={true}
-            values={["Player's Handbook", "Eberron", "Volo's Guide", "Guide to Ravnica", "Mordekainen's Tome", "Sword Coast", "Unearthed Arcana", "Miscellaneous"]}/>
-        </div>
 
         <div className="row">
             <div className="block" id="alignment">
-                <AlignmentSelector/>
+                <Collapsible name="alignment" content='alignmentFieldset'/>
+                <AlignmentSelector />
             </div>
 
             <div className="block" id="name">
+            <Collapsible name="name" content='nameFieldset'/>
                 <fieldset id="nameFieldset">
                     <button className="allButton" id="nameAll">
                         do whatever
@@ -35,7 +32,8 @@ function Characters() {
         </div>
 
         <div className="block" id="race">
-            <fieldset>
+            <Collapsible name="race" content='raceFieldset'/>
+            <fieldset id="raceFieldset">
                 <button className="allButton" id="raceAll">
                     select all
                 </button>
@@ -64,7 +62,8 @@ function Characters() {
         </div>
 
         <div className="block" id="class">
-            <fieldset>
+            <Collapsible name="class" content='classFieldset'/>
+            <fieldset id="classFieldset">
                 <button className="allButton" id="classAll">
                     select all
                 </button>
@@ -85,7 +84,8 @@ function Characters() {
         </div>
 
         <div className="block" id="background">
-            <fieldset>
+            <Collapsible name="background" content='bgFieldset'/>
+            <fieldset id="bgFieldset">
                 <button className="allButton" id="backgroundAll">
                     select all
                 </button>
