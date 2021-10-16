@@ -1,5 +1,5 @@
 const raceData = require('./json/races.json');
-// const classData = require('./json/classes.json');
+const classData = require('./json/classes.json');
 
 const { generateNames } = require('./nameLogic');
 
@@ -13,7 +13,8 @@ const generateChar = () => {
     const race = generateRace();
     console.log(race);
 
-    // class
+    const charClass = generateClass();
+    console.log(charClass);
 
     const bg = generateBackground();
     console.log(bg);
@@ -72,6 +73,32 @@ const generateRace = () => {
         }
     }
     return generatedRace;
+};
+
+/**
+ * randomly picks a character class based on selected options 
+ * 
+ * @returns {string} class
+ */
+const generateClass = () => {
+    const selectedClasses = Array.from(document.querySelectorAll('input[name=class]')).filter(input => input.checked);
+    const classValues = selectedClasses.map(input => input.value);
+
+    const rando = Math.floor(Math.random() * Math.floor(classValues.length));
+    const generatedClass = classValues[rando];
+
+    // check if this class has subclasses, if so, pick one
+    const genClassData = classData[generatedClass];
+    if (!genClassData) {
+        console.log(`Trin you goofed something. No data found for ${generatedClass}`);
+    }
+    else {
+        if (genClassData.subclasses) {
+            const subRando = Math.floor(Math.random() * Math.floor(genClassData.subclasses.length));
+            return `${generatedClass} - ${genClassData.subclasses[subRando]}`
+        }
+    }
+    return generatedClass;
 };
 
 export {

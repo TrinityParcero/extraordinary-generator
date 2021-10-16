@@ -97,9 +97,6 @@ function Characters() {
                 
                 <CheckboxFieldset id="classEberron" legend="Eberron" name="class" selectAll={true} deselectAll={true}
                 values={["Artificer"]}/>
-                
-                <CheckboxFieldset id="classUA" legend="Unearthed Arcana" name="class" selectAll={true} deselectAll={true}
-                values={["Mystic"]}/>
 
                 <CheckboxFieldset id="classMisc" legend="Miscellaneous" name="class" selectAll={true} deselectAll={true}
                 values={["Blood Hunter"]}/>
