@@ -261,7 +261,12 @@ const generateNames = (page) => {
         return;
     }
     const generatedNames = getRandomNames(possibleNames.firstNames, possibleNames.lastNames);
-    displayNames(generatedNames);
+    if (page === 'char') {
+        return generatedNames;
+    }
+    else {
+        displayNames(generatedNames);
+    }
 };
 
 
