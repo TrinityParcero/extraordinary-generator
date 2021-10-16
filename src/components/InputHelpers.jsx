@@ -76,6 +76,8 @@ class CheckboxFieldset extends React.Component{
         this.values = props.values;           // value and label for each checkbox option
     }
 
+    // TODO: make no legend an option
+
     render(){
         let multiButtons = null;
         if(this.selectAll){
@@ -141,71 +143,22 @@ class GenderSelector extends React.Component{
     }
 };
 
-// TODO: this could be made with allbuttons and checkboxselectors
 class AlignmentSelector extends React.Component{
     render(){
         return(
             <fieldset id="alignmentFieldset">
                 <legend>Alignment</legend>
-                <button className="allButton" id="alignmentAll">
-                    select all
-                </button>
                 <span className="pairedSelectors">
-                <fieldset>
-                    <button className="allButton" id="goodAll">Good</button>
-                    <div className="option">
-                        <input type="checkbox" id="good1" name="align" />
-                        <label htmlFor="good1">Lawful Good</label>
-                    </div>
-
-                    <div className="option">
-                        <input type="checkbox" id="good2" name="align" />
-                        <label htmlFor="good2">Neutral Good</label>
-                    </div>
-
-                    <div className="option">
-                        <input type="checkbox" id="good3" name="align" />
-                        <label htmlFor="good3">Chaotic Good</label>
-                    </div>
-                </fieldset>
+                    <CheckboxFieldset id="goodFieldset" name="good" selectAll={true} deselectAll={true} 
+                    values={['Lawful Good', 'Neutral Good', 'Chaotic Good']}/>
                 </span>
                 <span className="pairedSelectors">
-                <fieldset>
-                    <button className="allButton" id="neutralAll">Neutral</button>
-                    <div className="option">
-                        <input type="checkbox" id="neutral1" name="align" />
-                        <label htmlFor="good4">Lawful Neutral</label>
-                    </div>
-
-                    <div className="option">
-                        <input type="checkbox" id="neutral2" name="align" />
-                        <label htmlFor="neutral2">True Neutral</label>
-                    </div>
-
-                    <div className="option">
-                        <input type="checkbox" id="neutral3" name="align" />
-                        <label htmlFor="neutral3">Chaotic Neutral</label>
-                    </div>
-                </fieldset>
+                <CheckboxFieldset id="neutralFieldset" name="neutral" selectAll={true} deselectAll={true} 
+                    values={['Lawful Neutral', 'True Neutral', 'Chaotic Neutral']}/>
                 </span>
                 <span className="pairedSelectors">
-                <fieldset>
-                    <button className="allButton" id="allEvil">Evil</button>
-                    <div className="option">
-                        <input type="checkbox" id="evil1" name="align" />
-                        <label htmlFor="evil1">Lawful Evil</label>
-                    </div>
-
-                    <div className="option">
-                        <input type="checkbox" id="evil2" name="align" />
-                        <label htmlFor="evil2">Neutral Evil</label>
-                    </div>
-
-                    <div className="option">
-                        <input type="checkbox" id="evil3" name="align" />
-                        <label htmlFor="evil3">Chaotic Evil</label>
-                    </div>
-                </fieldset>
+                <CheckboxFieldset id="evilFieldset" name="evil" selectAll={true} deselectAll={true} 
+                    values={['Lawful Evil', 'Neutral Evil', 'Chaotic Evil']}/>
                 </span>
             </fieldset>
         );
@@ -251,17 +204,21 @@ class Collapsible extends React.Component{
     }
     toggleCollapse(){
         const contentElement = document.getElementById(this.content);
+        const arrow = document.getElementById(`${this.name}CollapseArrow`);
         if (contentElement.style.display === "block") {
             contentElement.style.display = "none";
+            arrow.innerHTML='&#65310';
         } 
         else {
             contentElement.style.display = "block";
+            arrow.innerHTML='&#8744;';
         }
     }
     render(){
         return(
             <button type="button" className="collapsible" onClick={this.toggleCollapse}>
-                {this.name}
+                <p>{this.name}</p>
+                <p className="collapseArrow" id={`${this.name}CollapseArrow`}>&#65310;</p>
             </button>
         );
     }

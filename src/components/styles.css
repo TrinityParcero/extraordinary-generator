@@ -307,19 +307,30 @@ main #alignment fieldset {
     display: none;
     margin-bottom: 20px;
 }
+#bgFieldset {
+    margin-bottom: 20%;
+}
 #charPage {
     margin-top: 4%;
 }
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
-    outline: none;
+    outline: 3px solid black;
     font-size: 15px;
+}
+button p {
+    display: inline;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+.collapseArrow {
+    float: right;
+    font-size: 1.2em;
 }
 
 /* TABLET */
