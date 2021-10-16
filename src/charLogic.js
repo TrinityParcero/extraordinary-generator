@@ -13,22 +13,37 @@ const generateChar = () => {
 
     // class
 
-    // background
+    // TODO: fix background output format
+    const bg = generateBackground();
+    console.log(bg);
+
+    // display results
 };
 
+/**
+ * randomly picks a character alignment based on selected options
+ * 
+ * @returns {string} alignment
+ */
 const generateAlignment = () => {
-    const selectedGood = Array.from(document.querySelectorAll('input[name=good]')).filter(input => input.checked);
-    const goodValues = selectedGood.map(input => input.value);
-    const selectedNeutral = Array.from(document.querySelectorAll('input[name=neutral]')).filter(input => input.checked);
-    const neutralValues = selectedNeutral.map(input => input.value);
-    const selectedEvil = Array.from(document.querySelectorAll('input[name=evil]')).filter(input => input.checked);
-    const evilValues = selectedEvil.map(input => input.value);
+    const selectedAligns = Array.from(document.querySelectorAll('input[name=align]')).filter(input => input.checked);
+    const alignValues = selectedAligns.map(input => input.value);
 
-    const selectedAligns = goodValues.concat(neutralValues).concat(evilValues);
+    const rando = Math.floor(Math.random() * Math.floor(alignValues.length));
+    return alignValues[rando];
+};
 
-    // randomly select one of selectedaligns
-    const rando = Math.floor(Math.random() * Math.floor(selectedAligns.length));
-    return selectedAligns[rando];
+/**
+ * randomly picks a character background based on selected options
+ * 
+ * @returns {string} background
+ */
+const generateBackground = () => {
+    const selectedBgs = Array.from(document.querySelectorAll('input[name=bg]')).filter(input => input.checked);
+    const bgValues = selectedBgs.map(input => input.value);
+
+    const rando = Math.floor(Math.random() * Math.floor(bgValues.length));
+    return bgValues[rando];
 };
 
 export {
