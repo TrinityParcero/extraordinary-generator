@@ -1,22 +1,24 @@
+const raceData = require('./json/races.json');
+// const classData = require('./json/classes.json');
 
-import { generateNames } from './nameLogic';
+const { generateNames } = require('./nameLogic');
 
 const generateChar = () => {
-    // TODO: fix alignment output being no space all lowercase
     const alignment = generateAlignment();
     console.log(alignment);
 
     const name = generateNames('char')[0];
     console.log(name);
 
-    // race
+    const race = generateRace();
+    console.log(race);
 
     // class
 
-    // TODO: fix background output format
     const bg = generateBackground();
     console.log(bg);
 
+    // TODO: fix format of output
     // display results
 };
 
@@ -44,6 +46,32 @@ const generateBackground = () => {
 
     const rando = Math.floor(Math.random() * Math.floor(bgValues.length));
     return bgValues[rando];
+};
+
+/**
+ * randomly picks a character race based on selected options
+ * 
+ * @returns {string} race
+ */
+const generateRace = () => {
+    const selectedRaces = Array.from(document.querySelectorAll('input[name=race]')).filter(input => input.checked);
+    const raceValues = selectedRaces.map(input => input.value);
+
+    const rando = Math.floor(Math.random() * Math.floor(raceValues.length));
+    const generatedRace = raceValues[rando];
+
+    // check if this race has subraces, if so, pick one
+    const genRaceData = raceData[generatedRace];
+    if (!genRaceData) {
+        console.log(`Trin you goofed something. No data found for ${generatedRace}`);
+    }
+    else {
+        if (genRaceData.subraces) {
+            const subRando = Math.floor(Math.random() * Math.floor(genRaceData.subraces.length));
+            return `${generatedRace} - ${genRaceData.subraces[subRando]}`
+        }
+    }
+    return generatedRace;
 };
 
 export {
