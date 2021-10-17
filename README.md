@@ -29,6 +29,7 @@ Status
 Known Issues / Planned Improvements
 
 -   Maybe make subclasses and subraces optional?
+-   Select all buttons for race, class and background don't work
 
 ### Trinkets
 
@@ -40,7 +41,6 @@ Status
 
 Known Issues / Planned Improvements
 
--   CSS could use a little tweaking, result display gets a little wonky when displaying a large number of results.
 
 ### Loot
 
