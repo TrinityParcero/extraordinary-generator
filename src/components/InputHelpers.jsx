@@ -78,7 +78,7 @@ class GenderSelector extends React.Component{
                 </div>
 
                 <div className="option">
-                    <input type="radio" id="gender3" name="gender" value="both" checked={true}/>
+                    <input type="radio" id="gender3" name="gender" value="both" defaultChecked={true}/>
                     <label htmlFor="gender3">Whatever</label>
                 </div>
             </fieldset>
@@ -112,9 +112,9 @@ class LastNameToggle extends React.Component{
     render(){
         return(
             <fieldset>
-                <input type="radio" id="last1" name="last" value="true" checked={true}/>
+                <input type="radio" id="last1" name="last" value="true"/>
                 <label htmlFor="last1">Yes</label>
-                <input type="radio" id="last2" name="last" value="false" />
+                <input type="radio" id="last2" name="last" value="false" defaultChecked={true}/>
                 <label htmlFor="last2">No</label>
             </fieldset>
         );

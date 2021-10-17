@@ -20,8 +20,8 @@ function doWhateverName(){
     const whateverGender = document.getElementById('gender3');
     whateverGender.checked = true;
 
-    // select yes for last name
-    const lastNames = document.getElementById('last1');
+    // select no for last name
+    const lastNames = document.getElementById('last2');
     lastNames.checked = true;
 }
 
@@ -133,9 +133,8 @@ function Characters() {
     </div>
 
     <div id="generator">
-        <p id="generated"></p>
-        <button id="genButton" onClick={generateChar}>generate</button>
     </div>
+    <button id="genButton" onClick={generateChar}>generate</button>
 </main>
   );
 }

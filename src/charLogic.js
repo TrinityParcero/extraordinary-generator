@@ -1,26 +1,25 @@
+import ReactDOM from 'react-dom';
+
 const raceData = require('./json/races.json');
 const classData = require('./json/classes.json');
+
+const { GeneratedCharacter } = require('./components/GeneratedCharacter');
 
 const { generateNames } = require('./nameLogic');
 
 const generateChar = () => {
+    const genSpot = document.getElementById('generator');
+
     const alignment = generateAlignment();
-    console.log(alignment);
-
     const name = generateNames('char')[0];
-    console.log(name);
-
     const race = generateRace();
-    console.log(race);
-
     const charClass = generateClass();
-    console.log(charClass);
-
     const bg = generateBackground();
-    console.log(bg);
 
     // TODO: fix format of output
-    // display results
+    const character = <GeneratedCharacter name={name} race={race} charClass={charClass} background={bg} alignment={alignment} />;
+    ReactDOM.unmountComponentAtNode(genSpot);
+    ReactDOM.render(character, genSpot);
 };
 
 /**
@@ -69,7 +68,7 @@ const generateRace = () => {
     else {
         if (genRaceData.subraces) {
             const subRando = Math.floor(Math.random() * Math.floor(genRaceData.subraces.length));
-            return `${generatedRace} - ${genRaceData.subraces[subRando]}`
+            return `${genRaceData.subraces[subRando]} ${generatedRace}`
         }
     }
     return generatedRace;

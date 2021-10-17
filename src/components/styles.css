@@ -307,7 +307,7 @@ main #alignment fieldset {
     display: none;
     margin-bottom: 20px;
 }
-#bgFieldset {
+#background {
     margin-bottom: 20%;
 }
 #charPage {
@@ -322,6 +322,7 @@ main #alignment fieldset {
     text-align: left;
     outline: 3px solid black;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 button p {
     display: inline;
@@ -331,6 +332,29 @@ button p {
 .collapseArrow {
     float: right;
     font-size: 1.2em;
+}
+#generatedCharacter {
+    background-color: white;
+    padding: 10px;
+}
+#charPage #generator {
+    height: inherit;
+    margin-bottom: 50px;
+}
+#charPage h2 {
+    font-size: 1.8em;
+    line-height: 1em;
+}
+#charPage h3 {
+    line-height: 1em;
+    font-weight: 400;
+}
+#charPage fieldset button {
+    margin-bottom: 0px;
+}
+#charPage #genButton {
+    width: 320px;
+    float: left;
 }
 
 /* TABLET */
