@@ -1,89 +1,195 @@
 {
+    "human": {
+        "name": "Human",
+        "source": "PHB"
+    },
     "eladrin": {
+        "name": "Eladrin",
         "link":
             "https://media.wizards.com/2017/dnd/downloads/UA-Eladrin-Gith.pdf",
         "source": "UA"
     },
+    "halfling": {
+        "name": "Halfling",
+        "source": "PHB",
+        "subraces": ["Lightfoot", "Stout", "Ghostwise"]
+    },
     "gith": {
+        "name": "",
         "link":
             "https://media.wizards.com/2017/dnd/downloads/UA-Eladrin-Gith.pdf",
-        "subraces": ["githyanki", "githzerai"],
+        "subraces": ["Githyanki", "Githzerai"],
         "source": "UA"
     },
     "centaur": {
-        "link": "https://media.wizards.com/2018/dnd/downloads/UA-Centaur.pdf",
-        "source": "UA"
+        "name": "Centaur",
+        "source": "Ravnica"
     },
     "minotaur": {
-        "link": "https://media.wizards.com/2018/dnd/downloads/UA-Centaur.pdf",
-        "source": "UA"
+        "name": "Minotaur",
+        "source": "Ravnica"
+    },
+    "loxodon": {
+        "name": "Loxodon",
+        "source": "Ravnica"
+    },
+    "simichybrid": {
+        "name": "Simic Hybrid",
+        "source": "Ravnica"
+    },
+    "vedalken": {
+        "name": "Vedalken",
+        "source": "Ravnica"
     },
     "dragonborn": {
+        "name": "Dragonborn",
         "link": "https://www.dndbeyond.com/characters/races/dragonborn",
         "subraces": [
-            "black",
-            "blue",
-            "brass",
-            "bronze",
-            "copper",
-            "gold",
-            "green",
-            "red",
-            "silver",
-            "white"
+            "Black",
+            "Blue",
+            "Brass",
+            "Bronze",
+            "Copper",
+            "Gold",
+            "Green",
+            "Red",
+            "Silver",
+            "White"
         ],
         "source": "PHB"
     },
     "dwarf": {
+        "name": "Dwarf",
         "link": "https://www.dndbeyond.com/characters/races/dwarf",
-        "subraces": ["hill dwarf", "mountain dwarf"],
+        "subraces": ["Hill", "Mountain"],
+        "source": "PHB"
+    },
+    "tiefling": {
+        "name": "Tiefling",
         "source": "PHB"
     },
     "elf": {
+        "name": "Elf",
         "link": "https://www.dndbeyond.com/characters/races/elf",
-        "subraces": ["high elf", "wood elf", "drow"],
+        "subraces": ["High", "Wood", "Drow"],
         "source": "PHB"
     },
     "aarakocra": {
+        "name": "Aarakocra",
         "link":
             "http://media.wizards.com/2015/downloads/dnd/EE_PlayersCompanion.pdf",
         "source": "EE"
     },
     "genasi": {
+        "name": "Genasi",
         "link":
             "http://media.wizards.com/2015/downloads/dnd/EE_PlayersCompanion.pdf",
-        "subraces": ["earth genasi", "air genasi", "water genasi", "fire genasi"],
+        "subraces": ["Earth", "Air", "Water", "Fire"],
         "source": "EE"
     },
     "goliath": {
+        "name": "Goliath",
         "link":
             "http://media.wizards.com/2015/downloads/dnd/EE_PlayersCompanion.pdf",
         "source": "EE"
     },
     "gnome": {
+        "name": "Gnome",
         "link": "https://www.dndbeyond.com/characters/races/gnome",
-        "source": "PHB"
+        "source": "PHB",
+        "subraces": ["Deep", "Forest", "Rock"]
     },
     "changeling": {
+        "name": "Changeling",
         "link": "http://media.wizards.com/2015/downloads/dnd/UA_Eberron_v1.1.pdf",
         "source": "Eberron"
     },
     "shifter": {
+        "name": "Shifter",
         "link": "http://media.wizards.com/2015/downloads/dnd/UA_Eberron_v1.1.pdf",
-        "subraces": ["razorclaw shifter", "longtooth shifter"],
+        "subraces": ["Razorclaw", "Longtooth", "Swiftstride", "Wildhunt", "Beasthide"],
         "source": "Eberron"
     },
     "warforged": {
+        "name": "Warforged",
         "link": "http://media.wizards.com/2015/downloads/dnd/UA_Eberron_v1.1.pdf",
         "source": "Eberron"
     },
-    "half orc": {
+    "kalashtar": {
+        "name": "Kalashtar",
+        "link": "https://www.dndbeyond.com/marketplace/sourcebooks/eberron-rising-from-the-last-war",
+        "source": "Eberron"
+    },
+    "half-orc": {
+        "name": "Half-Orc",
         "link": "https://www.dndbeyond.com/characters/races/half-orc",
         "source": "PHB"
     },
+    "half-elf": {
+        "name": "Half-Elf",
+        "source": "PHB"
+    },
     "merfolk": {
+        "name": "Merfolk",
         "link":
             "https://media.wizards.com/2016/downloads/magic/Plane%20Shift%20Zendikar.pdf",
-        "source": "Planeshift"
+        "source": "UA"
+    },
+    "aasimar": {
+        "name": "Aasimar",
+        "subraces": ["Protector", "Scourge", "Fallen"],
+        "source": "Volos"
+    },
+    "firbolg": {
+        "name": "Firbolg",
+        "source": "Volos"
+    },
+    "hobgoblin": {
+        "name": "Hobgoblin",
+        "source": "Volos"
+    },
+    "kobold": {
+        "name": "Kobold",
+        "source": "Volos"
+    },
+    "orc": {
+        "name": "Orc",
+        "source": "Volos"
+    },
+    "triton": {
+        "name": "Triton",
+        "source": "Volos"
+    },
+    "bugbear": {
+        "name": "Bugbear",
+        "source": "Volos"
+    },
+    "goblin": {
+        "name": "Goblin",
+        "source": "Volos"
+    },
+    "kenku": {
+        "name": "Kenku",
+        "source": "Volos"
+    },
+    "lizardfolk": {
+        "name": "Lizardfolk",
+        "source": "Volos"
+    },
+    "tabaxi": {
+        "name": "Tabaxi",
+        "source": "Volos"
+    },
+    "yuan-tipureblood": {
+        "name": "Yuan-ti Pureblood",
+        "source": "Volos"
+    },
+    "tortle": {
+        "name": "Tortle",
+        "source": "misc"
+    },
+    "verdan": {
+        "name": "Verdan",
+        "source": "misc"
     }
 }

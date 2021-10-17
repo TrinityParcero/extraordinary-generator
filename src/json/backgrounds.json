@@ -1,0 +1,156 @@
+{
+    "acolyte": {
+        "name": "Acolyte",
+        "source": "PHB"
+    },
+    "charlatan": {
+        "name": "Charlatan"
+    },
+    "criminal": {
+        "name": "Criminal"
+    },
+    "entertainer": {
+        "name": "Entertainer"
+    },
+    "gladiator": {
+        "name": "Gladiator"
+    },
+    "folkhero": {
+        "name": "Folk Hero"
+    },
+    "guildartisan": {
+        "name": "Guild Artisan"
+    },
+    "hermit": {
+        "name": "Hermit"
+    },
+    "noble": {
+        "name": "Noble"
+    },
+    "knight": {
+        "name": "Knight"
+    },
+    "outlander": {
+        "name": "Outlander"
+    },
+    "sage": {
+        "name": "Sage"
+    },
+    "sailor": {
+        "name": "Sailor"
+    },
+    "pirate": {
+        "name": "Pirate"
+    },
+    "soldier": {
+        "name": "Soldier"
+    },
+    "urchin": {
+        "name": "Urchin"
+    },
+    "citywatch": {
+        "name": "City Watch"
+    },
+    "courtier": {
+        "name": "Courtier"
+    },
+    "factionagent": {
+        "name": "Faction Agent"
+    },
+    "fartraveler": {
+        "name": "Far Traveler"
+    },
+    "inheritor": {
+        "name": "Inheritor"
+    },
+    "cloisteredscholar": {
+        "name": "Cloistered Scholar"
+    },
+    "mercenaryveteran": {
+        "name": "Mercenary Veteran"
+    },
+    "uthgardttribemember": {
+        "name": "Uthgardt Tribe Member"
+    },
+    "clancrafter": {
+        "name": "Clan Crafter"
+    },
+    "knightoftheorder": {
+        "name": "Knight of the Order"
+    },
+    "urbanbountyhunter": {
+        "name": "Urban Bounty Hunter"
+    },
+    "waterdhaviannoble": {
+        "name": "Waterdhavian Noble"
+    },
+    "azoriusfunctionary": {
+        "name": "Azorius Functionary"
+    },
+    "dimiroperative": {
+        "name": "Dimir Operative"
+    },
+    "gruulanarch": {
+        "name": "Gruul Anarch"
+    },
+    "orzhovrepresentative": {
+        "name": "Orzhov Representative"
+    },
+    "selesnyainitiate": {
+        "name": "Selesnya Initiate"
+    },
+    "boroslegionnaire": {
+        "name": "Boros Legionnaire"
+    },
+    "golgariagent": {
+        "name": "Golgari Agent"
+    },
+    "izzetengineer": {
+        "name": "Izzet Engineer"
+    },
+    "rakdoscultist": {
+        "name": "Rakdos Cultist"
+    },
+    "simicscientist": {
+        "name": "Simic Scientist"
+    },
+    "celebrityadventurersscion": {
+        "name": "Celebrity Adventurer's Scion"
+    },
+    "gambler": {
+        "name": "Gambler"
+    },
+    "rivalintern": {
+        "name": "Rival Intern"
+    },
+    "failedmerchant": {
+        "name": "Failed Merchant"
+    },
+    "plaintiff": {
+        "name": "Plaintiff"
+    },
+    "faceless": {
+        "name": "Faceless"
+    },
+    "fisher": {
+        "name": "Fisher"
+    },
+    "marine": {
+        "name": "Marine"
+    },
+    "smuggler": {
+        "name": "Smuggler"
+    },
+    "shipwright": {
+        "name": "Shipwright"
+    },
+    "anthropologist": {
+        "name": "Anthropologist"
+    },
+    "archaeologist": {
+        "name": "Archaeologist"
+    },
+    "hauntedone": {
+        "name": "Haunted One"
+    }
+}

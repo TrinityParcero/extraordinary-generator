@@ -30,7 +30,7 @@ li {
 }
 .column {
     float: left;
-    width: 800px;
+    width: 650px;
 }
 .option {
     display: inline-block;
@@ -95,13 +95,10 @@ li {
     height: inherit;
     width: 300px;
     float: left;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 .row {
-    width: 800px;
-    height: 400px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    width: 650px;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -258,11 +255,14 @@ footer p {
 #trinket #generator {
     float: left;
     padding: 10px 20px;
+    width: 500px;
     background-color: black;
-    width: 400px;
     min-height: 180px;
     margin-bottom: 100px;
     height: auto;
+}
+#trinket #generated {
+    padding: 10px;
 }
 #trinket #gen {
     width: 780px;
@@ -270,11 +270,109 @@ footer p {
 #trinket p {
     font-size: 1em;
 }
-#trinket fieldset {
-    text-align: center;
+#trinket label {
+    font-size: 0.8em;
+}
+#sources {
+    width: 250px;
+    float: left;
 }
 #trinket label {
+    text-align: left;
+}
+#num {
+    float: left;
+    width: inherit;
+}
+#leftChunk {
+    float: left;
+    width: 40%;
+}
+#trinket #gen {
+    float: right;
+    width: 60%;
+}
+
+/* character page */
+#race,
+#class,
+#background {
+    width: 620px;
+}
+#charPage button {
+    margin-bottom: 20px;
+}
+main #name fieldset,
+main #alignment fieldset {
+    width: 230px;
+}
+#name {
     font-size: 1em;
+    font-family: 'Catamaran', serif;
+    margin-top: 1px;
+    padding-top: 0;
+    color: black;
+    text-align: center;
+}
+#charPage #generator {
+    width: 300px;
+}
+#nameFieldset,
+#alignmentFieldset,
+#raceFieldset,
+#classFieldset,
+#bgFieldset {
+    display: none;
+    margin-bottom: 20px;
+}
+#background {
+    margin-bottom: 20%;
+}
+#charPage {
+    margin-top: 4%;
+}
+.collapsible {
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: 3px solid black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button p {
+    display: inline;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+.collapseArrow {
+    float: right;
+    font-size: 1.2em;
+}
+#generatedCharacter {
+    background-color: white;
+    padding: 10px;
+}
+#charPage #generator {
+    height: inherit;
+    margin-bottom: 50px;
+}
+#charPage h2 {
+    font-size: 1.8em;
+    line-height: 1em;
+}
+#charPage h3 {
+    line-height: 1em;
+    font-weight: 400;
+}
+#charPage fieldset button {
+    margin-bottom: 0px;
+}
+#charPage #genButton {
+    width: 320px;
+    float: left;
 }
 
 /* character page */
@@ -320,21 +418,43 @@ main #alignment fieldset {
     #namePage #generator {
         width: 280px;
     }
-    #trinket #sources {
-        width: 90%;
+    #trinket {
+        margin-top: 0px;
     }
-    #trinket #num fieldset {
-        width: 150px;
+    #trinket #leftChunk {
+        width: 70vw;
+        margin: 0 auto;
+        float: none;
     }
     #trinket #num {
-        width: 150px;
-        margin-right: 70px;
+        width: 180px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    #trinket #gen {
+        width: 80vw;
+        float: none;
+        margin: 0 auto;
+        display: block;
     }
     #trinket #num label {
         margin-right: 5px;
     }
-    #trinket #generator {
-        width: 300px;
+    #background {
+        margin-bottom: 0px;
+    }
+    #charPage .column {
+        clear: both;
+        float: none;
+    }
+    #charPage #generator {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+    }
+    #charPage #genButton {
+        float: none;
+        margin-top: 50px;
     }
 }
 
@@ -383,20 +503,18 @@ main #alignment fieldset {
         font-size: 0.8em;
     }
     #trinket #gen fieldset {
-        width: 250px;
         margin-right: 0px;
         float: none;
     }
     #trinket #generator {
-        width: 80%;
         display: block;
         position: static;
+        width: 80vw;
     }
     #namePage #generator {
         display: block;
         margin: 0 auto;
         float: right;
-        width: 300px;
         margin-bottom: 20%;
     }
     #name {
@@ -405,8 +523,18 @@ main #alignment fieldset {
         margin-left: 30px;
     }
     #trinket #sources {
-        width: 250px;
         text-align: left;
+        float: none;
+    }
+    #trinket #num {
+        float: none;
+        text-align: center;
+    }
+    #trinket fieldset {
+        text-align: center;
+    }
+    #trinket #num label {
+        margin-right: 10px;
     }
     #trinket div {
         width: 100%;
@@ -444,5 +572,36 @@ main #alignment fieldset {
         display: block;
         margin: 0 auto;
         width: 100%;
+    }
+    #charPage .column,
+    #charPage .row {
+        width: 90vw;
+    }
+    #charPage #name {
+        margin-left: 0px;
+    }
+    #race,
+    #class,
+    #background {
+        width: 300px;
+    }
+    #charPage legend {
+        margin: 0px;
+    }
+    #charPage .option {
+        margin-right: 10px;
+    }
+    #charPage #name {
+        font-size: 1em;
+    }
+    #charPage .allButton,
+    #charPage .noneButton {
+        float: right;
+    }
+    #charPage label {
+        margin-right: 10px;
+    }
+    #charPage input {
+        margin-right: 5px;
     }
 }
