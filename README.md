@@ -33,6 +33,7 @@ Known Issues / Planned Improvements
 -   Maybe change default selections to be only PHB options? Or make a "Only give me basic PHB stuff" button
 -   Select all buttons for race, class and background don't work
 -   Recategorize names - English, European and East European as separate categories doesnt make much sense
+-   Add some nice css animations to collapsibles and generation?
 
 ### Trinkets
 
