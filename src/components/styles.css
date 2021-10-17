@@ -392,6 +392,22 @@ button p {
     #trinket #generator {
         width: 300px;
     }
+    #background {
+        margin-bottom: 0px;
+    }
+    #charPage .column {
+        clear: both;
+        float: none;
+    }
+    #charPage #generator {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+    }
+    #charPage #genButton {
+        float: none;
+        margin-top: 50px;
+    }
 }
 
 /* MOBILE */
@@ -500,5 +516,36 @@ button p {
         display: block;
         margin: 0 auto;
         width: 100%;
+    }
+    #charPage .column,
+    #charPage .row {
+        width: 90vw;
+    }
+    #charPage #name {
+        margin-left: 0px;
+    }
+    #race,
+    #class,
+    #background {
+        width: 300px;
+    }
+    #charPage legend {
+        margin: 0px;
+    }
+    #charPage .option {
+        margin-right: 10px;
+    }
+    #charPage #name {
+        font-size: 1em;
+    }
+    #charPage .allButton,
+    #charPage .noneButton {
+        float: right;
+    }
+    #charPage label {
+        margin-right: 10px;
+    }
+    #charPage input {
+        margin-right: 5px;
     }
 }
