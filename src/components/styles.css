@@ -255,11 +255,14 @@ footer p {
 #trinket #generator {
     float: left;
     padding: 10px 20px;
+    width: 500px;
     background-color: black;
-    width: 400px;
     min-height: 180px;
     margin-bottom: 100px;
     height: auto;
+}
+#trinket #generated {
+    padding: 10px;
 }
 #trinket #gen {
     width: 780px;
@@ -267,16 +270,31 @@ footer p {
 #trinket p {
     font-size: 1em;
 }
-#trinket fieldset {
-    text-align: center;
+#trinket label {
+    font-size: 0.8em;
+}
+#sources {
+    width: 250px;
+    float: left;
 }
 #trinket label {
-    font-size: 1em;
+    text-align: left;
+}
+#num {
+    float: left;
+    width: inherit;
+}
+#leftChunk {
+    float: left;
+    width: 40%;
+}
+#trinket #gen {
+    float: right;
+    width: 60%;
 }
 
 /* character page */
 #race,
-#sources,
 #class,
 #background {
     width: 620px;
@@ -376,21 +394,27 @@ button p {
     #namePage #generator {
         width: 280px;
     }
-    #trinket #sources {
-        width: 90%;
+    #trinket {
+        margin-top: 0px;
     }
-    #trinket #num fieldset {
-        width: 150px;
+    #trinket #leftChunk {
+        width: 70vw;
+        margin: 0 auto;
+        float: none;
     }
     #trinket #num {
-        width: 150px;
-        margin-right: 70px;
+        width: 180px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    #trinket #gen {
+        width: 80vw;
+        float: none;
+        margin: 0 auto;
+        display: block;
     }
     #trinket #num label {
         margin-right: 5px;
-    }
-    #trinket #generator {
-        width: 300px;
     }
     #background {
         margin-bottom: 0px;
@@ -455,20 +479,18 @@ button p {
         font-size: 0.8em;
     }
     #trinket #gen fieldset {
-        width: 250px;
         margin-right: 0px;
         float: none;
     }
     #trinket #generator {
-        width: 80%;
         display: block;
         position: static;
+        width: 80vw;
     }
     #namePage #generator {
         display: block;
         margin: 0 auto;
         float: right;
-        width: 300px;
         margin-bottom: 20%;
     }
     #name {
@@ -477,8 +499,18 @@ button p {
         margin-left: 30px;
     }
     #trinket #sources {
-        width: 250px;
         text-align: left;
+        float: none;
+    }
+    #trinket #num {
+        float: none;
+        text-align: center;
+    }
+    #trinket fieldset {
+        text-align: center;
+    }
+    #trinket #num label {
+        margin-right: 10px;
     }
     #trinket div {
         width: 100%;
