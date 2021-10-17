@@ -4,6 +4,10 @@
 
 This is something I've been working on on-and-off since college, started as a very basic name generator for a homework assignment. I mainly wanted to make my own name generator as someone who makes a lot of characters for TTRPGs and other projects, and was disappointed with the ones I found online being either entirely common boring names like "John Waters" and "Stacy Adams" or Full-On Fantasy stuff like "Riluaneth Wysaxidor" or "Morluk Battlespell". Being very into classic D&D media, I saw Gary Gygax's Extraordinary Book of Names as a good place to start for getting a variety of names. After finishing the first pass at the Extraordinary Generator of Names, I decided I may as well keep going and make some other random generator tools I often find myself wishing I had on hand while playing or DMing.
 
+## Name Sources
+- The Extraordinary Book of Names by Gary Gygax
+- https://apellidosperuanos.wordpress.com/nombres-quechuas/ (Incan names)
+
 ## Summary / Status of Each Tool
 
 ### Names
