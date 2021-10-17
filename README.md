@@ -24,7 +24,11 @@ Random character generator that lets you tailor result by race, class, etc.
 
 Status
 
--   In progress - Icebox. Will be picked up once Node/React redesign of name and trinket generators is complete, as I'll pull components and stuff from those to complete this more cleanly and efficiently.
+-   Functioning!
+
+Known Issues / Planned Improvements
+
+-   Maybe make subclasses and subraces optional?
 
 ### Trinkets
 
@@ -44,4 +48,4 @@ Random loot generator that can be set to generate loot appropriate for the given
 
 Status
 
--   Not started yet. Will be picked up once character generator is functioning.
+-   On deck for implementation

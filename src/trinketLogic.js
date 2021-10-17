@@ -62,7 +62,7 @@ const displayTrinkets = (possibleTrinkets) => {
     for (let i = 0; i < selectedNum; i++) {
         let rando = Math.floor(Math.random() * Math.floor(possibleTrinkets.length));
         if (possibleTrinkets[rando] !== undefined) {
-            trinketList += possibleTrinkets[rando] + '<br>';
+            trinketList += possibleTrinkets[rando] + '<br><br>';
         }
     }
     generatedText.innerHTML = trinketList;

@@ -1,24 +1,45 @@
 import React from "react";
-import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle } from './InputHelpers';
+
+import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle} from '../InputHelpers';
+import { Collapsible } from '../Collapsible';
+
+import { generateChar } from '../../charLogic';
+
+/**
+ * onclick for 'do whatever' button in name gen section
+ * selects default options for each query
+ */
+function doWhateverName(){
+    // select all name eth options
+    const eths = document.querySelectorAll('input[name=eth]');
+    for(const input of eths){
+        input.checked = true;
+    }
+
+    // select third gender option
+    const whateverGender = document.getElementById('gender3');
+    whateverGender.checked = true;
+
+    // select no for last name
+    const lastNames = document.getElementById('last2');
+    lastNames.checked = true;
+}
 
 function Characters() {
   return (
-    <main>
-    <p>Very in-progress, pardon the mess!</p>
+    <main id="charPage">
     <div className="column">
-        <div className="block" id="sources">
-            <CheckboxFieldset id="sources" legend="Include material from" name="source" selectAll={true} deselectAll={true}
-            values={["Player's Handbook", "Eberron", "Volo's Guide", "Guide to Ravnica", "Mordekainen's Tome", "Sword Coast", "Unearthed Arcana", "Miscellaneous"]}/>
-        </div>
 
         <div className="row">
             <div className="block" id="alignment">
-                <AlignmentSelector/>
+                <Collapsible name="alignment" content='alignmentFieldset'/>
+                <AlignmentSelector />
             </div>
 
             <div className="block" id="name">
+            <Collapsible name="name" content='nameFieldset'/>
                 <fieldset id="nameFieldset">
-                    <button className="allButton" id="nameAll">
+                    <button className="allButton" id="nameAll" onClick={doWhateverName}>
                         do whatever
                     </button>
                     <legend>Name</legend>
@@ -35,7 +56,8 @@ function Characters() {
         </div>
 
         <div className="block" id="race">
-            <fieldset>
+            <Collapsible name="race" content='raceFieldset'/>
+            <fieldset id="raceFieldset">
                 <button className="allButton" id="raceAll">
                     select all
                 </button>
@@ -64,7 +86,8 @@ function Characters() {
         </div>
 
         <div className="block" id="class">
-            <fieldset>
+            <Collapsible name="class" content='classFieldset'/>
+            <fieldset id="classFieldset">
                 <button className="allButton" id="classAll">
                     select all
                 </button>
@@ -74,9 +97,6 @@ function Characters() {
                 
                 <CheckboxFieldset id="classEberron" legend="Eberron" name="class" selectAll={true} deselectAll={true}
                 values={["Artificer"]}/>
-                
-                <CheckboxFieldset id="classUA" legend="Unearthed Arcana" name="class" selectAll={true} deselectAll={true}
-                values={["Mystic"]}/>
 
                 <CheckboxFieldset id="classMisc" legend="Miscellaneous" name="class" selectAll={true} deselectAll={true}
                 values={["Blood Hunter"]}/>
@@ -85,7 +105,8 @@ function Characters() {
         </div>
 
         <div className="block" id="background">
-            <fieldset>
+            <Collapsible name="background" content='bgFieldset'/>
+            <fieldset id="bgFieldset">
                 <button className="allButton" id="backgroundAll">
                     select all
                 </button>
@@ -112,9 +133,8 @@ function Characters() {
     </div>
 
     <div id="generator">
-        <p id="generated"></p>
-        <button id="genButton">generate</button>
     </div>
+    <button id="genButton" onClick={generateChar}>generate</button>
 </main>
   );
 }

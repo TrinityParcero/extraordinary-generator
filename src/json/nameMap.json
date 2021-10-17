@@ -1,0 +1,8 @@
+{
+    "english": ["welsh", "cornish", "english", "medieval", "gaelic"],
+    "mediterranean": ["greek", "ancient greek", "arabic", "italian"],
+    "easteuropean": ["russian", "polish", "hungarian", "finnish", "armenian"],
+    "european": ["spanish", "dutch", "french", "gaulic", "german", "norse"],
+    "asian": ["chinese", "japanese", "mongolian", "korean", "indian"],
+    "miscellaneous": ["african", "nativeAmerican", "aboriginal", "hebrew", "romani", "oceanic"]
+}

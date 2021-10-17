@@ -1,1 +1,100 @@
-
+{
+    "barbarian": {
+        "source": "PHB",
+        "subclasses": [
+            "Path of the Berserker", "Path of the Totem Warrior", "Path of the Battlerager", 
+            "Path of the Ancestral Guardian", "Path of the Storm Herald", "Path of the Zealot",
+            "Path of the Beast", "Path of Wild Magic"
+        ]
+    },
+    "bard": {
+        "source": "PHB",
+        "subclasses": [
+            "College of Lore", "College of Valor", "College of Glamour", "College of Swords", 
+            "College of Whispers", "College of Eloquence", "College of Creation"
+        ]
+    },
+    "cleric": {
+        "source": "PHB",
+        "subclasses": [
+            "Knowledge Domain", "Life Domain", "Light Domain", "Nature Domain", "Tempest Domain",
+            "Trickery Domain", "War Domain", "Death Domain", "Arcana Domain", "Forge Domain", 
+            "Grave Domain", "Order Domain", "Peace Domain", "Twilight Domain"
+        ]
+    },
+    "druid": {
+        "source":"PHB",
+        "subclasses": [
+            "Circle of the Land", "Circle of the Moon", "Circle of Dreams", "Circle of the Shepherd", 
+            "Circle of Spores", "Circle of Stars", "Circle of Wildlife"
+        ]
+    },
+    "fighter": {
+        "source":"PHB",
+        "subclasses": [
+            "Champion", "Battle Master", "Eldritch Knight", "Banneret", "Arcane Archer", "Cavalier",
+            "Samurai", "Echo Knight", "Psi Warrior", "Rune Knight"
+        ]
+    },
+    "monk": {
+        "source":"PHB",
+        "subclasses": [
+            "Way of the Open Hand", "Way of Shadow", "Way of the Four Elements", "Way of the Sun Soul",
+            "Way of the Drunken Master", "Way of the Kensei", "Way of Mercy", "Way of the Astral Self"
+        ]
+    },
+    "paladin": {
+        "source":"PHB",
+        "subclasses": [
+            "Oath of Devotion", "Oath of the Ancients", "Oath of Vengeance", "Oathbreaker", "Oath of the Crown",
+            "Oath of Conquest", "Oath of Redemption", "Oath of Glory", "Oath of the Watchers"
+        ]
+    },
+    "ranger": {
+        "source":"PHB",
+        "subclasses": [
+            "Hunter", "Beastmaster", "Gloom Stalker", "Horizon Walker", "Monster Slayer", "Fey Wanderer", "Swarmkeeper"
+        ]
+    },
+    "rogue": {
+        "source":"PHB",
+        "subclasses": [
+            "Thief", "Assassin", "Arcane Trickster", "Mastermind", "Swashbuckler", "Inquisitive", "Scout",
+            "Phantom", "Soulknife"
+        ]
+    },
+    "sorcerer": {
+        "source":"PHB",
+        "subclasses": [
+            "Draconic Bloodline", "Wild Magic", "Storm Sorcery", "Pyromancer", "Divine Soul", "Shadow Magic",
+            "Aberrant Mind", "Clockwork Soul"
+        ]
+    },
+    "warlock": {
+        "source":"PHB",
+        "subclasses": [
+            "the Fiend", "the Great Old One", "the Undying", "the Celestial", "the Hexblade", "the Fathomless",
+            "the Genie"
+        ]
+    },
+    "wizard": {
+        "source":"PHB",
+        "subclasses": [
+            "School of Abjuration", "School of Conjuration", "School of Divination", "School of Enchantment", 
+            "School of Evocation", "School of Illusion", "School of Necromancy", "School of Transmutation", 
+            "Bladesinging", "War Magic", "Chronurgy Magic", "Graviturgy Magic", "Order of Scribes"
+        ]
+    },
+    "artificer": {
+        "source": "Eberron",
+        "subclasses": [
+            "Alchemist", "Artillerist", "Battlesmith", "Armorer"
+        ]
+    },
+    "bloodhunter": {
+        "source": "misc",
+        "subclasses": [
+            "Order of the Ghostslayer", "Order of the Lycan", "Order of the Mutant", "Order of the Profane Soul"
+        ]
+    }
+}
