@@ -375,30 +375,6 @@ button p {
     float: left;
 }
 
-/* character page */
-#nameFieldset,
-#alignmentFieldset {
-    height: 380px;
-}
-#race,
-#sources,
-#class,
-#background {
-    width: 760px;
-}
-main #name fieldset,
-main #alignment fieldset {
-    width: 300px;
-}
-#name {
-    font-size: 1em;
-    font-family: 'Catamaran', serif;
-    margin-top: 1px;
-    padding-top: 0;
-    color: black;
-    text-align: center;
-}
-
 /* TABLET */
 @media screen and (max-width: 900px) {
     main {
