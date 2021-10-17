@@ -17,6 +17,7 @@ Status
 Known Issues / Planned Improvements
 
 -   Source material is pretty biased towards European cultures - names from African, Asian, and Native American cultures are fewer and (at least in some cases) less authentic. Name lists for those cultures should be double checked against more reliable sources and augmented / edited. On the same note - I feel that having a "Miscellaneous" section feels somewhat dismissive towards the cultures listed therein - would like to get more related name sources so they can be split into more descriptive categories instead of being lumped together.
+-   Categorization of names is a little funky due to the aforementioned Europe-heavyness of the data.
 
 ### Characters
 
@@ -30,6 +31,7 @@ Known Issues / Planned Improvements
 
 -   Maybe make subclasses and subraces optional?
 -   Select all buttons for race, class and background don't work
+-   Recategorize names - English, European and East European as separate categories doesnt make much sense
 
 ### Trinkets
 
