@@ -2,99 +2,99 @@
     "barbarian": {
         "source": "PHB",
         "subclasses": [
-            "path of the berserker", "path of the totem warrior", "path of the battlerager", 
-            "path of the ancestral guardian", "path of the storm herald", "path of the zealot",
-            "path of the beast", "path of wild magic"
+            "Path of the Berserker", "Path of the Totem Warrior", "Path of the Battlerager", 
+            "Path of the Ancestral Guardian", "Path of the Storm Herald", "Path of the Zealot",
+            "Path of the Beast", "Path of Wild Magic"
         ]
     },
     "bard": {
         "source": "PHB",
         "subclasses": [
-            "college of lore", "college of valor", "college of glamour", "college of swords", 
-            "college of whispers", "college of eloquence", "college of creation"
+            "College of Lore", "College of Valor", "College of Glamour", "College of Swords", 
+            "College of Whispers", "College of Eloquence", "College of Creation"
         ]
     },
     "cleric": {
         "source": "PHB",
         "subclasses": [
-            "knowledge domain", "life domain", "light domain", "nature domain", "tempest domain",
-            "trickery domain", "war domain", "death domain", "arcana domain", "forge domain", 
-            "grave domain", "order domain", "peace domain", "twilight domain"
+            "Knowledge Domain", "Life Domain", "Light Domain", "Nature Domain", "Tempest Domain",
+            "Trickery Domain", "War Domain", "Death Domain", "Arcana Domain", "Forge Domain", 
+            "Grave Domain", "Order Domain", "Peace Domain", "Twilight Domain"
         ]
     },
     "druid": {
         "source":"PHB",
         "subclasses": [
-            "circle of the land", "circle of the moon", "circle of dreams", "circle of the shepherd", 
-            "circle of spores", "circle of stars", "circle of wildlife"
+            "Circle of the Land", "Circle of the Moon", "Circle of Dreams", "Circle of the Shepherd", 
+            "Circle of Spores", "Circle of Stars", "Circle of Wildlife"
         ]
     },
     "fighter": {
         "source":"PHB",
         "subclasses": [
-            "champion", "battle master", "eldritch knight", "banneret", "arcane archer", "cavalier",
-            "samurai", "echo knight", "psi warrior", "rune knight"
+            "Champion", "Battle Master", "Eldritch Knight", "Banneret", "Arcane Archer", "Cavalier",
+            "Samurai", "Echo Knight", "Psi Warrior", "Rune Knight"
         ]
     },
     "monk": {
         "source":"PHB",
         "subclasses": [
-            "way of the open hand", "way of shadow", "way of the four elements", "way of the sun soul",
-            "way of the drunken master", "way of the kensei", "way of mercy", "way of the astral self"
+            "Way of the Open Hand", "Way of Shadow", "Way of the Four Elements", "Way of the Sun Soul",
+            "Way of the Drunken Master", "Way of the Kensei", "Way of Mercy", "Way of the Astral Self"
         ]
     },
     "paladin": {
         "source":"PHB",
         "subclasses": [
-            "oath of devotion", "oath of the ancients", "oath of vengeance", "oathbreaker", "oath of the crown",
-            "oath of conquest", "oath of redemption", "oath of glory", "oath of the watchers"
+            "Oath of Devotion", "Oath of the Ancients", "Oath of Vengeance", "Oathbreaker", "Oath of the Crown",
+            "Oath of Conquest", "Oath of Redemption", "Oath of Glory", "Oath of the Watchers"
         ]
     },
     "ranger": {
         "source":"PHB",
         "subclasses": [
-            "hunter", "beastmaster", "gloom stalker", "horizon walker", "monster slayer", "fey wanderer", "swarmkeeper"
+            "Hunter", "Beastmaster", "Gloom Stalker", "Horizon Walker", "Monster Slayer", "Fey Wanderer", "Swarmkeeper"
         ]
     },
     "rogue": {
         "source":"PHB",
         "subclasses": [
-            "thief", "assassin", "arcane trickster", "mastermind", "swashbuckler", "inquisitive", "scout",
-            "phantom", "soulknife"
+            "Thief", "Assassin", "Arcane Trickster", "Mastermind", "Swashbuckler", "Inquisitive", "Scout",
+            "Phantom", "Soulknife"
         ]
     },
     "sorcerer": {
         "source":"PHB",
         "subclasses": [
-            "draconic bloodline", "wild magic", "storm sorcery", "pyromancer", "divine soul", "shadow magic",
-            "aberrant mind", "clockwork soul"
+            "Draconic Bloodline", "Wild Magic", "Storm Sorcery", "Pyromancer", "Divine Soul", "Shadow Magic",
+            "Aberrant Mind", "Clockwork Soul"
         ]
     },
     "warlock": {
         "source":"PHB",
         "subclasses": [
-            "the fiend", "the great old one", "the undying", "the celestial", "the hexblade", "the fathomless",
-            "the genie"
+            "the Fiend", "the Great Old One", "the Undying", "the Celestial", "the Hexblade", "the Fathomless",
+            "the Genie"
         ]
     },
     "wizard": {
         "source":"PHB",
         "subclasses": [
-            "school of abjuration", "school of conjuration", "school of divination", "school of enchantment", 
-            "school of evocation", "school of illusion", "school of necromancy", "school of transmutation", 
-            "bladesinging", "war magic", "chronurgy magic", "graviturgy magic", "order of scribes"
+            "School of Abjuration", "School of Conjuration", "School of Divination", "School of Enchantment", 
+            "School of Evocation", "School of Illusion", "School of Necromancy", "School of Transmutation", 
+            "Bladesinging", "War Magic", "Chronurgy Magic", "Graviturgy Magic", "Order of Scribes"
         ]
     },
     "artificer": {
         "source": "Eberron",
         "subclasses": [
-            "alchemist", "artillerist", "battlesmith", "armorer"
+            "Alchemist", "Artillerist", "Battlesmith", "Armorer"
         ]
     },
     "bloodhunter": {
         "source": "misc",
         "subclasses": [
-            "order of the ghostslayer", "order of the lycan", "order of the mutant", "order of the profane soul"
+            "Order of the Ghostslayer", "Order of the Lycan", "Order of the Mutant", "Order of the Profane Soul"
         ]
     }
 }

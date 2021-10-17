@@ -125,7 +125,7 @@ class NumToggle extends React.Component{
     render(){
         return(
             <fieldset>
-                <input type="radio" id="num1" name="num" value="1" checked={true}/>
+                <input type="radio" id="num1" name="num" value="1" defaultChecked={true}/>
                 <label htmlFor="num1">1</label>
 
                 <input type="radio" id="num2" name="num" value="5" />

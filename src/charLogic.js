@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom';
 
+const alignmentData = require('./json/alignments.json');
 const raceData = require('./json/races.json');
 const classData = require('./json/classes.json');
+const bgData = require('./json/backgrounds.json');
 
 const { GeneratedCharacter } = require('./components/GeneratedCharacter');
 
@@ -16,7 +18,6 @@ const generateChar = () => {
     const charClass = generateClass();
     const bg = generateBackground();
 
-    // TODO: fix format of output
     const character = <GeneratedCharacter name={name} race={race} charClass={charClass} background={bg} alignment={alignment} />;
     ReactDOM.unmountComponentAtNode(genSpot);
     ReactDOM.render(character, genSpot);
@@ -32,7 +33,15 @@ const generateAlignment = () => {
     const alignValues = selectedAligns.map(input => input.value);
 
     const rando = Math.floor(Math.random() * Math.floor(alignValues.length));
-    return alignValues[rando];
+    const genAlignment = alignValues[rando];
+
+    if (!alignmentData[genAlignment]) {
+        console.log(`Trin you goofed something. No data found for ${genAlignment}`);
+        return genAlignment;
+    }
+    else {
+        return alignmentData[genAlignment];
+    }
 };
 
 /**
@@ -45,7 +54,16 @@ const generateBackground = () => {
     const bgValues = selectedBgs.map(input => input.value);
 
     const rando = Math.floor(Math.random() * Math.floor(bgValues.length));
-    return bgValues[rando];
+    const genBg = bgValues[rando];
+
+
+    if (!bgData[genBg]) {
+        console.log(`Trin you goofed something. No data found for ${genBg}`);
+        return genBg;
+    }
+    else {
+        return bgData[genBg].name;
+    }
 };
 
 /**
@@ -58,7 +76,7 @@ const generateRace = () => {
     const raceValues = selectedRaces.map(input => input.value);
 
     const rando = Math.floor(Math.random() * Math.floor(raceValues.length));
-    const generatedRace = raceValues[rando];
+    let generatedRace = raceValues[rando];
 
     // check if this race has subraces, if so, pick one
     const genRaceData = raceData[generatedRace];
@@ -66,6 +84,7 @@ const generateRace = () => {
         console.log(`Trin you goofed something. No data found for ${generatedRace}`);
     }
     else {
+        generatedRace = genRaceData.name;
         if (genRaceData.subraces) {
             const subRando = Math.floor(Math.random() * Math.floor(genRaceData.subraces.length));
             return `${genRaceData.subraces[subRando]} ${generatedRace}`
@@ -84,10 +103,11 @@ const generateClass = () => {
     const classValues = selectedClasses.map(input => input.value);
 
     const rando = Math.floor(Math.random() * Math.floor(classValues.length));
-    const generatedClass = classValues[rando];
+    let generatedClass = classValues[rando];
 
     // check if this class has subclasses, if so, pick one
     const genClassData = classData[generatedClass];
+    generatedClass = `${(generatedClass.substring(0, 1)).toUpperCase()}${generatedClass.substring(1)}`;
     if (!genClassData) {
         console.log(`Trin you goofed something. No data found for ${generatedClass}`);
     }
