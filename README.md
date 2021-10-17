@@ -6,7 +6,8 @@ This is something I've been working on on-and-off since college, started as a ve
 
 ## Name Sources
 - The Extraordinary Book of Names by Gary Gygax
-- https://apellidosperuanos.wordpress.com/nombres-quechuas/ (Incan names)
+- https://apellidosperuanos.wordpress.com/nombres-quechuas/ (Quechua names)
+- http://nahuatlstudies.blogspot.com/2014/11/nahuatl-names-nahuatl-names-in-1544.html (Nahuatl names)
 
 ## Summary / Status of Each Tool
 
