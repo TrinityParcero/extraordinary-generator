@@ -1,8 +1,12 @@
 {
-    "english": ["welsh", "cornish", "english", "medieval", "gaelic"],
-    "mediterranean": ["greek", "ancient greek", "arabic", "italian"],
-    "easteuropean": ["russian", "polish", "hungarian", "finnish", "armenian"],
-    "european": ["spanish", "dutch", "french", "gaulic", "german", "norse"],
+    "ancient": ["gaulic", "ancient greek", "norse", "medieval"],
+    "nordic": ["finnish", "swedish", "danish"], 
+    "slavic": ["russian", "polish", "hungarian"],
+    "mediterranean": ["greek", "italian", "spanish", "french"],
+    "middleeastern": ["arabic", "hebrew", "armenian"],
+    "northeuropean": ["welsh", "cornish", "english", "gaelic"],
+    "westeuropean": ["dutch", "spanish", "french", "german"],
     "asian": ["chinese", "japanese", "mongolian", "korean", "indian"],
-    "miscellaneous": ["african", "nativeAmerican", "aboriginal", "hebrew", "romani", "oceanic"]
+    "american": ["quechua", "nahuatl", "iroquois", "algonquin", "sioux", "athabaskan", "muskegee", "nativeamerican"],
+    "miscellaneous": ["african", "aboriginal", "romani", "oceanic"]
 }
