@@ -9,6 +9,8 @@ This is something I've been working on on-and-off since college, started as a ve
 - https://apellidosperuanos.wordpress.com/nombres-quechuas/ (Quechua names)
 - http://nahuatlstudies.blogspot.com/2014/11/nahuatl-names-nahuatl-names-in-1544.html (Nahuatl names)
 - https://hejsweden.com/en/popular-swedish-girl-and-boy-names/ (Swedish names)
+- https://adoption.com/baby-names/origin/danish?page=1 (Danish names)
+- http://www.native-languages.org/index.htm#tree (Algonquin, Sioux, Muskogee, Athabaskan, and Iroquois names)
 
 ## Summary / Status of Each Tool
 
