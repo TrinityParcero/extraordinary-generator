@@ -1,5 +1,5 @@
-const nameData = require('./json/name.json');
 const nameMap = require('./json/nameMap.json');
+const nameData = {};
 
 /**
  * takes char page input and compiles an appropriate list of possible names

@@ -44,7 +44,19 @@ function Characters() {
                     </button>
                     <legend>Name</legend>
                     <CheckboxFieldset id="nameOrigin" legend="Origin" name="eth" selectAll={false} deselectAll={false}
-                    values={["English", "Mediterranean", "East European", "European", "Asian", "Miscellaneous"]}/>
+                    values={[
+                        "African", 
+                        "American", 
+                        "Ancient", 
+                        "Asian", 
+                        "British & Irish", 
+                        "East European", 
+                        "Mediterranean", 
+                        "Middle Eastern", 
+                        "North European", 
+                        "West European",
+                        "Miscellaneous"
+                    ]}/>
 
                     Gender?
                     <GenderSelector/>
