@@ -1,4 +1,4 @@
-const trinketData = require('./json/trinket.json');
+const trinketData = require('../json/trinket.json');
 
 /**
  * compiles the list of trinkets that match user request
@@ -22,7 +22,7 @@ const prepareTrinketSet = () => {
         return;
     }
 
-    //futz with size of genBox
+    // futz with size of genBox
     if (selectedNum === 1) {
         genBox.style.height = '100px';
     }

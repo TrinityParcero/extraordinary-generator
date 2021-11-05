@@ -2,7 +2,7 @@ import React from "react";
 
 import rawNameMap from '../../json/nameMap.json';
 import { CheckboxFieldset, GenderSelector, LastNameToggle, NumToggle } from '../InputHelpers';
-import { generateNames} from "../../nameLogic";
+import { generateNames } from '../../logic/nameLogic';
 
 function Names() {
     // convert object to proper map

@@ -1,5 +1,7 @@
-const nameMap = require('./json/nameMap.json');
-const nameData = {};
+const nameData = require('../json/name.json');
+const nameMap = require('../json/nameMap.json');
+
+// TODO: break down prepare name set funcs into smaller chunks so there is less repeated logic
 
 /**
  * takes char page input and compiles an appropriate list of possible names
@@ -268,7 +270,6 @@ const generateNames = (page) => {
         displayNames(generatedNames);
     }
 };
-
 
 export {
     generateNames
