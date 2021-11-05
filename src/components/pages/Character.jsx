@@ -3,7 +3,7 @@ import React from "react";
 import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle} from '../InputHelpers';
 import { Collapsible } from '../Collapsible';
 
-import { generateChar } from '../../charLogic';
+import { generateChar } from '../../logic/charLogic';
 
 /**
  * onclick for 'do whatever' button in name gen section

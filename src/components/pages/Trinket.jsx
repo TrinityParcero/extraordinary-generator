@@ -1,7 +1,7 @@
 import React from "react";
 
 import { CheckboxFieldset, NumToggle } from "../InputHelpers";
-import { generateTrinkets } from '../../trinketLogic'; 
+import { generateTrinkets } from '../../logic/trinketLogic'; 
 
 function Trinkets() {
   return (

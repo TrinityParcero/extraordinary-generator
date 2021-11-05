@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom';
 
-const alignmentData = require('./json/alignments.json');
-const raceData = require('./json/races.json');
-const classData = require('./json/classes.json');
-const bgData = require('./json/backgrounds.json');
+const alignmentData = require('../json/alignments.json');
+const raceData = require('../json/races.json');
+const classData = require('../json/classes.json');
+const bgData = require('../json/backgrounds.json');
 
-const { GeneratedCharacter } = require('./components/GeneratedCharacter');
+const { GeneratedCharacter } = require('../components/GeneratedCharacter');
 
 const { generateNames } = require('./nameLogic');
 
