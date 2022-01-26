@@ -1,43 +1,34 @@
 import React from "react";
 
+import rawNameMap from '../../json/nameMap.json';
 import { CheckboxFieldset, GenderSelector, LastNameToggle, NumToggle } from '../InputHelpers';
 import { generateNames } from '../../logic/nameLogic';
 
 function Names() {
+    // convert object to proper map
+    const nameMap = new Map(Object.entries(rawNameMap));
+
+    const fieldsets = [];
+
+    // go through namemap and make a fieldset for each entry
+    for(const [key, value] of nameMap){
+        fieldsets.push(
+            <CheckboxFieldset id={key} legend={key} name="eth" selectAll={true} deselectAll={true} defaultChecked={false}
+            values = {value}/>
+        );
+    }
+
   return (
     <main id="namePage">
         <div id="eth">
             <p>names from where?</p>
-             {/* TODO: unhardcode value arrays, take them dynamically from data source */}
-            <div className="twoGroup">
-                <CheckboxFieldset id="british" legend="British" name="eth" selectAll={true} deselectAll={true} 
-                values={["Welsh", "Cornish", "English", "Medieval", "Gaelic"]}/>
-                
-                <CheckboxFieldset id="mediterranean" legend="Mediterranean" name="eth" selectAll={true} deselectAll={true}
-                values={["Greek", "Ancient Greek", "Arabic", "Italian"]}/>
-            </div>
-
-            <div className="twoGroup">
-                <CheckboxFieldset id="easteuropean" legend="East European" name="eth" selectAll={true} deselectAll={true}
-                values={["Russian", "Polish", "Hungarian", "Finnish", "Armenian"]}/>
-
-                <CheckboxFieldset id="european" legend="European" name="eth" selectAll={true} deselectAll={true}
-                values={["Spanish", "Dutch", "French", "Gaulic", "German", "Norse"]}/>
-            </div>
-
-            <div className="twoGroup">
-                <CheckboxFieldset id="asian" legend="Asian" name="eth" selectAll={true} deselectAll={true}
-                values ={["Chinese", "Japanese", "Mongolian", "Korean", "Indian"]}/>
-
-                <CheckboxFieldset id="misc" legend="Miscellaneous" name="eth" selectAll={true} deselectAll={true}
-                values ={["African", "Native American", "Aboriginal", "Hebrew", "Romani", "Oceanic"]}/>
-            </div>
+             {fieldsets}
         </div>
         <div id="gen">
             <p>what gender names?</p>
             <GenderSelector/>
 
-            <p>want last names?</p>
+            <p>want last names? (note: not all cultures have surnames)</p>
             <LastNameToggle/>
 
             <p>how many names?</p>
