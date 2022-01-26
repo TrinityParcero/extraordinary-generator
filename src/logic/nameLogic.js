@@ -1,118 +1,85 @@
-const nameData = require('../json/name.json');
 const nameMap = require('../json/nameMap.json');
 
-// TODO: break down prepare name set funcs into smaller chunks so there is less repeated logic
+function importAll(r) {
+    return r.keys().map(r);
+};
+const nameData = importAll(require.context('./../json/names', false, /\.(json)$/));
 
 /**
- * takes char page input and compiles an appropriate list of possible names
  * 
- * @returns {object} set of names to use in generation
+ * @returns {Object} selections for eth, gender, and lastname
  */
-const prepareNameSetChar = () => {
-    const validNames = {
-        firstNames: [],
-        lastNames: [],
+const getSelectionsChar = () => {
+    // TODO: change this to only get selections from name section
+    const selectedInputs = Array.from(document.querySelectorAll('input:checked'));
+
+    const selections = {
+        ethSelections: []
     };
 
-    const allSelections = Array.from(document.querySelectorAll('input:checked'));
-
-    let ethSelections = [];
+    // inputs on char page are not eths, they are categories
+    const ethCategorySelections = [];
     let genderSelection;
-    let lastNames;
 
-    for (const input of allSelections) {
+    for (const input of selectedInputs) {
         switch (input.name) {
             case 'eth':
-                ethSelections.push(input.value);
+                ethCategorySelections.push(input.value);
                 break;
             case 'gender':
                 genderSelection = input.value;
                 break;
             case 'last':
-                lastNames = input.value;
+                selections.lastNames = input.value;
                 break;
             default:
         }
     }
 
     // check to make sure we've got all the necessary selections
-    if (ethSelections.length < 1 ||
+    if (ethCategorySelections.length < 1 ||
         !genderSelection ||
-        lastNames === undefined) {
+        selections.lastNames === undefined) {
         console.log('missing a vital param, returning');
         return;
     }
 
     // this will be important for camelcasing later
-    genderSelection = `${genderSelection.charAt(0).toUpperCase()}${genderSelection.slice(1)}`;
+    selections.genderSelection = `${genderSelection.charAt(0).toUpperCase()}${genderSelection.slice(1)}`;
 
     // char page does not have direct eths, has categories, must expand from map
-    const nameEths = [];
-    for (const eth of ethSelections) {
+    for (const eth of ethCategorySelections) {
         if (!nameMap[eth]) {
             console.log(`Woops! couldn't find map value for ${eth}`);
         }
         else {
-            nameEths.push(...nameMap[eth]);
+            selections.ethSelections.push(...nameMap[eth]);
         }
     }
 
-    for (const eth of nameEths) {
-        // welsh is a special case, names are unisex
-        if (eth === 'welsh') {
-            validNames.firstNames.push(...nameData.welsh);
-        }
-        else if (genderSelection === 'Both') {
-            const maleNames = nameData[`${eth}Male`];
-            const femaleNames = nameData[`${eth}Female`];
-            if (maleNames) {
-                validNames.firstNames.push(...maleNames);
-            }
-            if (femaleNames) {
-                validNames.firstNames.push(...femaleNames);
-            }
-        }
-        else {
-            const genderNames = nameData[`${eth}${genderSelection}`];
-            if (genderNames) {
-                validNames.firstNames.push(...genderNames);
-            }
-        }
-
-        if (lastNames === 'true') {
-            const familyNames = nameData[`${eth}Family`];
-            if (familyNames) {
-                validNames.lastNames.push(...familyNames);
-            }
-        }
-    }
-
-    return validNames;
+    return selections;
 };
 
 /**
- * takes input and compiles an appropriate list of possible names
  * 
- * @returns {object} set of names to use in generation
+ * @returns {Object} selections for eth, gender, and lastnames
  */
-const prepareNameSet = () => {
+const getSelectionsName = () => {
     const genBox = document.getElementById('generator');
-    const validNames = {
-        firstNames: [],
-        lastNames: [],
+
+    const selectedInputs = Array.from(document.querySelectorAll('input:checked'));
+
+    const selections = {
+        ethSelections: []
     };
 
-    const allSelections = Array.from(document.querySelectorAll('input:checked'));
-
-    let ethSelections = [];
-    let genderSelection;
-    let lastNames;
     let numSelection;
+    let genderSelection;
 
-    for (const input of allSelections) {
+    for (const input of selectedInputs) {
         switch (input.name) {
             case 'eth':
-                ethSelections.push(input.value);
+                selections.ethSelections.push(input.value);
                 break;
             case 'gender':
                 genderSelection = input.value;
@@ -121,16 +88,16 @@ const prepareNameSet = () => {
                 numSelection = input.value;
                 break;
             case 'last':
-                lastNames = input.value;
+                selections.lastNames = input.value;
                 break;
             default:
         }
     }
 
     // check to make sure we've got all the necessary selections
-    if (ethSelections.length < 1 ||
+    if (selections.ethSelections.length < 1 ||
         !genderSelection ||
-        lastNames === undefined) {
+        selections.lastNames === undefined) {
         console.log('missing a vital param, returning');
         return;
     }
@@ -140,7 +107,7 @@ const prepareNameSet = () => {
     }
 
     // this will be important for camelcasing later
-    genderSelection = `${genderSelection.charAt(0).toUpperCase()}${genderSelection.slice(1)}`;
+    selections.genderSelection = `${genderSelection.charAt(0).toUpperCase()}${genderSelection.slice(1)}`;
 
     // futz with size of genBox
     if (numSelection === '1') {
@@ -150,6 +117,24 @@ const prepareNameSet = () => {
     } else if (numSelection === '10') {
         genBox.style.height = '350px';
     }
+
+    return selections;
+};
+
+/**
+ * 
+ * @param {Array} ethSelections name origins user has selected
+ * @param {String} genderSelection gender option user has selected
+ * @param {String} lastNames "true" if user wants last names
+ * @returns {Object} valid names
+ */
+const setupNameSets = (ethSelections, genderSelection, lastNames) => {
+    console.log(nameData);
+
+    const validNames = {
+        firstNames: [],
+        lastNames: [],
+    };
 
     for (const eth of ethSelections) {
         // welsh is a special case, names are unisex
@@ -251,13 +236,15 @@ const displayNames = (names) => {
  * @param {string} page name of page this is being used on
  */
 const generateNames = (page) => {
-    let possibleNames;
+    let selections;
     if (page === 'char') {
-        possibleNames = prepareNameSetChar();
+        selections = getSelectionsChar();
     }
     else {
-        possibleNames = prepareNameSet();
+        selections = getSelectionsName();
     }
+    const possibleNames = setupNameSets(selections.ethSelections, selections.genderSelection, selections.lastNames);
+
     if (!possibleNames) {
         console.log('Woops! You goofed it Trin! No possible names');
         return;
