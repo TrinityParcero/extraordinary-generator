@@ -1,7 +1,12 @@
 const nameMap = require('../json/nameMap.json');
 
-function importAll(r) {
-    const nameArray = r.keys().map(r);
+/**
+ * 
+ * @param {*} files require context for name files
+ * @returns {Object} compiled name data
+ */
+const importNames = (files) => {
+    const nameArray = files.keys().map(files);
     const namesObj = {
         ...nameArray
     };
@@ -12,10 +17,9 @@ function importAll(r) {
             ...value
         };
     }
-    console.log(nameDataTemp);
     return nameDataTemp;
 };
-const nameData = importAll(require.context('./../json/names', false, /\.(json)$/));
+const nameData = importNames(require.context('./../json/names', false, /\.(json)$/));
 
 /**
  * 
@@ -141,8 +145,6 @@ const getSelectionsName = () => {
  * @returns {Object} valid names
  */
 const setupNameSets = (ethSelections, genderSelection, lastNames) => {
-    console.log(nameData);
-
     const validNames = {
         firstNames: [],
         lastNames: [],
@@ -170,6 +172,7 @@ const setupNameSets = (ethSelections, genderSelection, lastNames) => {
             }
         }
 
+        // TODO: add check for whether eth has last names, uses patronyms, etc.
         if (lastNames === 'true') {
             const familyNames = nameData[`${eth}Family`];
             if (familyNames) {

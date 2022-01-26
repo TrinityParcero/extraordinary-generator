@@ -45,18 +45,18 @@ class CharacterPage extends React.Component{
                                 do whatever
                             </button>
                             <legend>Name</legend>
-                            <CheckboxFieldset id="nameOrigin" legend="Origin" name="eth" selectAll={false} deselectAll={false}
+                            <CheckboxFieldset id="nameOrigin" legend="Origin" name="eth" selectAll={false} deselectAll={false} defaultChecked={true}
                             values={[
                                 "African", 
                                 "American", 
-                                "Ancient", 
-                                "Asian", 
-                                "British And Irish", 
-                                "East European", 
-                                "Mediterranean", 
-                                "Middle Eastern", 
-                                "North European", 
-                                "West European",
+                                "EastAsian", 
+                                "Indic", 
+                                "Semitic", 
+                                "Hellenic", 
+                                "Romance", 
+                                "Celtic", 
+                                "Germanic", 
+                                "Slavic-Uralic",
                                 "Miscellaneous"
                             ]}/>
         
@@ -76,25 +76,25 @@ class CharacterPage extends React.Component{
                             select all
                         </button>
                         <legend>Race</legend>
-                        <CheckboxFieldset id="racePhb" legend="Player's Handbook" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="racePhb" legend="Player's Handbook" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Dragonborn", "Dwarf", "Elf", "Gnome", "Halfling", "Half-Orc", "Tiefling", "Human", "Half-Elf"]}/>
         
-                        <CheckboxFieldset id="raceEberron" legend="Eberron" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="raceEberron" legend="Eberron" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Changeling", "Shifter", "Warforged", "Kalashtar"]}/>
         
-                        <CheckboxFieldset id="raceVolos" legend="Volo's Guide" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="raceVolos" legend="Volo's Guide" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Aasimar", "Firbolg", "Hobgoblin", "Kobold", "Orc", "Triton", "Bugbear", "Goblin", "Kenku", "Lizardfolk", "Tabaxi", "Yuan-ti Pureblood"]}/>
         
-                        <CheckboxFieldset id="raceRavnica" legend="Ravnica" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="raceRavnica" legend="Ravnica" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Centaur", "Minotaur", "Vedalken", "Loxodon", "Simic Hybrid"]}/>
         
-                        <CheckboxFieldset id="raceUA" legend="Unearthed Arcana" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="raceUA" legend="Unearthed Arcana" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Merfolk"]}/>
         
-                        <CheckboxFieldset id="raceMordekainens" legend="Mordekainen's Tome" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="raceMordekainens" legend="Mordekainen's Tome" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Gith", "Eladrin"]}/> 
         
-                        <CheckboxFieldset id="misc" legend="Miscellaneous" name="race" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="misc" legend="Miscellaneous" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Tortle", "Verdan", "Aarakocra", "Genasi", "Goliath"]}/>
                     </fieldset>
                 </div>
@@ -106,13 +106,13 @@ class CharacterPage extends React.Component{
                             select all
                         </button>
                         <legend>Class</legend>
-                        <CheckboxFieldset id="classPhb" legend="Player's Handbook" name="class" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="classPhb" legend="Player's Handbook" name="class" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]}/>
                         
-                        <CheckboxFieldset id="classEberron" legend="Eberron" name="class" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="classEberron" legend="Eberron" name="class" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Artificer"]}/>
         
-                        <CheckboxFieldset id="classMisc" legend="Miscellaneous" name="class" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="classMisc" legend="Miscellaneous" name="class" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Blood Hunter"]}/>
                         
                     </fieldset>
@@ -126,19 +126,19 @@ class CharacterPage extends React.Component{
                         </button>
                         <legend>Background</legend>
         
-                        <CheckboxFieldset id="bgPhb" legend="Player's Handbook" name="bg" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="bgPhb" legend="Player's Handbook" name="bg" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Acolyte", "Charlatan", "Criminal", "Entertainer", "Gladiator", "Folk Hero", "Guild Artisan", "Hermit", "Noble", 
                         "Knight", "Outlander", "Sage", "Sailor", "Pirate", "Soldier", "Urchin"]}/>
                         
-                        <CheckboxFieldset id="bgScag" legend="Sword Coast" name="bg" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="bgScag" legend="Sword Coast" name="bg" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["City Watch", "Courtier", "Faction Agent", "Far Traveler", "Inheritor", "Cloistered Scholar", "Mercenary Veteran",
                         "Uthgardt Tribe Member", "Clan Crafter", "Knight of the Order", "Urban Bounty Hunter", "Waterdhavian Noble"]}/>
         
-                        <CheckboxFieldset id="bgRavnica" legend="Ravnica" name="bg" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="bgRavnica" legend="Ravnica" name="bg" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Azorius Functionary", "Dimir Operative", "Gruul Anarch", "Orzhov Representative", "Selesnya Initiate", 
                         "Boros Legionnaire", "Golgari Agent", "Izzet Engineer", "Rakdos Cultist", "Simic Scientist"]}/>
         
-                        <CheckboxFieldset id="bgMisc" legend="Miscellaneous" name="bg" selectAll={true} deselectAll={true}
+                        <CheckboxFieldset id="bgMisc" legend="Miscellaneous" name="bg" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Celebrity Adventurer's Scion", "Gambler", "Rival Intern", "Failed Merchant", "Plaintiff", "Faceless",
                         "Fisher", "Marine", "Smuggler", "Shipwright", "Anthropologist", "Archaeologist", "Haunted One"]}/>
         

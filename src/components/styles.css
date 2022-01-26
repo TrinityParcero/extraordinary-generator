@@ -2,6 +2,7 @@
 body {
     margin: 0 auto;
     margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 a {
     text-decoration: none;
@@ -60,6 +61,9 @@ li {
     width: 120px;
     display: inline-block;
     margin-right: 100px;
+}
+#gen p {
+    width: 400px;
 }
 #generated {
     background-color: white;
@@ -206,9 +210,10 @@ footer p {
     padding: 10px 20px;
     width: 480px;
     float: left;
+    margin-bottom: 100px;
 }
 #eth fieldset {
-    width: 480px;
+    width: 520px;
     height: 50px;
     margin: 10px;
     margin-top: 4px;
@@ -383,6 +388,12 @@ button p {
     #namePage {
         margin-top: 0px;
     }
+    #eth {
+        margin-bottom: 20px;
+    }
+    #gen p {
+        width: 150px;
+    }
     #namePage #gen fieldset {
         width: 200px;
         margin: 0 auto;
@@ -536,8 +547,14 @@ button p {
     #eth #misc {
         height: auto;
     }
+    #eth label {
+        margin-left: 8px;
+    }
     #gen label {
         margin-right: 20px;
+    }
+    #gen p {
+        width: 400px;
     }
     .allButton,
     .noneButton {

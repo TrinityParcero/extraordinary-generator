@@ -18,11 +18,11 @@ Known Issues / Planned Improvements
 
 -   dig into Asian names - Chinese and Korean def need accuracy checking
 
+-   break down Indian names into actual cultural groups
+
 -   add logic for Welsh names
 
--   add some kind of warning when user has selected Yes for last names but has sources selected with no last names available
-
--   special family name cases - Oromo, Amharic, and Igbo use fathers name as second name so use a male name
+-   set up patronym surname handling
 
 ### Characters
 

@@ -12,6 +12,7 @@ class CheckboxFieldset extends React.Component{
         this.selectAll = props.selectAll;     // whether or not to include a select all button
         this.deselectAll = props.deselectAll; // whether or not to include a deselect all button
         this.values = props.values;           // value and label for each checkbox option
+        this.defaultChecked = props.defaultChecked; // whether inputs are checked by default
     }
 
     render(){
@@ -45,7 +46,7 @@ class CheckboxFieldset extends React.Component{
                 {this.values.map(inputValue =>
                     <div className="option">
                         <input type="checkbox" id={`${this.id}${this.values.indexOf(inputValue)+1}`} name={this.name} 
-                        value={inputValue.replaceAll(' ', '').replaceAll('\'', '').toLowerCase()} defaultChecked={true}/>
+                        value={inputValue.replaceAll(' ', '').replaceAll('\'', '').toLowerCase()} defaultChecked={this.defaultChecked}/>
                         <label htmlFor={`${this.id}${this.values.indexOf(inputValue)+1}`}>{inputValue}</label>
                     </div>
                 )}
@@ -92,15 +93,15 @@ class AlignmentSelector extends React.Component{
             <fieldset id="alignmentFieldset">
                 <legend>Alignment</legend>
                 <span className="pairedSelectors">
-                    <CheckboxFieldset id="goodFieldset" name="align" selectAll={true} deselectAll={true} 
+                    <CheckboxFieldset id="goodFieldset" name="align" selectAll={true} deselectAll={true} defaultChecked={true}
                     values={['Lawful Good', 'Neutral Good', 'Chaotic Good']}/>
                 </span>
                 <span className="pairedSelectors">
-                <CheckboxFieldset id="neutralFieldset" name="align" selectAll={true} deselectAll={true} 
+                <CheckboxFieldset id="neutralFieldset" name="align" selectAll={true} deselectAll={true} defaultChecked={true}
                     values={['Lawful Neutral', 'True Neutral', 'Chaotic Neutral']}/>
                 </span>
                 <span className="pairedSelectors">
-                <CheckboxFieldset id="evilFieldset" name="align" selectAll={true} deselectAll={true} 
+                <CheckboxFieldset id="evilFieldset" name="align" selectAll={true} deselectAll={true} defaultChecked={true}
                     values={['Lawful Evil', 'Neutral Evil', 'Chaotic Evil']}/>
                 </span>
             </fieldset>

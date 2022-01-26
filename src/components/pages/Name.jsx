@@ -13,7 +13,7 @@ function Names() {
     // go through namemap and make a fieldset for each entry
     for(const [key, value] of nameMap){
         fieldsets.push(
-            <CheckboxFieldset id={key} legend={key} name="eth" selectAll={true} deselectAll={true}
+            <CheckboxFieldset id={key} legend={key} name="eth" selectAll={true} deselectAll={true} defaultChecked={false}
             values = {value}/>
         );
     }
@@ -28,7 +28,7 @@ function Names() {
             <p>what gender names?</p>
             <GenderSelector/>
 
-            <p>want last names?</p>
+            <p>want last names? (note: not all cultures have surnames)</p>
             <LastNameToggle/>
 
             <p>how many names?</p>
