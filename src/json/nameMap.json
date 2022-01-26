@@ -3,7 +3,7 @@
     "american": ["quechua", "aztecan", "algonquin", "athabaskan", "muskogean"],
     "ancient": ["gaulic", "ancient greek", "norse", "medieval"],
     "asian": ["chinese", "japanese", "mongolian", "korean", "indian"],
-    "british&irish": ["welsh", "cornish", "english", "gaelic"],
+    "britishandirish": ["welsh", "cornish", "english", "gaelic"],
     "easteuropean": ["russian", "polish", "hungarian"],
     "mediterranean": ["greek", "italian", "spanish"],
     "middleeastern": ["arabic", "hebrew", "armenian"],

@@ -1,7 +1,19 @@
 const nameMap = require('../json/nameMap.json');
 
 function importAll(r) {
-    return r.keys().map(r);
+    const nameArray = r.keys().map(r);
+    const namesObj = {
+        ...nameArray
+    };
+    let nameDataTemp = {};
+    for (const value of Object.values(namesObj)) {
+        nameDataTemp = {
+            ...nameDataTemp,
+            ...value
+        };
+    }
+    console.log(nameDataTemp);
+    return nameDataTemp;
 };
 const nameData = importAll(require.context('./../json/names', false, /\.(json)$/));
 

@@ -72,4 +72,3 @@ Status
 -   https://ethiopia.limbo13.com/index.php/ethiopian_names/ethiopian_names_a/ (Amharic names)
 -   https://oromobabynames.com/ (Oromo names)
 -   https://www.myigboname.com/ (Igbo names)
--   https://www.yorubaname.com/ (Yoruba names)

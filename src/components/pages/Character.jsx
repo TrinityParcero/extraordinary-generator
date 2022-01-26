@@ -51,7 +51,7 @@ class CharacterPage extends React.Component{
                                 "American", 
                                 "Ancient", 
                                 "Asian", 
-                                "British & Irish", 
+                                "British And Irish", 
                                 "East European", 
                                 "Mediterranean", 
                                 "Middle Eastern", 
