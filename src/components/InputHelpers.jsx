@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { AllButton, NoneButton } from './MultiButtons';
+import { AllButton } from './MultiButtons';
 
 class CheckboxFieldset extends React.Component{
     constructor(props){
@@ -23,7 +23,7 @@ class CheckboxFieldset extends React.Component{
                 multiButtons = 
                 <div>
                     <AllButton id={this.id}/>
-                    <NoneButton id={this.id}/>
+                    <AllButton id={this.id} negate={true} text="deselect all"/>
                 </div>;
             }
             else{

@@ -26,8 +26,7 @@ const nameData = importNames(require.context('./../json/names', false, /\.(json)
  * @returns {Object} selections for eth, gender, and lastname
  */
 const getSelectionsChar = () => {
-    // TODO: change this to only get selections from name section
-    const selectedInputs = Array.from(document.querySelectorAll('input:checked'));
+    const selectedInputs = Array.from(document.querySelectorAll('#nameFieldset input:checked'));
 
     const selections = {
         ethSelections: []
@@ -257,6 +256,13 @@ const generateNames = (page) => {
     }
     else {
         selections = getSelectionsName();
+        if (!selections) {
+            console.log("Try pickin some stuff, pal!");
+            const genText = document.getElementById('generated');
+            genText.innerHTML = '';
+            genText.innerHTML = "make sure you've selected at least one source culture please!";
+            return;
+        }
     }
     const possibleNames = setupNameSets(selections.ethSelections, selections.genderSelection, selections.lastNames);
 
@@ -266,7 +272,7 @@ const generateNames = (page) => {
     }
     const generatedNames = getRandomNames(possibleNames.firstNames, possibleNames.lastNames);
     if (page === 'char') {
-        return generatedNames;
+        return generatedNames[0];
     }
     else {
         displayNames(generatedNames);
