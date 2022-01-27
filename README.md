@@ -36,7 +36,6 @@ Known Issues / Planned Improvements
 
 -   Maybe make subclasses and subraces optional?
 -   Maybe change default selections to be only PHB options? Or make a "Only give me basic PHB stuff" button
--   Select all buttons for race, class and background don't work
 -   Add some nice css animations to collapsibles and generation?
 
 ### Trinkets
