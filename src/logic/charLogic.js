@@ -13,7 +13,7 @@ const generateChar = () => {
     const genSpot = document.getElementById('generator');
 
     const alignment = generateAlignment();
-    const name = generateNames('char')[0];
+    const name = generateNames('char');
     const race = generateRace();
     const charClass = generateClass();
     const bg = generateBackground();

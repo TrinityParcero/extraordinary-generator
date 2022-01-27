@@ -1,6 +1,7 @@
 import React from "react";
 
 import { AlignmentSelector, CheckboxFieldset, GenderSelector, LastNameToggle} from '../InputHelpers';
+import { CategoryAllButton } from '../MultiButtons';
 import { Collapsible } from '../Collapsible';
 
 import { generateChar } from '../../logic/charLogic';
@@ -72,9 +73,8 @@ class CharacterPage extends React.Component{
                 <div className="block" id="race">
                     <Collapsible name="race" content='raceFieldset'/>
                     <fieldset id="raceFieldset">
-                        <button className="allButton" id="raceAll">
-                            select all
-                        </button>
+                        <CategoryAllButton categoryId="raceFieldset"></CategoryAllButton>
+                        <CategoryAllButton categoryId="raceFieldset" negate={true} text="deselect all"></CategoryAllButton>
                         <legend>Race</legend>
                         <CheckboxFieldset id="racePhb" legend="Player's Handbook" name="race" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Dragonborn", "Dwarf", "Elf", "Gnome", "Halfling", "Half-Orc", "Tiefling", "Human", "Half-Elf"]}/>
@@ -102,9 +102,8 @@ class CharacterPage extends React.Component{
                 <div className="block" id="class">
                     <Collapsible name="class" content='classFieldset'/>
                     <fieldset id="classFieldset">
-                        <button className="allButton" id="classAll">
-                            select all
-                        </button>
+                        <CategoryAllButton categoryId="classFieldset"></CategoryAllButton>
+                        <CategoryAllButton categoryId="classFieldset" negate={true} text="deselect all"></CategoryAllButton>
                         <legend>Class</legend>
                         <CheckboxFieldset id="classPhb" legend="Player's Handbook" name="class" selectAll={true} deselectAll={true} defaultChecked={true}
                         values={["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]}/>
@@ -121,9 +120,8 @@ class CharacterPage extends React.Component{
                 <div className="block" id="background">
                     <Collapsible name="background" content='bgFieldset'/>
                     <fieldset id="bgFieldset">
-                        <button className="allButton" id="backgroundAll">
-                            select all
-                        </button>
+                        <CategoryAllButton categoryId="bgFieldset"></CategoryAllButton>
+                        <CategoryAllButton categoryId="bgFieldset" negate={true} text="deselect all"></CategoryAllButton>
                         <legend>Background</legend>
         
                         <CheckboxFieldset id="bgPhb" legend="Player's Handbook" name="bg" selectAll={true} deselectAll={true} defaultChecked={true}

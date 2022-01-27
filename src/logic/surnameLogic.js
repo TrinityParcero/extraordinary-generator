@@ -1,6 +1,5 @@
 const Patronym = "PATRONYM";
 const None = "NONE";
-const Special = "SPECIAL";
 const Standard = "STANDARD";
 
 // TODO: find a less hardcoded solution to this
