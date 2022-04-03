@@ -143,7 +143,13 @@ class Slider extends React.Component{
     constructor(props){
         super(props);
         this.id = props.id;                           // id of input
-        this.min = props.min || 0;                    // min val for slider
+        if(isNaN(parseInt(props.min))){               // min val for slider
+            this.min = 1; 
+            this.stringMin = props.min;               // if a non number string is provided, use 1 as base
+        } else{
+            this.min = props.min || 0;
+            this.stringMin = this.min; 
+        }
         this.max = props.max || 100;                  // max val for slider
         this.name = props.name;                       // main label for slider
         this.defaultValue = props.defaultValue || 50; // starting position for slider
@@ -162,7 +168,7 @@ class Slider extends React.Component{
             <div className="slidecontainer">
                 <label className="topLabel" htmlFor={this.id}>{this.name}</label>
                 <input className="slider" id={this.id} step={this.step} type="range" min={this.min} max={this.max} defaultValue={this.defaultValue} onChange={this.updateValue}/>
-                <label htmlFor={this.id} className="leftLabel" style={{marginRight:this.offset+'%'}}>{this.min}</label>
+                <label htmlFor={this.id} className="leftLabel" style={{marginRight:this.offset+'%'}}>{this.stringMin}</label>
                 <p className="displayVal" id={this.displayId}>{this.defaultValue}</p>
                 <label htmlFor={this.id} className="rightLabel" style={{marginLeft:this.offset+'%'}}>{this.max}</label>
             </div>

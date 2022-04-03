@@ -1,0 +1,433 @@
+{
+    "magic": {
+        "low": [
+            {
+
+            }
+        ]
+    },
+    "nonMagic": {
+        "common": {
+            "coin": [
+            {
+                "name": "Copper",
+                "goldValue": ".01",
+                "itemType": "Coin",
+                "rarity": "1" ,
+                "score": ".01"
+            },
+            {
+                "name": "Silver",
+                "goldValue": ".1",
+                "itemType": "Coin",
+                "rarity": "1",
+                "score": ".1"
+            },
+            {
+                "name": "Gold",
+                "goldValue": "1",
+                "itemType": "Coin",
+                "rarity": "1",
+                "score": "1"
+            }
+            ],
+            "armor": [
+            {
+                "name": "Padded Armor",
+                "goldValue": "5",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "5"
+            },
+            {
+                "name": "Leather Armor",
+                "goldValue": "10",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "10"
+            },
+            {
+                "name": "Hide Armor",
+                "goldValue": "10",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "10"
+            },
+            {
+                "name": "Ringmail Armor",
+                "goldValue": "30",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "30"
+            },
+            {
+                "name": "Shield",
+                "goldValue": "10",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "10"
+            }
+            ],
+            "weapon": [
+                {
+                    "name": "Club",
+                    "goldValue": ".1",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": ".1"
+                },
+                {
+                    "name": "Dagger",
+                    "goldValue": "2",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "1"
+                },
+                {
+                    "name": "Handaxe",
+                    "goldValue": "5",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "5"
+                },
+                {
+                    "name": "Javelin",
+                    "goldValue": ".05",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": ".05"
+                },
+                {
+                    "name": "Light Hammer",
+                    "goldValue": "2",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "2"
+                },
+                {
+                    "name": "Mace",
+                    "goldValue": "5",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "5"
+                },
+                {
+                    "name": "Quarterstaff",
+                    "goldValue": ".02",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": ".02"
+                },
+                {
+                    "name": "Sickle",
+                    "goldValue": "1",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "1"
+                },
+                {
+                    "name": "Spear",
+                    "goldValue": "1",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "1"
+                },
+                {
+                    "name": "Battleaxe",
+                    "goldValue": "10",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "10"
+                },
+                {
+                    "name": "Flail",
+                    "goldValue": "10",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "10"
+                },
+                {
+                    "name": "Glaive",
+                    "goldValue": "20",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "20"
+                },
+                {
+                    "name": "Halberd",
+                    "goldValue": "20",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "20"
+                },
+                {
+                    "name": "Lance",
+                    "goldValue": "10",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "10"
+                },
+                {
+                    "name": "Longsword",
+                    "goldValue": "15",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "15"
+                },
+                {
+                    "name": "Maul",
+                    "goldValue": "10",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "10"
+                },
+                {
+                    "name": "Morningstar",
+                    "goldValue": "15",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "15"
+                },
+                {
+                    "name": "Pike",
+                    "goldValue": "5",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "5"
+                },
+                {
+                    "name": "Shortsword",
+                    "goldValue": "10",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "10"
+                },
+                {
+                    "name": "War Pick",
+                    "goldValue": "5",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "5"
+                },
+                {
+                    "name": "Warhammer",
+                    "goldValue": "15",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "15"
+                },
+                {
+                    "name": "Whip",
+                    "goldValue": "2",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "2"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "goldValue": "25",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "25"
+                },
+                {
+                    "name": "Dart (20)",
+                    "goldValue": ".1",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": ".1"
+                },
+                {
+                    "name": "Shortbow",
+                    "goldValue": "25",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "25"
+                },
+                {
+                    "name": "Sling",
+                    "goldValue": ".01",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": ".01"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "goldValue": "50",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "50"
+                },
+                {
+                    "name": "Longbow",
+                    "goldValue": "50",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "1"
+                }
+            ],
+            "gear": [
+                {
+                    "name": "Abacus",
+                    "goldValue": "2",
+                    "score": "2"
+                },
+                {
+                    "name": "Vial of Acid",
+                    "goldValue": "25",
+                    "score": "25"
+                },
+                {
+                    "name": "Vial of Antitoxin",
+                    "goldValue": "50",
+                    "score": "50"
+                }
+            ]
+        },
+        "uncommon": {
+            "coin": [
+            {
+                "name": "Platinum",
+                "goldValue": "10",
+                "itemType": "Coin",
+                "rarity": "1",
+                "score": "10"
+            }
+            ],
+            "armor": [
+            {
+                "name": "Studded Leather Armor",
+                "goldValue": "45",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "45"
+            },
+            {
+                "name": "Chain Shirt",
+                "goldValue": "50",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "50"
+            },
+            {
+                "name": "Scalemail Armor",
+                "goldValue": "50",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "50"
+            },
+            {
+                "name": "Chainmail Armor",
+                "goldValue": "75",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "75"
+            }
+            ],
+            "weapon": [
+                {
+                    "name": "Greatclub",
+                    "goldValue": ".02",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": ".02"
+                },
+                {
+                    "name": "Greataxe",
+                    "goldValue": "30",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "30"
+                },
+                {
+                    "name": "Greatsword",
+                    "goldValue": "50",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "50"
+                },
+                {
+                    "name": "Rapier",
+                    "goldValue": "25",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "25"
+                },
+                {
+                    "name": "Scimitar",
+                    "goldValue": "25",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "25"
+                },
+                {
+                    "name": "Trident",
+                    "goldValue": "5",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "5"
+                },
+                {
+                    "name": "Blowgun",
+                    "goldValue": "10",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "10"
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "goldValue": "75",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "75"
+                },
+                {
+                    "name": "Net",
+                    "goldValue": "1",
+                    "itemType": "Weapon",
+                    "rarity": "1",
+                    "score": "1"
+                }
+            ],
+            "gear": [
+                {
+                    "name": "Flask of Alchemist's Fire",
+                    "goldValue": "50",
+                    "score": "50"
+                }
+            ]
+        },
+        "rare": {
+            "armor": [
+            {
+                "name": "Splint Armor",
+                "goldValue": "200",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "200"
+            },
+            {
+                "name": "Plate Armor",
+                "goldValue": "1500",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "1500"
+            },
+            {
+                "name": "Breastplate",
+                "goldValue": "400",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "400"
+            },
+            {
+                "name": "Half Plate Armor",
+                "goldValue": "750",
+                "itemType": "Armor",
+                "rarity": "1",
+                "score": "750"
+            }
+            ]
+        }
+    }
+}

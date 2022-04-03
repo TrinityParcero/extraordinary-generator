@@ -1,11 +1,11 @@
 import React from "react";
-import { Slider } from '../InputHelpers';
+import { CheckboxFieldset, Slider } from '../InputHelpers';
 
 function Loot() {
   return (
     <main id="lootPage">
       {/**party */}
-      <div className="block" id="party">
+      <div className="column" id="party">
         <fieldset id="partyFieldset">
           <legend>Party Size</legend>
           {/**size */}
@@ -28,13 +28,20 @@ function Loot() {
         <Slider name="Party Level" id="levelRange" min="1" max="20" defaultValue="5" offset="45"/>
         <div id="miscStuff">
         {/**loot level */}
-        <Slider name="Loot Level" id="lootRange" defaultValue="20" min="Some Guy's Pocket" max="Dragon Hoard" offset="23" step="20"/>
+        <Slider name="How much loot?" id="lootRange" defaultValue="20" min="Some Guy's Pocket" max="Dragon Hoard" offset="23"/>
+        {/**magic level */}
+        <Slider name="How much magic in your setting?" id="magicRange" min="No Magic" max="High Magic" offset="30"/>
         {/**include */}
-        {/**gen */}
+        <CheckboxFieldset id="includeSet" legend="Include..." name="include" selectAll={true} deselectAll={true} defaultChecked={true} values={[
+          "Coins", "Valuables", "Staves and Wands", "Melee Weapons", "Ranged Weapons", "Armor", "Trinkets", "Spell Components"
+        ]}/>
+        </div>
       </div>
+      {/**gen */}
+      <div id="genDiv">
+        <div id="generator"></div>
+        <button id="genButton">generate</button>
       </div>
-      <div id="generator"></div>
-      <button id="genButton">generate</button>
     </main>
   );
 }
