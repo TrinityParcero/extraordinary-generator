@@ -2,7 +2,7 @@
     "african": ["somali", "amharic", "oromo", "igbo"],
     "american": ["quechua", "aztecan", "algonquin", "athabaskan", "muskogean"],
     "eastasian": ["chinese", "japanese", "korean"],
-    "indic": ["indian"],
+    "indic": ["hindu", "bengali"],
     "semitic": ["arabic", "hebrew"],
     "hellenic": ["greek", "ancient greek"],
     "romance": ["french", "spanish", "italian"],

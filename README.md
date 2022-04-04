@@ -18,8 +18,6 @@ Known Issues / Planned Improvements
 
 -   dig into Asian names - Chinese and Korean def need accuracy checking
 
--   break down Indian names into actual cultural groups
-
 -   add logic for Welsh names
 
 -   set up patronym surname handling
@@ -70,3 +68,5 @@ Status
 -   https://ethiopia.limbo13.com/index.php/ethiopian_names/ethiopian_names_a/ (Amharic names)
 -   https://oromobabynames.com/ (Oromo names)
 -   https://www.myigboname.com/ (Igbo names)
+-   https://hamariweb.com/names/hindu/ (Hindu names)
+-   https://www.bachpan.com (Bengali names)
