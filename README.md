@@ -48,13 +48,19 @@ Status
 
 Known Issues / Planned Improvements
 
+-   add icewind dale trinkets
+
 ### Loot
 
 Random loot generator that can be set to generate loot appropriate for the given party level and composition.
 
 Status
 
--   On deck for implementation
+-   Functioning!
+
+Known Issues / Planned Improvements
+
+-   Add more item info - descriptions, stats where applicable
 
 ## Name Sources
 

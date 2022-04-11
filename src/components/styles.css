@@ -293,7 +293,9 @@ footer p {
 }
 #lootPage {
     margin-top: 3%;
+    height: 800px;
 }
+
 #lootPage .column {
     width: 400px;
 }

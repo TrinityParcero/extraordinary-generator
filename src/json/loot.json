@@ -1,433 +1,5128 @@
 {
-    "magic": {
-        "low": [
-            {
-
-            }
-        ]
-    },
-    "nonMagic": {
-        "common": {
-            "coin": [
-            {
-                "name": "Copper",
-                "goldValue": ".01",
-                "itemType": "Coin",
-                "rarity": "1" ,
-                "score": ".01"
-            },
-            {
-                "name": "Silver",
-                "goldValue": ".1",
-                "itemType": "Coin",
-                "rarity": "1",
-                "score": ".1"
-            },
-            {
-                "name": "Gold",
-                "goldValue": "1",
-                "itemType": "Coin",
-                "rarity": "1",
-                "score": "1"
-            }
-            ],
-            "armor": [
-            {
-                "name": "Padded Armor",
-                "goldValue": "5",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "5"
-            },
-            {
-                "name": "Leather Armor",
-                "goldValue": "10",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "10"
-            },
-            {
-                "name": "Hide Armor",
-                "goldValue": "10",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "10"
-            },
-            {
-                "name": "Ringmail Armor",
-                "goldValue": "30",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "30"
-            },
-            {
-                "name": "Shield",
-                "goldValue": "10",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "10"
-            }
-            ],
-            "weapon": [
-                {
-                    "name": "Club",
-                    "goldValue": ".1",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": ".1"
-                },
-                {
-                    "name": "Dagger",
-                    "goldValue": "2",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "1"
-                },
-                {
-                    "name": "Handaxe",
-                    "goldValue": "5",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "5"
-                },
-                {
-                    "name": "Javelin",
-                    "goldValue": ".05",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": ".05"
-                },
-                {
-                    "name": "Light Hammer",
-                    "goldValue": "2",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "2"
-                },
-                {
-                    "name": "Mace",
-                    "goldValue": "5",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "5"
-                },
-                {
-                    "name": "Quarterstaff",
-                    "goldValue": ".02",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": ".02"
-                },
-                {
-                    "name": "Sickle",
-                    "goldValue": "1",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "1"
-                },
-                {
-                    "name": "Spear",
-                    "goldValue": "1",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "1"
-                },
-                {
-                    "name": "Battleaxe",
-                    "goldValue": "10",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "10"
-                },
-                {
-                    "name": "Flail",
-                    "goldValue": "10",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "10"
-                },
-                {
-                    "name": "Glaive",
-                    "goldValue": "20",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "20"
-                },
-                {
-                    "name": "Halberd",
-                    "goldValue": "20",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "20"
-                },
-                {
-                    "name": "Lance",
-                    "goldValue": "10",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "10"
-                },
-                {
-                    "name": "Longsword",
-                    "goldValue": "15",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "15"
-                },
-                {
-                    "name": "Maul",
-                    "goldValue": "10",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "10"
-                },
-                {
-                    "name": "Morningstar",
-                    "goldValue": "15",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "15"
-                },
-                {
-                    "name": "Pike",
-                    "goldValue": "5",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "5"
-                },
-                {
-                    "name": "Shortsword",
-                    "goldValue": "10",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "10"
-                },
-                {
-                    "name": "War Pick",
-                    "goldValue": "5",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "5"
-                },
-                {
-                    "name": "Warhammer",
-                    "goldValue": "15",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "15"
-                },
-                {
-                    "name": "Whip",
-                    "goldValue": "2",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "2"
-                },
-                {
-                    "name": "Light Crossbow",
-                    "goldValue": "25",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "25"
-                },
-                {
-                    "name": "Dart (20)",
-                    "goldValue": ".1",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": ".1"
-                },
-                {
-                    "name": "Shortbow",
-                    "goldValue": "25",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "25"
-                },
-                {
-                    "name": "Sling",
-                    "goldValue": ".01",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": ".01"
-                },
-                {
-                    "name": "Heavy Crossbow",
-                    "goldValue": "50",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "50"
-                },
-                {
-                    "name": "Longbow",
-                    "goldValue": "50",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "1"
-                }
-            ],
-            "gear": [
-                {
-                    "name": "Abacus",
-                    "goldValue": "2",
-                    "score": "2"
-                },
-                {
-                    "name": "Vial of Acid",
-                    "goldValue": "25",
-                    "score": "25"
-                },
-                {
-                    "name": "Vial of Antitoxin",
-                    "goldValue": "50",
-                    "score": "50"
-                }
-            ]
+    "loot": [
+       {
+            "name": "Crystal",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": true
         },
-        "uncommon": {
-            "coin": [
-            {
-                "name": "Platinum",
-                "goldValue": "10",
-                "itemType": "Coin",
-                "rarity": "1",
-                "score": "10"
-            }
-            ],
-            "armor": [
-            {
-                "name": "Studded Leather Armor",
-                "goldValue": "45",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "45"
-            },
-            {
-                "name": "Chain Shirt",
-                "goldValue": "50",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "50"
-            },
-            {
-                "name": "Scalemail Armor",
-                "goldValue": "50",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "50"
-            },
-            {
-                "name": "Chainmail Armor",
-                "goldValue": "75",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "75"
-            }
-            ],
-            "weapon": [
-                {
-                    "name": "Greatclub",
-                    "goldValue": ".02",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": ".02"
-                },
-                {
-                    "name": "Greataxe",
-                    "goldValue": "30",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "30"
-                },
-                {
-                    "name": "Greatsword",
-                    "goldValue": "50",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "50"
-                },
-                {
-                    "name": "Rapier",
-                    "goldValue": "25",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "25"
-                },
-                {
-                    "name": "Scimitar",
-                    "goldValue": "25",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "25"
-                },
-                {
-                    "name": "Trident",
-                    "goldValue": "5",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "5"
-                },
-                {
-                    "name": "Blowgun",
-                    "goldValue": "10",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "10"
-                },
-                {
-                    "name": "Hand Crossbow",
-                    "goldValue": "75",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "75"
-                },
-                {
-                    "name": "Net",
-                    "goldValue": "1",
-                    "itemType": "Weapon",
-                    "rarity": "1",
-                    "score": "1"
-                }
-            ],
-            "gear": [
-                {
-                    "name": "Flask of Alchemist's Fire",
-                    "goldValue": "50",
-                    "score": "50"
-                }
-            ]
+        {
+            "name": "Orb",
+            "goldValue": "20",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": true
         },
-        "rare": {
-            "armor": [
-            {
-                "name": "Splint Armor",
-                "goldValue": "200",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "200"
-            },
-            {
-                "name": "Plate Armor",
-                "goldValue": "1500",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "1500"
-            },
-            {
-                "name": "Breastplate",
-                "goldValue": "400",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "400"
-            },
-            {
-                "name": "Half Plate Armor",
-                "goldValue": "750",
-                "itemType": "Armor",
-                "rarity": "1",
-                "score": "750"
-            }
-            ]
+        {
+            "name": "Rod",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Staff",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Wand",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Sprig of Mistletoe",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Totem",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Wooden Staff",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Yew Wand",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Holy Amulet",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Holy Emblem",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Reliquary",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Cantrip)",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 1)",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Climbing",
+            "goldValue": "180",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Mariner's Armor",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Mithral Armor",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Swimming",
+            "goldValue": "3000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 2)",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Bag of Holding",
+            "goldValue": "2500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Driftglobe",
+            "goldValue": "750",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 3)",
+            "goldValue": "1000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Keoghtom's Ointment",
+            "goldValue": "200",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Dust of Disappearance",
+            "goldValue": "300",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Dust of Dryness",
+            "goldValue": "120",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Dust of Sneezing and Choking",
+            "goldValue": "480",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Elemental Gem (Emerald)",
+            "goldValue": "960",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Elemental Gem (Blue Sapphire)",
+            "goldValue": "960",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Elemental Gem (Yellow Diamond)",
+            "goldValue": "960",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Elemental Gem (Red Corundum)",
+            "goldValue": "960",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Alchemy Jug",
+            "goldValue": "6000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cap of Water Breathing",
+            "goldValue": "1000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of the Manta Ray",
+            "goldValue": "6000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Goggles of Night",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Helm of Comprehend Languages",
+            "goldValue": "500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Immovable Rod",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Lantern of Revealing",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Robe of Useful Items (5 patches)",
+            "goldValue": "5090",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Rope of Climbing",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Saddle of the Cavalier",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Magic Detection",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Secrets",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Eyes of Minute Seeing",
+            "goldValue": "2500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Necklace of Fireballs (1 Bead)",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Periapt of Health",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Sending Stones (1 Pair)",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Ammunition (x5)",
+            "goldValue": "500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Greater Healing",
+            "goldValue": "150",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Fire Breath",
+            "goldValue": "150",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Resistance",
+            "goldValue": "150",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Animal Friendship",
+            "goldValue": "200",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Hill Giant Strength",
+            "goldValue": "500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Growth",
+            "goldValue": "270",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Water Breathing",
+            "goldValue": "180",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Oil of Slipperiness",
+            "goldValue": "480",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Philter of Love",
+            "goldValue": "90",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Poison",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Robe of Useful Items (10 patches)",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 4)",
+            "goldValue": "2500",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 5)",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Quaal's Feather Token (Anchor)",
+            "goldValue": "100",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Quaal's Feather Token (Bird)",
+            "goldValue": "3000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Quaal's Feather Token (Swan Boat)",
+            "goldValue": "3000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Quaal's Feather Token (Fan)",
+            "goldValue": "250",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Quaal's Feather Token (Whip)",
+            "goldValue": "250",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Quaal's Feather Token (Tree)",
+            "goldValue": "250",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Aberrations",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Beasts",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Celestials",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Elementals",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Fey",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Fiends",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Plants",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Poison",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Undead",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Evil and Good",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Scroll of Protection from Energy",
+            "goldValue": "400",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Bag of Beans",
+            "goldValue": "5500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bead of Force",
+            "goldValue": "960",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Chime of Opening",
+            "goldValue": "1500",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Decanter of Endless Water",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Folding Boat",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Heward's Handy Haversack",
+            "goldValue": "2000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Horseshoes of Speed",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Necklace of Fireballs (3 Beads)",
+            "goldValue": "1000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Ammunition (x5)",
+            "goldValue": "1000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Superior Healing",
+            "goldValue": "450",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Clairvoyance",
+            "goldValue": "960",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Diminution",
+            "goldValue": "270",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Gaseous Form",
+            "goldValue": "300",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Frost Giant Strength",
+            "goldValue": "2000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Stone Giant Strength",
+            "goldValue": "2000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Heroism",
+            "goldValue": "180",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Invulnerability",
+            "goldValue": "3840",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Mind Reading",
+            "goldValue": "450",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Elixir of Health",
+            "goldValue": "120",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Oil of Etherealness",
+            "goldValue": "1920",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Fire Giant Strength",
+            "goldValue": "3000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Necklace of Fireballs (6 Beads)",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Copper",
+            "goldValue": ".01",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Coin",
+            "isMagic": false
+        },
+        {
+            "name": "Silver",
+            "goldValue": ".1",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Coin",
+            "isMagic": false
+        },
+        {
+            "name": "Gold",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Coin",
+            "isMagic": false
+        },
+        {
+            "name": "Padded Armor",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Leather Armor",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Hide Armor",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Ringmail Armor",
+            "goldValue": "30",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Shield",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Club",
+            "goldValue": ".1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Dagger",
+            "goldValue": "2",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Handaxe",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Javelin",
+            "goldValue": ".05",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Light Hammer",
+            "goldValue": "2",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Mace",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Quarterstaff",
+            "goldValue": ".02",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Sickle",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Spear",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Battleaxe",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Flail",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Glaive",
+            "goldValue": "20",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Halberd",
+            "goldValue": "20",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Lance",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Longsword",
+            "goldValue": "15",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Maul",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Morningstar",
+            "goldValue": "15",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Pike",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Shortsword",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "War Pick",
+            "goldValue": "5",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Warhammer",
+            "goldValue": "15",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Whip",
+            "goldValue": "2",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Light Crossbow",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Dart (20)",
+            "goldValue": ".1",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Shortbow",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Sling",
+            "goldValue": ".01",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Heavy Crossbow",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Longbow",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Bag of 1000 Ball Bearings",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Glass Bottle",
+            "goldValue": "2",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Bag of 20 Caltrops",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Candle",
+            "goldValue": ".001",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Chalk",
+            "goldValue": ".001",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Piton",
+            "goldValue": ".005",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Rations (1 day)",
+            "goldValue": ".05",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "50ft Hempen Rope",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "10 Iron Spikes",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Tinderbox",
+            "goldValue": ".05",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Torch",
+            "goldValue": ".001",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "20 Arrows",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": false
+        },
+        {
+            "name": "50 Blowgun Needles",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": false
+        },
+        {
+            "name": "20 Crossbow Bolts",
+            "goldValue": "1",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": false
+        },
+        {
+            "name": "20 Sling Bullets",
+            "goldValue": ".04",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": false
+        },
+        {
+            "name": "Potion of Healing",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Dice Set",
+            "goldValue": ".01",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Gaming Set",
+            "isMagic": false
+        },
+        {
+            "name": "Playing Card Set",
+            "goldValue": ".05",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Gaming Set",
+            "isMagic": false
+        },
+        {
+            "name": "Azurite",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Banded Agate",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Blue Quartz",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Eye Agate",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Hematite",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Lapis Lazuli",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Malachite",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Moss Agate",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Obsidian",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Rhodochrosite",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Tiger Eye",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Turquoise",
+            "goldValue": "10",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Bloodstone",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Carnelian",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Chalcedony",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Chrysoprase",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Citrine",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jasper",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Moonstone",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Onyx",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Quartz",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Sardonyx",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Star Rose Quartz",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Zircon",
+            "goldValue": "50",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Silver Ewer",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Carved Bone Statuette",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Small Gold Bracelet",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Cloth-of-Gold Vestments",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Black Velvet Mask Stitched With Silver Thread",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Copper Chalice with Silver Filigree",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Pair of Engraved Bone Dice",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Small Mirror Set in a Painted Wooden Frame",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Embroidered Silk Handkerchief",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Locket with a Painted Portrait Inside",
+            "goldValue": "25",
+            "rarity": "Common",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Platinum",
+            "goldValue": "10",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Coin",
+            "isMagic": false
+        },
+        {
+            "name": "Studded Leather Armor",
+            "goldValue": "45",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Chain Shirt",
+            "goldValue": "50",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Scalemail Armor",
+            "goldValue": "50",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Chainmail Armor",
+            "goldValue": "75",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Greatclub",
+            "goldValue": ".02",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Greataxe",
+            "goldValue": "30",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Greatsword",
+            "goldValue": "50",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Rapier",
+            "goldValue": "25",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Scimitar",
+            "goldValue": "25",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Trident",
+            "goldValue": "5",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Blowgun",
+            "goldValue": "10",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Hand Crossbow",
+            "goldValue": "75",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Net",
+            "goldValue": "1",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": false
+        },
+        {
+            "name": "Flask of Alchemist's Fire",
+            "goldValue": "50",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Vial of Acid",
+            "goldValue": "25",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Vial of Antitoxin",
+            "goldValue": "50",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Book",
+            "goldValue": "25",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "10ft Chain",
+            "goldValue": "5",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Crowbar",
+            "goldValue": "2",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Sledgehammer",
+            "goldValue": "2",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Hourglass",
+            "goldValue": "25",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "10ft Ladder",
+            "goldValue": ".01",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Bullseye Lantern",
+            "goldValue": "10",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Hooded Lantern",
+            "goldValue": "5",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Flask of Oil",
+            "goldValue": ".01",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Vial of Basic Poison",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "50ft Silk Rope",
+            "goldValue": "10",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Cook's Utensils",
+            "goldValue": "1",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Painter's Supplies",
+            "goldValue": "10",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Weaver's Tools",
+            "goldValue": "1",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Woodcarver's Tools",
+            "goldValue": "1",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Herbalism Kit",
+            "goldValue": "5",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Thieves' Tools",
+            "goldValue": "25",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Three-Dragon Ante Set",
+            "goldValue": "1",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Gaming Set",
+            "isMagic": false
+        },
+        {
+            "name": "Amber",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Amethyst",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Chrysoberyl",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Coral",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Garnet",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jade",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jet",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Pearl",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Spinel",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Tourmaline",
+            "goldValue": "100",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Ring set with Bloodstones",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Carved Ivory Statuette",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Large Gold Bracelet",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Silver Necklace with a Gemstone Pendant",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Bronze Crown",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Silk Robe with Gold Embroidery",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Large Well-Made Tapestry",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Brass Mug with Jade Inlay",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Box of Turquoise Animal Figurines",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Bird Cage with Electrum Filigree",
+            "goldValue": "250",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Splint Armor",
+            "goldValue": "200",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Plate Armor",
+            "goldValue": "1500",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Breastplate",
+            "goldValue": "400",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Half Plate Armor",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": false
+        },
+        {
+            "name": "Climber's Kit",
+            "goldValue": "25",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Grappling Hook",
+            "goldValue": "2",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Healer's Kit",
+            "goldValue": "5",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Flask of Holy Water",
+            "goldValue": "25",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Magnifying Glass",
+            "goldValue": "100",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Manacles",
+            "goldValue": "2",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Signal Whistle",
+            "goldValue": ".005",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Signet Ring",
+            "goldValue": "5",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Spellbook",
+            "goldValue": "50",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Spyglass",
+            "goldValue": "1000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Adventuring Gear",
+            "isMagic": false
+        },
+        {
+            "name": "Alchemist's Supplies",
+            "goldValue": "50",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Brewer's Supplies",
+            "goldValue": "20",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Calligrapher's Supplies",
+            "goldValue": "10",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Carpenter's Tools",
+            "goldValue": "8",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Cartographer's Tools",
+            "goldValue": "15",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Cobbler's Tools",
+            "goldValue": "5",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Glassblower's Tools",
+            "goldValue": "30",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Jeweler's Tools",
+            "goldValue": "25",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Leatherworker's Tools",
+            "goldValue": "5",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Mason's Tools",
+            "goldValue": "10",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Potter's Tools",
+            "goldValue": "10",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Smith's Tools",
+            "goldValue": "20",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Tinker's Tools",
+            "goldValue": "50",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Artisan's Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Disguise Kit",
+            "goldValue": "25",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Forgery Kit",
+            "goldValue": "15",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Navigator's Tools",
+            "goldValue": "25",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Poisoner's Kit",
+            "goldValue": "50",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Tools",
+            "isMagic": false
+        },
+        {
+            "name": "Dragonchess Set",
+            "goldValue": "1",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Gaming Set",
+            "isMagic": false
+        },
+        {
+            "name": "Bagpipes",
+            "goldValue": "30",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Drum",
+            "goldValue": "6",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Dulcimer",
+            "goldValue": "25",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Flute",
+            "goldValue": "2",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Lute",
+            "goldValue": "35",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Lyre",
+            "goldValue": "30",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Horn",
+            "goldValue": "3",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Pan Flute",
+            "goldValue": "12",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Shawm",
+            "goldValue": "2",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Viol",
+            "goldValue": "30",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Musical Instrument",
+            "isMagic": false
+        },
+        {
+            "name": "Alexandrite",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Aquamarine",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Black Pearl",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Blue Spinel",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Peridot",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Topaz",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Silver Chalice set with Moonstones",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Silver-Plated Steel Longsword with Jet Set in Hilt",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Carved Harp of Exotic Wood with Ivory Inlay and Zircon Gems",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Small Gold Idol",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Dragon Comb Set with Red Garnets as Eyes",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Bottle Stopper Cork Embossed with Gold Leaf and Set with Amethysts",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Ceremonial Electrum Dagger with a Black Pearl in the Pommel",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Silver and Gold Brooch",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Obsidian Statuette with Gold Fittings and Inlay",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Painted Gold War Mask",
+            "goldValue": "750",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Black Opal",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Blue Sapphire",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Emerald",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Fire Opal",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Opal",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Star Ruby",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Star Sapphire",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Yellow Sapphire",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Fine Gold Chain Set with a Fire Opal",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Old Masterpiece Painting",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Embroidered Silk and Velvet Mantle set with Numerous Moonstones",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Platinum Bracelet set with a Sapphire",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Embroidered Glove set with Jewel Chips",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jeweled Anklet",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Music Box",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Circlet set with Four Aquamarines",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Eye Patch with a Mock Eye set in Blue Sapphire and Moonstone",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Necklace of Small Pink Pearls",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Black Sapphire",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Diamond",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jacinth",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Ruby",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jeweled Gold Crown",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jeweled Platinum Ring",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Small Gold Statuette set with Rubies",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jeweled Gold Crown",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Cup set with Emeralds",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Gold Jewelry Box with Platinum Filigree",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Painted Gold Child's Sarcophagus",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Jade Game Board with Solid Gold Playing Pieces",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Bejeweled Ivory Drinking Horn with Gold Filigree",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Valuable",
+            "isMagic": false
+        },
+        {
+            "name": "Potion of Supreme Healing",
+            "goldValue": "1350",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Invisibility",
+            "goldValue": "600",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Speed",
+            "goldValue": "400",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 6)",
+            "goldValue": "10000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 7)",
+            "goldValue": "25000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Ammunition (x5)",
+            "goldValue": "2500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": true
+        },
+        {
+            "name": "Oil of Sharpness",
+            "goldValue": "3200",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Flying",
+            "goldValue": "500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Cloud Giant Strength",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Longevity",
+            "goldValue": "9000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Vitality",
+            "goldValue": "960",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 8)",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Horseshoes of the Zephyr",
+            "goldValue": "1500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Nolzur's Marvelous Pigments",
+            "goldValue": "200",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bag of Devouring",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Portable Hole",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Potion of Storm Giant Strength",
+            "goldValue": "6000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Potion",
+            "isMagic": true
+        },
+        {
+            "name": "Spell Scroll (Level 9)",
+            "goldValue": "75000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Scroll",
+            "isMagic": true
+        },
+        {
+            "name": "Universal Solvent",
+            "goldValue": "5000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Arrow of Slaying",
+            "goldValue": "1000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Ammunition",
+            "isMagic": true
+        },
+        {
+            "name": "Sovereign Glue",
+            "goldValue": "10000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Weapon",
+            "goldValue": "500",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Shield",
+            "goldValue": "500",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Sentinel Shield",
+            "goldValue": "10000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Amulet of Proof Against Deception and Location",
+            "goldValue": "20000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Boots of Elvenkind",
+            "goldValue": "2500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Boots of Striding and Springing",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bracers of Archery",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Brooch of Shielding",
+            "goldValue": "7500",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Broom of Flying",
+            "goldValue": "8000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of Elvenkind",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of Protection",
+            "goldValue": "3500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Gauntlets of Ogre Power",
+            "goldValue": "8000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Hat of Disguise",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Javelin of Lightning",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Pearl of Power",
+            "goldValue": "6000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Rod of the Pact Keeper",
+            "goldValue": "12000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Slippers of Spider Climbing",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of the Adder",
+            "goldValue": "1800",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of the Python",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Sword of Vengeance",
+            "goldValue": "1000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Trident of Fish Command",
+            "goldValue": "800",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Magic Missiles",
+            "goldValue": "8000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Wand of The War Mage",
+            "goldValue": "1200",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Web",
+            "goldValue": "8000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Weapon of Warning",
+            "goldValue": "50000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Chainmail",
+            "goldValue": "575",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Chain Shirt",
+            "goldValue": "550",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Scale Mail",
+            "goldValue": "550",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Bag of Tricks (Gray)",
+            "goldValue": "900",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bag of Tricks (Rust)",
+            "goldValue": "3000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bag of Tricks (Tan)",
+            "goldValue": "6300",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Boots of the Winterlands",
+            "goldValue": "10000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Circlet of Blasting",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Deck of Illusions",
+            "goldValue": "6120",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Eversmoking Bottle",
+            "goldValue": "50000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Eyes of Charming",
+            "goldValue": "3000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Eyes of the Eagle",
+            "goldValue": "2500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Raven)",
+            "goldValue": "3800",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Gem of Brightness",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Gloves of Missile Snaring",
+            "goldValue": "3000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Gloves of Swimming and Climbing",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Gloves of Thievery",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Headband of Intellect",
+            "goldValue": "8000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Helm of Telepathy",
+            "goldValue": "12000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Doss Lute)",
+            "goldValue": "28500",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Fochlulan Bandore)",
+            "goldValue": "26500",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Mac-Fuimidh Cittern)",
+            "goldValue": "27000",
+            "rarity": "Uncommon",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Medallion of Thoughts",
+            "goldValue": "3000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Necklace of Adaption",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Periapt of Wound Closure",
+            "goldValue": "5000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Pipes of Haunting",
+            "goldValue": "6000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Pipes of the Sewers",
+            "goldValue": "2000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Jumping",
+            "goldValue": "2500",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Mind Shielding",
+            "goldValue": "16000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Warmth",
+            "goldValue": "1000",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Water Walking",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Quiver of Ehlonna",
+            "goldValue": "1000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Stone of Good Luck (Luckstone)",
+            "goldValue": "4200",
+            "rarity": "Uncommon",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Wind Fan",
+            "goldValue": "1500",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Winged Boots",
+            "goldValue": "8000",
+            "rarity": "Uncommon",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Weapon",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Bronze Griffon)",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Ebony Fly)",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Golden Lions)",
+            "goldValue": "16500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Ivory Goats)",
+            "goldValue": "21000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Marble Elephant)",
+            "goldValue": "17000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Onyx Dog)",
+            "goldValue": "15500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Serpentine Owl)",
+            "goldValue": "9100",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Breastplate",
+            "goldValue": "900",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Splint Armor",
+            "goldValue": "700",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Amulet of Health",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Armor of Vulnerability",
+            "goldValue": "2500",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Arrow-Catching Shield",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Dwarvenkind",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Hill Giant Strength",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Berserker Axe",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Boots of Levitation",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Boots of Speed",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bowl of Commanding Water Elementals",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Bracers of Defense",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Brazier of Commanding Fire Elementals",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cape of the Mountebank",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Censer of Controlling Air Elementals",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Chain Mail",
+            "goldValue": "1580",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Chainmail Armor of Resistance",
+            "goldValue": "6080",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Chain Shirt",
+            "goldValue": "1550",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Chain Shirt of Resistance",
+            "goldValue": "6050",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of Displacement",
+            "goldValue": "60000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of the Bat",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cube of Force",
+            "goldValue": "16000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Daern's Instant Fortress",
+            "goldValue": "75000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Dagger of Venom",
+            "goldValue": "2500",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Dimensional Shackles",
+            "goldValue": "3000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Dragon Slayer",
+            "goldValue": "8050",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Elven Chain",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Flame Tongue",
+            "goldValue": "5050",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Gem of Seeing",
+            "goldValue": "32000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Giant Slayer",
+            "goldValue": "7030",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Glamoured Studded Leather",
+            "goldValue": "2000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Helm of Teleportation",
+            "goldValue": "64000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Horn of Blasting",
+            "goldValue": "450",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Horn of Valhalla (Silver)",
+            "goldValue": "5600",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Horn of Valhalla (Brass)",
+            "goldValue": "8400",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Canaith Mandolin)",
+            "goldValue": "30000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Cli Lyre)",
+            "goldValue": "35000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Awareness)",
+            "goldValue": "12000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Protection)",
+            "goldValue": "1200",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Reserve)",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Sustenance)",
+            "goldValue": "1000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Iron Bands of Bilarro",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Leather Armor",
+            "goldValue": "1510",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Leather Armor of Resistance",
+            "goldValue": "6010",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Mace of Disruption",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Mace of Smiting",
+            "goldValue": "7000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Mace of Terror",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Mantle of Spell Resistance",
+            "goldValue": "30000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Necklace of Prayer Beads",
+            "goldValue": "7500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Periapt of Proof Against Poison",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Animal Influence",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Evasion",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Feather Falling",
+            "goldValue": "2000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Free Action",
+            "goldValue": "20000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Protection",
+            "goldValue": "3500",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Resistance",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Spell Storing",
+            "goldValue": "24000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of the Ram",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of X-Ray Vision",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Robe of Eyes",
+            "goldValue": "30000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Rod of Rulership",
+            "goldValue": "16000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Rod of the Pact Keeper",
+            "goldValue": "16000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Rope of Entanglement",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Scalemail",
+            "goldValue": "1550",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Shield",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Shield of Missile Attraction",
+            "goldValue": "6000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Charming",
+            "goldValue": "12000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Healing",
+            "goldValue": "13000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Swarming Insects",
+            "goldValue": "16000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of the Woodlands",
+            "goldValue": "44000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Withering",
+            "goldValue": "3000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Stone of Controlling Earth Elementals",
+            "goldValue": "8000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Sun Blade",
+            "goldValue": "12000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Sword of Life Stealing",
+            "goldValue": "1200",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Sword of Wounding",
+            "goldValue": "2020",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Tentacle Rod",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Vicious Weapon",
+            "goldValue": "500",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Binding",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Enemy Detection",
+            "goldValue": "4000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Fear",
+            "goldValue": "10000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Fireballs",
+            "goldValue": "32000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Lightning Bolts",
+            "goldValue": "32000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Paralysis",
+            "goldValue": "16000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Wand of the War Mage",
+            "goldValue": "4800",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Wonder",
+            "goldValue": "4500",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Wings of Flying",
+            "goldValue": "5000",
+            "rarity": "Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Weapon",
+            "goldValue": "18000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Amulet of the Planes",
+            "goldValue": "16000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Carpet of Flying",
+            "goldValue": "12000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Crystal Ball",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Regeneration",
+            "goldValue": "12000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Shooting Stars",
+            "goldValue": "14000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Telekinesis",
+            "goldValue": "14000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Robe of Scintillating Colors",
+            "goldValue": "6000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Robe of Stars",
+            "goldValue": "60000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Rod of Absorption",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Rod of Alertness",
+            "goldValue": "25000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Rod of Security",
+            "goldValue": "90000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Rod of the Pact Keeper",
+            "goldValue": "28000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Scimitar of Speed",
+            "goldValue": "6000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Shield",
+            "goldValue": "24000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Fire",
+            "goldValue": "16000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Frost",
+            "goldValue": "26000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Power",
+            "goldValue": "95500",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Striking",
+            "goldValue": "21000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of Thunder and Lightning",
+            "goldValue": "10000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Sword of Sharpness",
+            "goldValue": "1750",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Wand of Polymorph",
+            "goldValue": "32000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Wand of the War Mage",
+            "goldValue": "19200",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wand",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Half Plate Armor",
+            "goldValue": "1250",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Adamantine Plate Armor",
+            "goldValue": "2000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Animated Shield",
+            "goldValue": "6000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Fire Giant Strength",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Frost Giant Strength",
+            "goldValue": "35000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Stone Giant Strength",
+            "goldValue": "35000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Breastplate",
+            "goldValue": "1900",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Breastplate of Resistance",
+            "goldValue": "6400",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Candle of Invocation",
+            "goldValue": "25000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Chainmail",
+            "goldValue": "6080",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Chain Shirt",
+            "goldValue": "6050",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of Arachnida",
+            "goldValue": "5000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Dancing Sword",
+            "goldValue": "2000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Demon Armor",
+            "goldValue": "10000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Dragon Scale Mail",
+            "goldValue": "4000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Dwarven Plate",
+            "goldValue": "9000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Dwarven Thrower",
+            "goldValue": "18000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Efreeti Bottle",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Figurine of Wondrous Power (Obsidian Steed)",
+            "goldValue": "28500",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Frost Brand",
+            "goldValue": "2200",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Helm of Brilliance",
+            "goldValue": "35000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Horn of Valhalla (Bronze)",
+            "goldValue": "11200",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Anstruth Harp)",
+            "goldValue": "109000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Absorption)",
+            "goldValue": "2400",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Agility)",
+            "goldValue": "3000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Fortitude)",
+            "goldValue": "3000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Insight)",
+            "goldValue": "3000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Intellect)",
+            "goldValue": "3000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Leadership)",
+            "goldValue": "3000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Strength)",
+            "goldValue": "3000",
+            "rarity": "Very Rare",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Leather Armor",
+            "goldValue": "6010",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Bodily Health",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Gainful Exercise",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Clay Golems",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Flesh Golems",
+            "goldValue": "75000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Iron Golems",
+            "goldValue": "100000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Stone Golems",
+            "goldValue": "85000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Manual of Quickness of Action",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Mirror of Life Trapping",
+            "goldValue": "18000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Nine Lives Stealer",
+            "goldValue": "18000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Oathbow",
+            "goldValue": "3500",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Scalemail Armor",
+            "goldValue": "6050",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Spellguard Shield",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Splint Armor",
+            "goldValue": "1700",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Splint Armor of Resistance",
+            "goldValue": "6200",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Studded Leather Armor",
+            "goldValue": "1550",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Studded Leather Armor of Resistance",
+            "goldValue": "6050",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Tome of Clear Thought",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Tome of Leadership and Influence",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Tome of Understanding",
+            "goldValue": "50000",
+            "rarity": "Very Rare",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Defender",
+            "goldValue": "24000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Hammer of Thunderbolts",
+            "goldValue": "16000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Luck Blade",
+            "goldValue": "150000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Sword of Answering",
+            "goldValue": "36000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Holy Avenger",
+            "goldValue": "165000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Djinni Summoning",
+            "goldValue": "80000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Invisibility",
+            "goldValue": "10000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Spell Turning",
+            "goldValue": "30000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Rod of Lordly Might",
+            "goldValue": "28000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Staff of the Magi",
+            "goldValue": "80000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Staff",
+            "isMagic": true
+        },
+        {
+            "name": "Vorpal Sword",
+            "goldValue": "24100",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Weapon",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Cloud Giant Strength",
+            "goldValue": "75000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Breastplate",
+            "goldValue": "6400",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Chainmail",
+            "goldValue": "24100",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Chain Shirt",
+            "goldValue": "24100",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Cloak of Invisibility",
+            "goldValue": "80000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Crystal Ball of Mind Reading",
+            "goldValue": "120000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Crystal Ball of Telepathy",
+            "goldValue": "120000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Crystal Ball of True Seeing",
+            "goldValue": "120000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Half Plate Armor",
+            "goldValue": "2250",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Iron Flask",
+            "goldValue": "75000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Leather Armor",
+            "goldValue": "24100",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+1 Plate Armor",
+            "goldValue": "3000",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Robe of the Archmagi",
+            "goldValue": "34000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Rod of Resurrection",
+            "goldValue": "95000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Rod",
+            "isMagic": true
+        },
+        {
+            "name": "Scarab of Protection",
+            "goldValue": "36000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Splint Armor",
+            "goldValue": "6200",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Studded Leather Armor",
+            "goldValue": "6050",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Well of Many Worlds",
+            "goldValue": "10000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Half Plate Armor",
+            "goldValue": "6750",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+2 Plate Armor",
+            "goldValue": "7500",
+            "rarity": "Very Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Studded Leather Armor",
+            "goldValue": "6050",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Breastplate",
+            "goldValue": "24400",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Splint Armor",
+            "goldValue": "24200",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Half Plate Armor",
+            "goldValue": "24800",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "+3 Plate Armor",
+            "goldValue": "25500",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Apparatus of Kwalish",
+            "goldValue": "10000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Armor of Invulnerability",
+            "goldValue": "18000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Belt of Storm Giant Strength",
+            "goldValue": "125000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Cubic Gate",
+            "goldValue": "40000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Deck of Many Things",
+            "goldValue": "150000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Efreeti Chain",
+            "goldValue": "20000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Half Plate Armor of Resistance",
+            "goldValue": "6750",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Horn of Valhalla (Iron)",
+            "goldValue": "14000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Instrument of the Bards (Ollamh Harp)",
+            "goldValue": "125000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Greater Absorption)",
+            "goldValue": "31000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Mastery)",
+            "goldValue": "15000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Ioun Stone (Regeneration)",
+            "goldValue": "4000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Plate Armor of Etherealness",
+            "goldValue": "48000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Plate Armor of Resistance",
+            "goldValue": "7500",
+            "rarity": "Rare",
+            "size": "L",
+            "type": "Armor",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Air Elemental Command",
+            "goldValue": "35000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Earth Elemental Command",
+            "goldValue": "31000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Fire Elemental Command",
+            "goldValue": "17000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Three Wishes",
+            "goldValue": "125000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Ring of Water Elemental Command",
+            "goldValue": "25000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Ring",
+            "isMagic": true
+        },
+        {
+            "name": "Sphere of Annihilation",
+            "goldValue": "15000",
+            "rarity": "Legendary",
+            "size": "L",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Talisman of Pure Good",
+            "goldValue": "71700",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Talisman of the Sphere",
+            "goldValue": "20000",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Talisman of Ultimate Evil",
+            "goldValue": "61500",
+            "rarity": "Legendary",
+            "size": "S",
+            "type": "Wondrous Item",
+            "isMagic": true
+        },
+        {
+            "name": "Tome of the Stilled Tongue",
+            "goldValue": "50000",
+            "rarity": "Legendary",
+            "size": "M",
+            "type": "Wondrous Item",
+            "isMagic": true
         }
+    ],
+    "typeMap": {
+        "coins": ["Coin"],
+        "valuables": ["Valuable"],
+        "ammunition": ["Ammunition"],
+        "equipment": ["Weapon", "Armor", "Wand", "Rod", "Staff"],
+        "wondrousitems": ["Wondrous Item"],
+        "potions": ["Potion"],
+        "tools": ["Artisan's Tools", "Tools", "Gaming Set", "Musical Instrument"],
+        "adventuringgear": ["Adventuring Gear"],
+        "scrolls": ["Scroll"],
+        "rings": ["Ring"]
     }
 }
