@@ -2,12 +2,11 @@
     "african": ["somali", "amharic", "oromo", "igbo"],
     "american": ["quechua", "aztecan", "algonquin", "athabaskan", "muskogean"],
     "eastasian": ["chinese", "japanese", "korean"],
-    "indic": ["indian"],
-    "semitic": ["arabic", "hebrew"],
-    "hellenic": ["greek", "ancient greek"],
+    "indic-arabic": ["hindi", "sanskrit", "persian", "arabic"],
+    "ancient": ["norse", "ancient greek", "medieval", "gaulish"],
     "romance": ["french", "spanish", "italian"],
-    "celtic": ["welsh", "cornish", "gaelic", "gaulish"],
-    "germanic": ["german", "english", "dutch", "swedish", "danish", "norse"],
+    "celtic": ["welsh", "cornish", "gaelic"],
+    "germanic": ["german", "english", "dutch", "swedish", "danish"],
     "slavic-uralic": ["russian", "polish", "hungarian", "finnish"],
-    "miscellaneous": ["aboriginal", "romani", "oceanic", "armenian", "mongolian"]
+    "miscellaneous": ["aboriginal", "romani", "oceanic", "armenian", "mongolian", "hebrew", "greek"]
 }

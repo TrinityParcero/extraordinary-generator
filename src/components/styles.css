@@ -206,6 +206,9 @@ footer p {
 #namePage {
     margin-top: 40px;
 }
+#eth #miscellaneous{
+    height: 80px;
+}
 #eth {
     padding: 10px 20px;
     width: 480px;
