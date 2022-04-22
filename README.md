@@ -59,14 +59,10 @@ Status
 -   The Extraordinary Book of Names by Gary Gygax
 -   https://apellidosperuanos.wordpress.com/nombres-quechuas/ (Quechua names)
 -   http://nahuatlstudies.blogspot.com/2014/11/nahuatl-names-nahuatl-names-in-1544.html (Aztecan names)
--   https://hejsweden.com/en/popular-swedish-girl-and-boy-names/ (Swedish names)
--   https://adoption.com/baby-names/origin/danish?page=1 (Danish names)
 -   http://www.native-languages.org/index.htm#tree (various native American names)
 -   https://www.uaf.edu/anla/collections/dictionaries/ (Athabaskan and Eskimo-Aleut names)
 -   https://itservices.cas.unt.edu/~montler/Alabama/Dictionary/index.htm (Muskogean names)
--   https://en.m.wikipedia.org/wiki/Somali_name (Somali names)
 -   https://ethiopia.limbo13.com/index.php/ethiopian_names/ethiopian_names_a/ (Amharic names)
 -   https://oromobabynames.com/ (Oromo names)
 -   https://www.myigboname.com/ (Igbo names)
--   https://hamariweb.com/names/hindu/ (Hindu names)
--   https://www.bachpan.com (Bengali names)
+-   https://behindthename.com
