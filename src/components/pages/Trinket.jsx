@@ -8,7 +8,7 @@ function Trinkets() {
     <main id="trinket">
       <div id="leftChunk">
         <CheckboxFieldset id="sources" legend="Source Material" name="source" selectAll={true} deselectAll={true}
-          values={["Player's Handbook", "Elemental Evil", "Curse of Strahd", "Lost Laboratory of Kwalish"]}/>
+          values={["Player's Handbook", "Elemental Evil", "Curse of Strahd", "Lost Laboratory of Kwalish", "Icewind Dale"]}/>
         <div id="num">
           <p id="howMany">how many trinkets?</p>
           <NumToggle/>
