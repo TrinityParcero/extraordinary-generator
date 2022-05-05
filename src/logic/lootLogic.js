@@ -33,7 +33,6 @@ const prepareLootSet = () => {
     // exclude items that are magic is magic level is set to 0
     const magicLevel = Array.from(document.getElementById('magicLevel').elements).filter(element => element.checked)[0].value;
     if (magicLevel === MagicNone) {
-        console.log("we're in the magic if");
         lootSet = lootSet.filter(item => !item.isMagic);
     }
     // exclude items of excluded types
@@ -57,19 +56,15 @@ const buildGenGuide = () => {
     const basePullsMin = 1;
     const basePullsMax = 3;
 
-    const baseRarityC = 50;
-    const baseRarityUC = 30;
-    const baseRarityR = 10;
-    const baseRarityVR = 7;
-    const baseRarityL = 3;
-
     const baseSizeSmall = 30;
     const baseSizeMedium = 40;
     const baseSizeLarge = 30;
 
     let genGuide = {
         "rarity": {},
-        "size": {}
+        "size": {},
+        "pullsMin": basePullsMin,
+        "pullsMax": basePullsMax
     };
 
     // party size - if higher, increase number of generated items
@@ -108,37 +103,37 @@ const buildGenGuide = () => {
     // party level - if higher, increase rarity and vice versa
     const partyLevel = document.getElementById("partyLevel").value;
     const baseRarity = {};
+    
+    // TODO: MOVE BASE VALUES TO CONFIG
     if (partyLevel < 5) {
-        genGuide.rarity.l = 0;
-        genGuide.rarity.vr = 0;
-        genGuide.rarity.r = 10;
-        genGuide.rarity.uc = 20;
-        genGuide.rarity.c = 70;
+        baseRarity.l = 0;
+        baseRarity.vr = 5;
+        baseRarity.r = 20;
+        baseRarity.uc = 30;
+        baseRarity.c = 90;
     }
     else if (partyLevel < 10) {
-        // default values are used for base rarity
-        genGuide.rarity.l = baseRarityL;
-        genGuide.rarity.vr = baseRarityVR;
-        genGuide.rarity.r = baseRarityR;
-        genGuide.rarity.uc = baseRarityUC;
-        genGuide.rarity.c = baseRarityC;
+        baseRarity.l = 0;
+        baseRarity.vr = 20;
+        baseRarity.r = 30;
+        baseRarity.uc = 40;
+        baseRarity.c = 80;
     }
     else if (partyLevel < 15) {
-        genGuide.rarity.l = 5;
-        genGuide.rarity.vr = 8;
-        genGuide.rarity.r = 18;
-        genGuide.rarity.uc = 29;
-        genGuide.rarity.c = 40;
+        baseRarity.l = 10;
+        baseRarity.vr = 20;
+        baseRarity.r = 30;
+        baseRarity.uc = 40;
+        baseRarity.c = 70;
     }
     else {
-        genGuide.rarity.l = 8;
-        genGuide.rarity.vr = 12;
-        genGuide.rarity.r = 22;
-        genGuide.rarity.uc = 26;
-        genGuide.rarity.c = 32;
+        baseRarity.l = 20;
+        baseRarity.vr =  30;
+        baseRarity.r = 40;
+        baseRarity.uc = 30;
+        baseRarity.c = 60;
     }
-    genGuide.rarity = getTargetRarities(lootQuality);
-
+    genGuide.rarity = getTargetRarities(lootQuality, baseRarity);
 
     // how much magic - if higher, increase likelihood of isMagic being true and vice versa
     const magicLevel = Array.from(document.getElementById("magicLevel").elements).filter(element => element.checked)[0].value;
@@ -158,26 +153,114 @@ const buildGenGuide = () => {
     return genGuide;
 };
 
-const getTargetRarities = (baseRarity, lootQuality) => {
-    // TODO: MOVE TO CONFIG
-    const maxRarityL = 15;
-    const maxRarityVR = 35;
-    const maxRarityR = 30;
-    const maxRarityUC = 15;
-    const maxRarityC = 5;
+const getTargetRarities = (lootQuality, maxRarities) => {
+    const maxRarityL = maxRarities.l;
+    const maxRarityVR = maxRarities.vr;
+    const maxRarityR = maxRarities.r;
+    const maxRarityUC = maxRarities.uc;
+    const maxRarityC = maxRarities.c;
 
     const rarity = {};
-    rarity.l = (Math.floor(lootQuality / 100) * maxRarityL);
-    rarity.vr = (Math.floor(lootQuality / 100) * maxRarityVR);
-    rarity.r = (Math.floor(lootQuality / 100) * maxRarityR);
-    rarity.uc = (Math.floor(lootQuality / 100) * maxRarityUC);
-    rarity.c = (Math.floor(lootQuality / 100) * maxRarityC);
+    let availableProb;
+    if(100 - lootQuality >= maxRarityC){
+        rarity.c = maxRarityC;
+        availableProb = 100 - maxRarityC;
+    }
+    else{
+        rarity.c = 100 - lootQuality;
+        availableProb = 100 - rarity.c;
+    }
+    console.log(`set common rarity to ${rarity.c}. remaining score: ${availableProb}`);
+
+    if(availableProb - maxRarityUC <= 0){
+        rarity.uc = availableProb;
+        availableProb = 0;
+    }
+    else{
+        if(availableProb - maxRarityUC >= maxRarityUC){
+            rarity.uc = maxRarityUC;
+            availableProb -= maxRarityUC;
+        }
+        else{
+            rarity.uc = availableProb - maxRarityUC;
+            availableProb -= rarity.uc;
+        }
+    }
+    console.log(`set uncommon rarity to ${rarity.uc}. remaining score: ${availableProb}`);
+
+    if(availableProb - maxRarityR <= 0){
+        rarity.r = availableProb;
+        availableProb = 0;
+    }
+    else{
+        if(availableProb - maxRarityR >= maxRarityR){
+            rarity.r = maxRarityR;
+            availableProb -= maxRarityR;
+        }
+        else{
+            rarity.r = availableProb - maxRarityR;
+            availableProb -= rarity.r;
+        }
+    }
+    console.log(`set rare rarity to ${rarity.r}. remaining score: ${availableProb}`);
+
+    if(availableProb - maxRarityVR <= 0){
+        rarity.vr = availableProb;
+        availableProb = 0;
+    }
+    else{
+        if(availableProb - maxRarityVR >= maxRarityVR){
+            rarity.vr = maxRarityVR;
+            availableProb -= maxRarityVR;
+        }
+        else{
+            rarity.vr = availableProb - maxRarityVR;
+            availableProb -= rarity.vr;
+        }
+    }
+    console.log(`set very rare rarity to ${rarity.vr}. remaining score: ${availableProb}`);
+
+    if(availableProb - maxRarityL <= 0){
+        rarity.l = availableProb;
+        availableProb = 0;
+    }
+    else{
+        if(availableProb - maxRarityL >= maxRarityL){
+            rarity.l = maxRarityL;
+            availableProb -= maxRarityL;
+        }
+        else{
+            rarity.l = availableProb - maxRarityL;
+            availableProb = 0;
+        }
+    }
+    console.log(`set legendary rarity to ${rarity.l}. remaining score: ${availableProb}`);
+
+    // if the probs dont add up to 100, add whatever leftover to common rarity
+    const centDiff = 100 - (rarity.c + rarity.uc + rarity.r + rarity.vr + rarity.l);
+    if(centDiff !== 0){
+        rarity.c += centDiff;
+    }
+    
     return rarity;
+};
+
+/**
+ * helper func to get random int
+ */
+const getRandom = (min, max) => {
+    return Math.floor((Math.random() * (max-min) + min));
 };
 
 const generateLoot = () => {
     const lootSet = prepareLootSet();
     const genGuide = buildGenGuide();
+
+    // generate num between pullsMin and pullsMax
+    const pulls = getRandom(genGuide.pullsMin, genGuide.pullsMax);
+
+    // for: pulls
+        // pick a random number 1-100 to determine the rarity
 };
 
 export {
