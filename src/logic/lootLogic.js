@@ -2,6 +2,7 @@ const lootData = require('../json/loot.json');
 const loot = lootData.loot;
 const lootTypeMap = lootData.typeMap;
 
+// TODO: MOVE TO CONFIG
 const LootSmall = "S";
 const LootMedium = "M";
 const LootLarge = "L";
@@ -11,6 +12,13 @@ const MagicUncommon = "2";
 const MagicCommon = "3";
 const AllButtonClass = "allButton";
 const NoneButtonClass = "noneButton";
+const rarityAbbreviations = {
+    c: "Common",
+    uc: "Uncommon",
+    r: "Rare",
+    vr: "Very Rare",
+    l: "Legendary"
+};
 
 /**
  * compiles the list of loot that matches user request
@@ -78,7 +86,7 @@ const buildGenGuide = () => {
         genGuide.pullsMax = basePullsMax + 5;
     }
 
-    // how much - if higher, increase likelihood of large items and vice versa
+    // how much - if higher, increase likelihood of large items and vice versa, also modify pulls
     const itemSize = Array.from(document.getElementById("lootSize").elements).filter(element => element.checked)[0].value;
     if (itemSize === LootSmall) {
         genGuide.size.s = 100;
@@ -89,12 +97,16 @@ const buildGenGuide = () => {
         genGuide.size.s = 60;
         genGuide.size.m = 40;
         genGuide.size.l = 0;
+        genGuide.pullsMin += 1;
+        genGuide.pullsMax += 3;
     }
     else {
         // default values are used for size
         genGuide.size.s = baseSizeSmall;
         genGuide.size.m = baseSizeMedium;
         genGuide.size.l = baseSizeLarge;
+        genGuide.pullsMin += 3;
+        genGuide.pullsMax += 5;
     }
 
     // what quality - if higher, increase rarity and value
@@ -141,18 +153,23 @@ const buildGenGuide = () => {
         genGuide.magicKickout = 100;
     }
     else if (magicLevel === MagicRare) {
-        genGuide.magicKickout = 90;
-    }
-    else if (magicLevel === MagicUncommon) {
         genGuide.magicKickout = 75;
     }
-    else if (magicLevel === MagicCommon) {
-        genGuide.magicKickout = 25;
+    else if (magicLevel === MagicUncommon) {
+        genGuide.magicKickout = 50;
     }
-    console.log(genGuide);
+    else if (magicLevel === MagicCommon) {
+        genGuide.magicKickout = 15;
+    }
     return genGuide;
 };
 
+/**
+ * 
+ * @param {number} lootQuality represents quality of loot, higher is better
+ * @param {Object} maxRarities base rarity values
+ * @returns {Object} rarity probabilities
+ */
 const getTargetRarities = (lootQuality, maxRarities) => {
     const maxRarityL = maxRarities.l;
     const maxRarityVR = maxRarities.vr;
@@ -170,7 +187,6 @@ const getTargetRarities = (lootQuality, maxRarities) => {
         rarity.c = 100 - lootQuality;
         availableProb = 100 - rarity.c;
     }
-    console.log(`set common rarity to ${rarity.c}. remaining score: ${availableProb}`);
 
     if(availableProb - maxRarityUC <= 0){
         rarity.uc = availableProb;
@@ -186,7 +202,6 @@ const getTargetRarities = (lootQuality, maxRarities) => {
             availableProb -= rarity.uc;
         }
     }
-    console.log(`set uncommon rarity to ${rarity.uc}. remaining score: ${availableProb}`);
 
     if(availableProb - maxRarityR <= 0){
         rarity.r = availableProb;
@@ -202,7 +217,6 @@ const getTargetRarities = (lootQuality, maxRarities) => {
             availableProb -= rarity.r;
         }
     }
-    console.log(`set rare rarity to ${rarity.r}. remaining score: ${availableProb}`);
 
     if(availableProb - maxRarityVR <= 0){
         rarity.vr = availableProb;
@@ -218,7 +232,6 @@ const getTargetRarities = (lootQuality, maxRarities) => {
             availableProb -= rarity.vr;
         }
     }
-    console.log(`set very rare rarity to ${rarity.vr}. remaining score: ${availableProb}`);
 
     if(availableProb - maxRarityL <= 0){
         rarity.l = availableProb;
@@ -234,7 +247,6 @@ const getTargetRarities = (lootQuality, maxRarities) => {
             availableProb = 0;
         }
     }
-    console.log(`set legendary rarity to ${rarity.l}. remaining score: ${availableProb}`);
 
     // if the probs dont add up to 100, add whatever leftover to common rarity
     const centDiff = 100 - (rarity.c + rarity.uc + rarity.r + rarity.vr + rarity.l);
@@ -246,21 +258,104 @@ const getTargetRarities = (lootQuality, maxRarities) => {
 };
 
 /**
+ * turns a set of percentages into a loot-table type object for rolling against
+ * 
+ * @param {Object} targetRarities 
+ * @returns {Object} lootTable
+ */
+const getLootTable = (targetRarities) => {
+    const lootTable = {};
+    let count = 0;
+    const orderedRarities = Object.keys(targetRarities).sort((a,b) => a-b);
+    for(const rarity of orderedRarities){
+        const percent = targetRarities[rarity];
+        // if percent is 0, set it to negative so we never pull it
+        if(percent === 0){
+            lootTable[rarity] = -1;
+        }
+        else{
+            lootTable[rarity] = count + percent;
+            count += percent;
+        }
+    }
+    return lootTable;
+};
+
+/**
  * helper func to get random int
+ * @param {number} min minimum num
+ * @param {number} max maximum num
+ * @returns {number} random number between <min> and <max>
  */
 const getRandom = (min, max) => {
     return Math.floor((Math.random() * (max-min) + min));
 };
 
+const rollTable = (table) => {
+    const roll = getRandom(0,100);
+    for(const [key, value] of Object.entries(table)){
+        if(roll < value){
+            return key;
+        }
+    }
+    console.log(`trin you goofed something. no match found for value ${roll}`);
+};
+
+/**
+ * adds generated loot to the html display
+ * 
+ * @param {array} loot loot to display
+ */
+ const displayLoot = (loot) => {
+    const genText = document.getElementById('generated');
+
+    genText.innerHTML = '';
+    for (const item of loot) {
+        genText.innerHTML += `${item}<br>`;
+    }
+};
+
+/**
+ * main func to get random loot based on inputs
+ * @returns {Array} array of loot objects
+ */
 const generateLoot = () => {
     const lootSet = prepareLootSet();
     const genGuide = buildGenGuide();
 
     // generate num between pullsMin and pullsMax
-    const pulls = getRandom(genGuide.pullsMin, genGuide.pullsMax);
+    let pulls = getRandom(genGuide.pullsMin, genGuide.pullsMax);
+    console.log(`You get ${pulls} rolls!`);
+
+    const rarityTable = getLootTable(genGuide.rarity);
+    const sizeTable = getLootTable(genGuide.size);
+
+    const pulledLoot = [];
 
     // for: pulls
-        // pick a random number 1-100 to determine the rarity
+    while(pulls > 0){
+        let tempLoot = lootSet;
+        // roll for magic kickout
+        const kickoutRoll = getRandom(0,100);
+        if(kickoutRoll < genGuide.magicKickout){
+            console.log(`No magic for you today!`);
+            tempLoot = tempLoot.filter(item => !item.isMagic);
+        }
+        // roll for rarity and size
+        const rarity = rarityAbbreviations[rollTable(rarityTable)];
+        const size = rollTable(sizeTable).toLocaleUpperCase();
+        console.log(`Rolled a ${size} ${rarity}`);
+        tempLoot = tempLoot.filter(item => item.rarity === rarity);
+        tempLoot = tempLoot.filter(item => item.size === size);
+
+        if(tempLoot.length > 0){
+            const lootRoll = getRandom(0, tempLoot.length);
+            pulledLoot.push(tempLoot[lootRoll]);
+            pulls--;
+        }
+    }
+
+    displayLoot(pulledLoot);
 };
 
 export {
