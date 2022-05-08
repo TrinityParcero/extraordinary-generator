@@ -75,7 +75,6 @@ function Loot() {
       {/**gen */}
       <div id="genDiv">
         <div id="generator"></div>
-        <p id="generated"></p>
         <button id="genButton" onClick={generateLoot}>generate</button>
       </div>
     </main>

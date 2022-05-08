@@ -60,7 +60,7 @@ Status
 
 Known Issues / Planned Improvements
 
--   Add more item info - descriptions, stats where applicable
+-   Add links to item data - this is giving only the names of items, no information about their value or use
 
 ## Name Sources
 

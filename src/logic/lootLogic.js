@@ -1,6 +1,9 @@
+import ReactDOM from 'react-dom';
+
 const lootData = require('../json/loot.json');
 const loot = lootData.loot;
 const lootTypeMap = lootData.typeMap;
+const { LootList } = require('../components/GeneratedLoot');
 
 // TODO: MOVE TO CONFIG
 const LootSmall = "S";
@@ -12,6 +15,7 @@ const MagicUncommon = "2";
 const MagicCommon = "3";
 const AllButtonClass = "allButton";
 const NoneButtonClass = "noneButton";
+const CoinType = "Coin";
 const rarityAbbreviations = {
     c: "Common",
     uc: "Uncommon",
@@ -307,12 +311,14 @@ const rollTable = (table) => {
  * @param {array} loot loot to display
  */
  const displayLoot = (loot) => {
-    const genText = document.getElementById('generated');
+    const generator = document.getElementById('generator');
+    // futz with size of genBox
+    generator.style.height = `${loot.length * 99}px`;
 
-    genText.innerHTML = '';
-    for (const item of loot) {
-        genText.innerHTML += `${item}<br>`;
-    }
+    const lootList = <LootList items = {loot}/>;
+
+    ReactDOM.unmountComponentAtNode(generator);
+    ReactDOM.render(lootList, generator);
 };
 
 /**
@@ -350,7 +356,55 @@ const generateLoot = () => {
 
         if(tempLoot.length > 0){
             const lootRoll = getRandom(0, tempLoot.length);
-            pulledLoot.push(tempLoot[lootRoll]);
+            let item = tempLoot[lootRoll];
+            // special handling for coinage - don't just say 'Gold' give an amount
+            if(item.type === CoinType){
+                const coinValue = rollTable(rarityTable);
+                let coinCount;
+                const rolledCoinRarity = item.rarity;
+                if(coinValue === 'c'){
+                    if(rolledCoinRarity === rarityAbbreviations['uc']){
+                        coinCount = getRandom(1, 5);
+                    }
+                    else{
+                        coinCount = getRandom(10, 50);
+                    }
+                }
+                else if(coinValue === 'uc'){
+                    if(rolledCoinRarity === rarityAbbreviations['uc']){
+                        coinCount = getRandom(3, 10);
+                    }
+                    else{
+                        coinCount = getRandom(25, 100);
+                    }
+                }
+                else if(coinValue === 'r'){
+                    if(rolledCoinRarity === rarityAbbreviations['uc']){
+                        coinCount = getRandom(5, 25);
+                    }
+                    else{
+                        coinCount = getRandom(50, 250);
+                    }
+                }
+                else if(coinValue === 'vr'){
+                    if(rolledCoinRarity === rarityAbbreviations['uc']){
+                        coinCount = getRandom(10, 50);
+                    }
+                    else{
+                        coinCount = getRandom(100, 500);
+                    }
+                }
+                else{
+                    if(rolledCoinRarity === rarityAbbreviations['uc']){
+                        coinCount = getRandom(50, 250);
+                    }
+                    else{
+                        coinCount = getRandom(500, 2500);
+                    }
+                }
+                item.countName = `${coinCount} ${item.name}`;
+            }
+            pulledLoot.push(item);
             pulls--;
         }
     }
