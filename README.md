@@ -48,7 +48,6 @@ Status
 
 Known Issues / Planned Improvements
 
--   add icewind dale trinkets
 
 ### Loot
 
