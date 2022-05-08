@@ -58,6 +58,7 @@ Status
 Known Issues / Planned Improvements
 
 -   Add links to item data - this is giving only the names of items, no information about their value or use
+-   Tune rarity balance - currently feels too based on party level, not enough on lootquality
 
 ## Name Sources
 
