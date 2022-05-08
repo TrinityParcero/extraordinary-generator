@@ -46,13 +46,18 @@ Status
 
 Known Issues / Planned Improvements
 
+
 ### Loot
 
 Random loot generator that can be set to generate loot appropriate for the given party level and composition.
 
 Status
 
--   On deck for implementation
+-   Functioning!
+
+Known Issues / Planned Improvements
+
+-   Add links to item data - this is giving only the names of items, no information about their value or use
 
 ## Name Sources
 
