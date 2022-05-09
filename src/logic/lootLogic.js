@@ -50,6 +50,10 @@ const prepareLootSet = () => {
     // exclude items of excluded types
     const excludeSet = Array.from(document.getElementById('includeSet').elements).filter(element => (!element.checked &&
         element.className !== AllButtonClass && element.className !== NoneButtonClass)).map(element => element.value);
+    if(excludeSet.length === 10){
+        console.log('Hey you gotta include something buddy');
+        return [];
+    }
     for (const excluded of excludeSet) {
         for (const mappedType of lootTypeMap[excluded]) {
             lootSet = lootSet.filter(item => item.type !== mappedType);
@@ -313,12 +317,23 @@ const rollTable = (table) => {
  const displayLoot = (loot) => {
     const generator = document.getElementById('generator');
     // futz with size of genBox
-    generator.style.height = `${loot.length * 99}px`;
+    generator.style.height = `${loot.length * 100}px`;
 
     const lootList = <LootList items = {loot}/>;
 
     ReactDOM.unmountComponentAtNode(generator);
     ReactDOM.render(lootList, generator);
+};
+
+const displayWarning = () => {
+    const generator = document.getElementById('generator');
+    // futz with size of genBox
+    generator.style.height = '100px';
+
+    const warning = <h3 className="generatedLoot">Please pick at least one item category to include!</h3>;
+
+    ReactDOM.unmountComponentAtNode(generator);
+    ReactDOM.render(warning, generator);
 };
 
 /**
@@ -327,6 +342,10 @@ const rollTable = (table) => {
  */
 const generateLoot = () => {
     const lootSet = prepareLootSet();
+    if(lootSet.length === 0){
+        displayWarning();
+        return;
+    }
     const genGuide = buildGenGuide();
 
     // generate num between pullsMin and pullsMax
