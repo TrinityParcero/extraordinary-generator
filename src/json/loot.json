@@ -6,6 +6,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/crystal",
             "isMagic": true
         },
         {
@@ -14,6 +15,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/orb",
             "isMagic": true
         },
         {
@@ -22,6 +24,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/rod",
             "isMagic": true
         },
         {
@@ -30,6 +33,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/staff",
             "isMagic": true
         },
         {
@@ -38,6 +42,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/wand",
             "isMagic": true
         },
         {
@@ -46,6 +51,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/sprig-of-mistletoe",
             "isMagic": true
         },
         {
@@ -54,6 +60,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/totem",
             "isMagic": true
         },
         {
@@ -62,6 +69,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/wooden-staff",
             "isMagic": true
         },
         {
@@ -70,6 +78,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/yew-wand",
             "isMagic": true
         },
         {
@@ -78,6 +87,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/sources/basic-rules/equipment#HolySymbol",
             "isMagic": true
         },
         {
@@ -86,6 +96,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/sources/basic-rules/equipment#HolySymbol",
             "isMagic": true
         },
         {
@@ -94,6 +105,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/sources/basic-rules/equipment#HolySymbol",
             "isMagic": true
         },
         {
@@ -102,6 +114,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -110,6 +123,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -118,6 +132,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4702-potion-of-climbing",
             "isMagic": true
         },
         {
@@ -126,6 +141,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=mariner-s-armor",
             "isMagic": true
         },
         {
@@ -134,6 +150,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5381-mithral-armor",
             "isMagic": true
         },
         {
@@ -142,6 +159,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4732-ring-of-swimming",
             "isMagic": true
         },
         {
@@ -150,6 +168,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -158,6 +177,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4581-bag-of-holding",
             "isMagic": true
         },
         {
@@ -166,6 +186,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=driftglobe",
             "isMagic": true
         },
         {
@@ -174,6 +195,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -182,6 +204,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=keoghtom-s-ointment",
             "isMagic": true
         },
         {
@@ -190,6 +213,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4623-dust-of-disappearance",
             "isMagic": true
         },
         {
@@ -198,6 +222,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4624-dust-of-dryness",
             "isMagic": true
         },
         {
@@ -206,6 +231,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4625-dust-of-sneezing-and-choking",
             "isMagic": true
         },
         {
@@ -214,6 +240,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5374-elemental-gem",
             "isMagic": true
         },
         {
@@ -222,6 +249,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5374-elemental-gem",
             "isMagic": true
         },
         {
@@ -230,6 +258,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5374-elemental-gem",
             "isMagic": true
         },
         {
@@ -238,6 +267,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5374-elemental-gem",
             "isMagic": true
         },
         {
@@ -246,6 +276,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=alchemy-jug",
             "isMagic": true
         },
         {
@@ -254,6 +285,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:cap-of-water-breathing",
             "isMagic": true
         },
         {
@@ -262,6 +294,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4609-cloak-of-the-manta-ray",
             "isMagic": true
         },
         {
@@ -270,6 +303,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4648-goggles-of-night",
             "isMagic": true
         },
         {
@@ -278,6 +312,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4654-helm-of-comprehending-languages",
             "isMagic": true
         },
         {
@@ -286,6 +321,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4662-immovable-rod",
             "isMagic": true
         },
         {
@@ -294,6 +330,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4668-lantern-of-revealing",
             "isMagic": true
         },
         {
@@ -302,6 +339,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4743-robe-of-useful-items",
             "isMagic": true
         },
         {
@@ -310,6 +348,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4749-rope-of-climbing",
             "isMagic": true
         },
         {
@@ -318,6 +357,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:saddle-of-the-cavalier",
             "isMagic": true
         },
         {
@@ -326,6 +366,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4793-wand-of-magic-detection",
             "isMagic": true
         },
         {
@@ -334,6 +375,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4797-wand-of-secrets",
             "isMagic": true
         },
         {
@@ -342,14 +384,16 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4634-eyes-of-minute-seeing",
             "isMagic": true
         },
         {
-            "name": "Necklace of Fireballs (1 Bead)",
+            "name": "Necklace of Fireballs (4 Beads)",
             "goldValue": "250",
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4683-necklace-of-fireballs",
             "isMagic": true
         },
         {
@@ -358,6 +402,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4692-periapt-of-health",
             "isMagic": true
         },
         {
@@ -366,6 +411,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "http://dnd-5e.herokuapp.com/magicitems/sending-stones",
             "isMagic": true
         },
         {
@@ -374,6 +420,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://www.dndbeyond.com/magic-items/5407-ammunition-1",
             "isMagic": true
         },
         {
@@ -382,6 +429,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5133-potion-of-healing-greater",
             "isMagic": true
         },
         {
@@ -390,6 +438,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=potion-of-fire-breath",
             "isMagic": true
         },
         {
@@ -398,6 +447,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5419-potion-of-resistance",
             "isMagic": true
         },
         {
@@ -406,6 +456,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4700-potion-of-animal-friendship",
             "isMagic": true
         },
         {
@@ -414,6 +465,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4706-potion-of-hill-giant-strength",
             "isMagic": true
         },
         {
@@ -422,6 +474,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4707-potion-of-growth",
             "isMagic": true
         },
         {
@@ -430,6 +483,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4715-potion-of-water-breathing",
             "isMagic": true
         },
         {
@@ -438,6 +492,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4689-oil-of-slipperiness",
             "isMagic": true
         },
         {
@@ -446,6 +501,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4695-philter-of-love",
             "isMagic": true
         },
         {
@@ -454,6 +510,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4712-potion-of-poison",
             "isMagic": true
         },
         {
@@ -462,6 +519,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4743-robe-of-useful-items",
             "isMagic": true
         },
         {
@@ -470,6 +528,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -478,6 +537,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -486,6 +546,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Feather%20Token#content",
             "isMagic": true
         },
         {
@@ -494,6 +555,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Feather%20Token#content",
             "isMagic": true
         },
         {
@@ -502,6 +564,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Feather%20Token#content",
             "isMagic": true
         },
         {
@@ -510,6 +573,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Feather%20Token#content",
             "isMagic": true
         },
         {
@@ -518,6 +582,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Feather%20Token#content",
             "isMagic": true
         },
         {
@@ -526,6 +591,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Feather%20Token#content",
             "isMagic": true
         },
         {
@@ -534,6 +600,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -542,6 +609,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -550,6 +618,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -558,6 +627,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -566,6 +636,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -574,6 +645,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -582,6 +654,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -590,6 +663,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -598,6 +672,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -606,6 +681,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -614,6 +690,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=scroll-of-protection",
             "isMagic": true
         },
         {
@@ -622,6 +699,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4579-bag-of-beans",
             "isMagic": true
         },
         {
@@ -630,6 +708,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4583-bead-of-force",
             "isMagic": true
         },
         {
@@ -638,6 +717,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4602-chime-of-opening",
             "isMagic": true
         },
         {
@@ -646,6 +726,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4615-decanter-of-endless-water",
             "isMagic": true
         },
         {
@@ -654,6 +735,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4639-folding-boat",
             "isMagic": true
         },
         {
@@ -662,6 +744,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4650-handy-haversack",
             "isMagic": true
         },
         {
@@ -670,14 +753,16 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4661-horseshoes-of-speed",
             "isMagic": true
         },
         {
-            "name": "Necklace of Fireballs (3 Beads)",
+            "name": "Necklace of Fireballs (5 Beads)",
             "goldValue": "1000",
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4683-necklace-of-fireballs",
             "isMagic": true
         },
         {
@@ -686,6 +771,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://www.dndbeyond.com/magic-items/5410-ammunition-2",
             "isMagic": true
         },
         {
@@ -694,6 +780,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5134-potion-of-healing-superior",
             "isMagic": true
         },
         {
@@ -702,6 +789,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4701-potion-of-clairvoyance",
             "isMagic": true
         },
         {
@@ -710,6 +798,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4703-potion-of-diminution",
             "isMagic": true
         },
         {
@@ -718,6 +807,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4705-potion-of-gaseous-form",
             "isMagic": true
         },
         {
@@ -726,6 +816,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5417-potion-of-giant-strength",
             "isMagic": true
         },
         {
@@ -734,6 +825,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5417-potion-of-giant-strength",
             "isMagic": true
         },
         {
@@ -742,6 +834,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4709-potion-of-heroism",
             "isMagic": true
         },
         {
@@ -750,6 +843,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=potion-of-invulnerability",
             "isMagic": true
         },
         {
@@ -758,6 +852,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4711-potion-of-mind-reading",
             "isMagic": true
         },
         {
@@ -766,6 +861,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=elixir-of-health",
             "isMagic": true
         },
         {
@@ -774,6 +870,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4687-oil-of-etherealness",
             "isMagic": true
         },
         {
@@ -782,14 +879,16 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5417-potion-of-giant-strength",
             "isMagic": true
         },
         {
-            "name": "Necklace of Fireballs (6 Beads)",
+            "name": "Necklace of Fireballs (9 Beads)",
             "goldValue": "5000",
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4683-necklace-of-fireballs",
             "isMagic": true
         },
         {
@@ -798,6 +897,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Coin",
+            "link": "https://forgottenrealms.fandom.com/wiki/Currency",
             "isMagic": false
         },
         {
@@ -806,6 +906,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Coin",
+            "link": "https://forgottenrealms.fandom.com/wiki/Currency",
             "isMagic": false
         },
         {
@@ -814,6 +915,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Coin",
+            "link": "https://forgottenrealms.fandom.com/wiki/Currency",
             "isMagic": false
         },
         {
@@ -822,6 +924,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/padded",
             "isMagic": false
         },
         {
@@ -830,6 +933,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/leather",
             "isMagic": false
         },
         {
@@ -838,6 +942,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/hide",
             "isMagic": false
         },
         {
@@ -846,6 +951,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/ring-mail",
             "isMagic": false
         },
         {
@@ -854,6 +960,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/shield",
             "isMagic": false
         },
         {
@@ -862,6 +969,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/club",
             "isMagic": false
         },
         {
@@ -870,6 +978,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/dagger",
             "isMagic": false
         },
         {
@@ -878,6 +987,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/handaxe",
             "isMagic": false
         },
         {
@@ -886,6 +996,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/javelin",
             "isMagic": false
         },
         {
@@ -894,6 +1005,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/light-hammer",
             "isMagic": false
         },
         {
@@ -902,6 +1014,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/mace",
             "isMagic": false
         },
         {
@@ -910,6 +1023,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/quarterstaff",
             "isMagic": false
         },
         {
@@ -918,6 +1032,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/sickle",
             "isMagic": false
         },
         {
@@ -926,6 +1041,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/spear",
             "isMagic": false
         },
         {
@@ -934,6 +1050,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/battleaxe",
             "isMagic": false
         },
         {
@@ -942,6 +1059,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/flail",
             "isMagic": false
         },
         {
@@ -950,6 +1068,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/glaive",
             "isMagic": false
         },
         {
@@ -958,6 +1077,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/halberd",
             "isMagic": false
         },
         {
@@ -966,6 +1086,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/lance",
             "isMagic": false
         },
         {
@@ -974,6 +1095,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/longsword",
             "isMagic": false
         },
         {
@@ -982,6 +1104,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/maul",
             "isMagic": false
         },
         {
@@ -990,6 +1113,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/morningstar",
             "isMagic": false
         },
         {
@@ -998,6 +1122,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/pike",
             "isMagic": false
         },
         {
@@ -1006,6 +1131,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/shortsword",
             "isMagic": false
         },
         {
@@ -1014,6 +1140,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/war-pick",
             "isMagic": false
         },
         {
@@ -1022,6 +1149,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/warhammer",
             "isMagic": false
         },
         {
@@ -1030,6 +1158,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/whip",
             "isMagic": false
         },
         {
@@ -1038,6 +1167,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/crossbow-light",
             "isMagic": false
         },
         {
@@ -1046,6 +1176,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/dart",
             "isMagic": false
         },
         {
@@ -1054,6 +1185,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/shortbow",
             "isMagic": false
         },
         {
@@ -1062,6 +1194,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/sling",
             "isMagic": false
         },
         {
@@ -1070,6 +1203,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/crossbow-heavy",
             "isMagic": false
         },
         {
@@ -1078,6 +1212,7 @@
             "rarity": "Common",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/longbow",
             "isMagic": false
         },
         {
@@ -1086,6 +1221,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/ball-bearings-bag-of-1-000",
             "isMagic": false
         },
         {
@@ -1094,6 +1230,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/bottle-glass",
             "isMagic": false
         },
         {
@@ -1102,6 +1239,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/caltrops-bag-of-20",
             "isMagic": false
         },
         {
@@ -1110,6 +1248,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/candle",
             "isMagic": false
         },
         {
@@ -1118,6 +1257,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/chalk-1-piece",
             "isMagic": false
         },
         {
@@ -1126,6 +1266,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/piton",
             "isMagic": false
         },
         {
@@ -1134,6 +1275,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/rations-1-day",
             "isMagic": false
         },
         {
@@ -1142,6 +1284,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/rope-hempen-50-feet",
             "isMagic": false
         },
         {
@@ -1150,6 +1293,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/spikes-iron-10",
             "isMagic": false
         },
         {
@@ -1158,6 +1302,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/tinderbox",
             "isMagic": false
         },
         {
@@ -1166,6 +1311,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/torch",
             "isMagic": false
         },
         {
@@ -1174,6 +1320,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://roll20.net/compendium/dnd5e/Arrows#content",
             "isMagic": false
         },
         {
@@ -1182,6 +1329,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://roll20.net/compendium/dnd5e/Items:Blowgun%20Needles/#h-Blowgun%20Needles",
             "isMagic": false
         },
         {
@@ -1190,6 +1338,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://roll20.net/compendium/dnd5e/Items:Crossbow%20bolts/#h-Crossbow%20bolts",
             "isMagic": false
         },
         {
@@ -1198,6 +1347,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://roll20.net/compendium/dnd5e/Sling%20bullets#h-Sling%20bullets",
             "isMagic": false
         },
         {
@@ -1206,6 +1356,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4708-potion-of-healing",
             "isMagic": true
         },
         {
@@ -1214,6 +1365,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Gaming Set",
+            "link": "https://www.dndbeyond.com/equipment/dice-set",
             "isMagic": false
         },
         {
@@ -1222,6 +1374,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Gaming Set",
+            "link": "https://www.dndbeyond.com/equipment/playing-card-set",
             "isMagic": false
         },
         {
@@ -1230,6 +1383,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/azurite",
             "isMagic": false
         },
         {
@@ -1238,6 +1392,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/banded-agate",
             "isMagic": false
         },
         {
@@ -1246,6 +1401,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/blue-quartz",
             "isMagic": false
         },
         {
@@ -1254,6 +1410,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/eye-agate",
             "isMagic": false
         },
         {
@@ -1262,6 +1419,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/hematite",
             "isMagic": false
         },
         {
@@ -1270,6 +1428,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/lapis-lazuli",
             "isMagic": false
         },
         {
@@ -1278,6 +1437,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/malachite",
             "isMagic": false
         },
         {
@@ -1286,6 +1446,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/moss-agate",
             "isMagic": false
         },
         {
@@ -1294,6 +1455,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/obsidian",
             "isMagic": false
         },
         {
@@ -1302,6 +1464,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/rhodochrosite",
             "isMagic": false
         },
         {
@@ -1310,6 +1473,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/tiger-eye",
             "isMagic": false
         },
         {
@@ -1318,6 +1482,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/turquoise",
             "isMagic": false
         },
         {
@@ -1326,6 +1491,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/bloodstone",
             "isMagic": false
         },
         {
@@ -1334,6 +1500,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/carnelian",
             "isMagic": false
         },
         {
@@ -1342,6 +1509,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/chalcedony",
             "isMagic": false
         },
         {
@@ -1350,6 +1518,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/chrysoprase",
             "isMagic": false
         },
         {
@@ -1358,6 +1527,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/citrine",
             "isMagic": false
         },
         {
@@ -1366,6 +1536,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/jasper",
             "isMagic": false
         },
         {
@@ -1374,6 +1545,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/moonstone",
             "isMagic": false
         },
         {
@@ -1382,6 +1554,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/onyx",
             "isMagic": false
         },
         {
@@ -1390,6 +1563,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/quartz",
             "isMagic": false
         },
         {
@@ -1398,6 +1572,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/sardonyx",
             "isMagic": false
         },
         {
@@ -1406,6 +1581,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/star-rose-quartz",
             "isMagic": false
         },
         {
@@ -1414,6 +1590,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/zircon",
             "isMagic": false
         },
         {
@@ -1422,6 +1599,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1430,6 +1608,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1438,6 +1617,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1446,6 +1626,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1454,6 +1635,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1462,6 +1644,7 @@
             "rarity": "Common",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1470,6 +1653,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1478,6 +1662,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1486,6 +1671,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1494,6 +1680,7 @@
             "rarity": "Common",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1502,6 +1689,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Coin",
+            "link": "https://forgottenrealms.fandom.com/wiki/Currency",
             "isMagic": false
         },
         {
@@ -1510,6 +1698,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/studded-leather",
             "isMagic": false
         },
         {
@@ -1518,6 +1707,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/chain-shirt",
             "isMagic": false
         },
         {
@@ -1526,6 +1716,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/scale-mail",
             "isMagic": false
         },
         {
@@ -1534,6 +1725,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/chain-mail",
             "isMagic": false
         },
         {
@@ -1542,6 +1734,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/greatclub",
             "isMagic": false
         },
         {
@@ -1550,6 +1743,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/greataxe",
             "isMagic": false
         },
         {
@@ -1558,6 +1752,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/greatsword",
             "isMagic": false
         },
         {
@@ -1566,6 +1761,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/rapier",
             "isMagic": false
         },
         {
@@ -1574,6 +1770,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/scimitar",
             "isMagic": false
         },
         {
@@ -1582,6 +1779,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/trident",
             "isMagic": false
         },
         {
@@ -1590,6 +1788,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/blowgun",
             "isMagic": false
         },
         {
@@ -1598,6 +1797,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/crossbow-hand",
             "isMagic": false
         },
         {
@@ -1606,6 +1806,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/equipment/net",
             "isMagic": false
         },
         {
@@ -1614,6 +1815,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/alchemists-fire-flask",
             "isMagic": false
         },
         {
@@ -1622,6 +1824,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/acid-vial",
             "isMagic": false
         },
         {
@@ -1630,6 +1833,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/antitoxin",
             "isMagic": false
         },
         {
@@ -1638,6 +1842,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/book",
             "isMagic": false
         },
         {
@@ -1646,6 +1851,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/chain-10-feet",
             "isMagic": false
         },
         {
@@ -1654,6 +1860,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/crowbar",
             "isMagic": false
         },
         {
@@ -1662,6 +1869,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/sledgehammer",
             "isMagic": false
         },
         {
@@ -1670,6 +1878,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/hourglass",
             "isMagic": false
         },
         {
@@ -1678,6 +1887,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/ladder-10-foot",
             "isMagic": false
         },
         {
@@ -1686,6 +1896,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/lantern-bullseye",
             "isMagic": false
         },
         {
@@ -1694,6 +1905,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/lantern-hooded",
             "isMagic": false
         },
         {
@@ -1702,6 +1914,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/oil-flask",
             "isMagic": false
         },
         {
@@ -1710,6 +1923,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/poison-basic-vial",
             "isMagic": false
         },
         {
@@ -1718,6 +1932,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/rope-silk-50-feet",
             "isMagic": false
         },
         {
@@ -1726,6 +1941,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/cooks-utensils",
             "isMagic": false
         },
         {
@@ -1734,6 +1950,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/painters-supplies",
             "isMagic": false
         },
         {
@@ -1742,6 +1959,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/weavers-tools",
             "isMagic": false
         },
         {
@@ -1750,6 +1968,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/woodcarvers-tools",
             "isMagic": false
         },
         {
@@ -1758,6 +1977,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Tools",
+            "link": "https://www.dndbeyond.com/equipment/herbalism-kit",
             "isMagic": false
         },
         {
@@ -1766,6 +1986,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Tools",
+            "link": "https://www.dndbeyond.com/equipment/thieves-tools",
             "isMagic": false
         },
         {
@@ -1774,6 +1995,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Gaming Set",
+            "link": "https://www.dndbeyond.com/equipment/three-dragon-ante-set",
             "isMagic": false
         },
         {
@@ -1782,6 +2004,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/amber",
             "isMagic": false
         },
         {
@@ -1790,6 +2013,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/amethyst",
             "isMagic": false
         },
         {
@@ -1798,6 +2022,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/chrysoberyl",
             "isMagic": false
         },
         {
@@ -1806,6 +2031,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/coral",
             "isMagic": false
         },
         {
@@ -1814,6 +2040,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/garnet",
             "isMagic": false
         },
         {
@@ -1822,6 +2049,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/jade",
             "isMagic": false
         },
         {
@@ -1830,6 +2058,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/jet",
             "isMagic": false
         },
         {
@@ -1838,6 +2067,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/pearl",
             "isMagic": false
         },
         {
@@ -1846,6 +2076,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/spinel",
             "isMagic": false
         },
         {
@@ -1854,6 +2085,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/tourmaline",
             "isMagic": false
         },
         {
@@ -1862,6 +2094,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1870,6 +2103,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1878,6 +2112,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1886,6 +2121,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1894,6 +2130,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1902,6 +2139,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1910,6 +2148,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1918,6 +2157,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1926,6 +2166,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1934,6 +2175,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -1942,6 +2184,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/splint",
             "isMagic": false
         },
         {
@@ -1950,6 +2193,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/plate",
             "isMagic": false
         },
         {
@@ -1958,6 +2202,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/breastplate",
             "isMagic": false
         },
         {
@@ -1966,6 +2211,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/equipment/half-plate",
             "isMagic": false
         },
         {
@@ -1974,6 +2220,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/climbers-kit",
             "isMagic": false
         },
         {
@@ -1982,6 +2229,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/grappling-hook",
             "isMagic": false
         },
         {
@@ -1990,6 +2238,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/healers-kit",
             "isMagic": false
         },
         {
@@ -1998,6 +2247,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/holy-water-flask",
             "isMagic": false
         },
         {
@@ -2006,6 +2256,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/magnifying-glass",
             "isMagic": false
         },
         {
@@ -2014,6 +2265,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/manacles",
             "isMagic": false
         },
         {
@@ -2022,6 +2274,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/signal-whistle",
             "isMagic": false
         },
         {
@@ -2030,6 +2283,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/signet-ring",
             "isMagic": false
         },
         {
@@ -2038,6 +2292,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/spellbook",
             "isMagic": false
         },
         {
@@ -2046,6 +2301,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Adventuring Gear",
+            "link": "https://www.dndbeyond.com/equipment/spyglass",
             "isMagic": false
         },
         {
@@ -2054,6 +2310,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/alchemists-supplies",
             "isMagic": false
         },
         {
@@ -2062,6 +2319,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/brewers-supplies",
             "isMagic": false
         },
         {
@@ -2070,6 +2328,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/calligraphers-supplies",
             "isMagic": false
         },
         {
@@ -2078,6 +2337,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/carpenters-tools",
             "isMagic": false
         },
         {
@@ -2086,6 +2346,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/cartographers-tools",
             "isMagic": false
         },
         {
@@ -2094,6 +2355,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/cobblers-tools",
             "isMagic": false
         },
         {
@@ -2102,6 +2364,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/glassblowers-tools",
             "isMagic": false
         },
         {
@@ -2110,6 +2373,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/jewelers-tools",
             "isMagic": false
         },
         {
@@ -2118,6 +2382,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/leatherworkers-tools",
             "isMagic": false
         },
         {
@@ -2126,6 +2391,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/masons-tools",
             "isMagic": false
         },
         {
@@ -2134,6 +2400,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/potters-tools",
             "isMagic": false
         },
         {
@@ -2142,6 +2409,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/smiths-tools",
             "isMagic": false
         },
         {
@@ -2150,6 +2418,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Artisan's Tools",
+            "link": "https://www.dndbeyond.com/equipment/tinkers-tools",
             "isMagic": false
         },
         {
@@ -2158,6 +2427,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Tools",
+            "link": "https://www.dndbeyond.com/equipment/disguise-kit",
             "isMagic": false
         },
         {
@@ -2166,6 +2436,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Tools",
+            "link": "https://www.dndbeyond.com/equipment/forgery-kit",
             "isMagic": false
         },
         {
@@ -2174,6 +2445,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Tools",
+            "link": "https://www.dndbeyond.com/equipment/navigators-tools",
             "isMagic": false
         },
         {
@@ -2182,6 +2454,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Tools",
+            "link": "https://www.dndbeyond.com/equipment/poisoners-kit",
             "isMagic": false
         },
         {
@@ -2190,6 +2463,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Gaming Set",
+            "link": "https://www.dndbeyond.com/equipment/dragonchess-set",
             "isMagic": false
         },
         {
@@ -2198,6 +2472,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/bagpipes",
             "isMagic": false
         },
         {
@@ -2206,6 +2481,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/drum",
             "isMagic": false
         },
         {
@@ -2214,6 +2490,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/dulcimer",
             "isMagic": false
         },
         {
@@ -2222,6 +2499,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/flute",
             "isMagic": false
         },
         {
@@ -2230,6 +2508,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/lute",
             "isMagic": false
         },
         {
@@ -2238,6 +2517,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/lyre",
             "isMagic": false
         },
         {
@@ -2246,6 +2526,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/horn",
             "isMagic": false
         },
         {
@@ -2254,6 +2535,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/pan-flute",
             "isMagic": false
         },
         {
@@ -2262,6 +2544,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/shawm",
             "isMagic": false
         },
         {
@@ -2270,6 +2553,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Musical Instrument",
+            "link": "https://www.dndbeyond.com/equipment/viol",
             "isMagic": false
         },
         {
@@ -2278,6 +2562,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/alexandrite",
             "isMagic": false
         },
         {
@@ -2286,6 +2571,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/aquamarine",
             "isMagic": false
         },
         {
@@ -2294,6 +2580,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/black-pearl",
             "isMagic": false
         },
         {
@@ -2302,6 +2589,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/blue-spinel",
             "isMagic": false
         },
         {
@@ -2310,6 +2598,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/peridot",
             "isMagic": false
         },
         {
@@ -2318,6 +2607,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/topaz",
             "isMagic": false
         },
         {
@@ -2326,6 +2616,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2334,6 +2625,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2342,6 +2634,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2350,6 +2643,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2358,6 +2652,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2366,6 +2661,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2374,6 +2670,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2382,6 +2679,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2390,6 +2688,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2398,6 +2697,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2406,6 +2706,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/black-opal",
             "isMagic": false
         },
         {
@@ -2414,6 +2715,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/blue-sapphire",
             "isMagic": false
         },
         {
@@ -2422,6 +2724,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/emerald",
             "isMagic": false
         },
         {
@@ -2430,6 +2733,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/fire-opal",
             "isMagic": false
         },
         {
@@ -2438,6 +2742,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/opal",
             "isMagic": false
         },
         {
@@ -2446,6 +2751,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/star-ruby",
             "isMagic": false
         },
         {
@@ -2454,6 +2760,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/star-sapphire",
             "isMagic": false
         },
         {
@@ -2462,6 +2769,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/yellow-sapphire",
             "isMagic": false
         },
         {
@@ -2470,6 +2778,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2478,6 +2787,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2486,6 +2796,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2494,6 +2805,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2502,6 +2814,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2510,6 +2823,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2518,6 +2832,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2526,6 +2841,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2534,6 +2850,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2542,6 +2859,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2550,6 +2868,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/black-sapphire",
             "isMagic": false
         },
         {
@@ -2558,6 +2877,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/diamond",
             "isMagic": false
         },
         {
@@ -2566,6 +2886,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/jacinth",
             "isMagic": false
         },
         {
@@ -2574,6 +2895,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://www.dndbeyond.com/equipment/ruby",
             "isMagic": false
         },
         {
@@ -2582,6 +2904,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2590,6 +2913,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2598,6 +2922,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2606,6 +2931,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2614,6 +2940,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2622,6 +2949,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2630,6 +2958,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2638,6 +2967,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2646,6 +2976,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Valuable",
+            "link": "https://dungeonmastertools.github.io/treasure.html#art",
             "isMagic": false
         },
         {
@@ -2654,6 +2985,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4708-potion-of-healing",
             "isMagic": true
         },
         {
@@ -2662,6 +2994,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4710-potion-of-invisibility",
             "isMagic": true
         },
         {
@@ -2670,6 +3003,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4714-potion-of-speed",
             "isMagic": true
         },
         {
@@ -2678,6 +3012,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -2686,6 +3021,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -2694,6 +3030,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://www.dndbeyond.com/magic-items/5411-ammunition-3",
             "isMagic": true
         },
         {
@@ -2702,6 +3039,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4688-oil-of-sharpness",
             "isMagic": true
         },
         {
@@ -2710,6 +3048,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/4704-potion-of-flying",
             "isMagic": true
         },
         {
@@ -2718,6 +3057,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5417-potion-of-giant-strength",
             "isMagic": true
         },
         {
@@ -2726,6 +3066,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=potion-of-longevity",
             "isMagic": true
         },
         {
@@ -2734,6 +3075,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5360-potion-of-vitality",
             "isMagic": true
         },
         {
@@ -2742,14 +3084,16 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
-            "name": "Horseshoes of the Zephyr",
+            "name": "Horseshoes of a Zephyr",
             "goldValue": "1500",
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4660-horseshoes-of-a-zephyr",
             "isMagic": true
         },
         {
@@ -2758,6 +3102,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Marvelous%20Pigments#content",
             "isMagic": true
         },
         {
@@ -2766,6 +3111,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4580-bag-of-devouring",
             "isMagic": true
         },
         {
@@ -2774,6 +3120,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4699-portable-hole",
             "isMagic": true
         },
         {
@@ -2782,6 +3129,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Potion",
+            "link": "https://www.dndbeyond.com/magic-items/5417-potion-of-giant-strength",
             "isMagic": true
         },
         {
@@ -2790,6 +3138,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Scroll",
+            "link": "https://www.dndbeyond.com/magic-items/5418-spell-scroll",
             "isMagic": true
         },
         {
@@ -2798,6 +3147,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4785-universal-solvent",
             "isMagic": true
         },
         {
@@ -2806,6 +3156,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Ammunition",
+            "link": "https://www.dndbeyond.com/magic-items/4578-arrow-of-slaying",
             "isMagic": true
         },
         {
@@ -2814,6 +3165,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4756-sovereign-glue",
             "isMagic": true
         },
         {
@@ -2822,6 +3174,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5400-weapon-1",
             "isMagic": true
         },
         {
@@ -2830,6 +3183,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4753-shield-1",
             "isMagic": true
         },
         {
@@ -2838,6 +3192,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "http://dnd-5e.herokuapp.com/magicitems/sentinel-shield",
             "isMagic": true
         },
         {
@@ -2846,6 +3201,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4569-amulet-of-proof-against-detection-and-location",
             "isMagic": true
         },
         {
@@ -2854,6 +3210,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4587-boots-of-elvenkind",
             "isMagic": true
         },
         {
@@ -2862,6 +3219,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4590-boots-of-striding-and-springing",
             "isMagic": true
         },
         {
@@ -2870,6 +3228,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4593-bracers-of-archery",
             "isMagic": true
         },
         {
@@ -2878,6 +3237,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4596-brooch-of-shielding",
             "isMagic": true
         },
         {
@@ -2886,6 +3246,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4597-broom-of-flying",
             "isMagic": true
         },
         {
@@ -2894,6 +3255,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4606-cloak-of-elvenkind",
             "isMagic": true
         },
         {
@@ -2902,6 +3264,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4607-cloak-of-protection",
             "isMagic": true
         },
         {
@@ -2910,6 +3273,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4641-gauntlets-of-ogre-power",
             "isMagic": true
         },
         {
@@ -2918,6 +3282,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4651-hat-of-disguise",
             "isMagic": true
         },
         {
@@ -2926,6 +3291,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4667-javelin-of-lightning",
             "isMagic": true
         },
         {
@@ -2934,6 +3300,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4691-pearl-of-power",
             "isMagic": true
         },
         {
@@ -2942,6 +3309,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Rod",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:rod-of-the-pact-keeper",
             "isMagic": true
         },
         {
@@ -2950,6 +3318,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4755-slippers-of-spider-climbing",
             "isMagic": true
         },
         {
@@ -2958,6 +3327,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Staff",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:staff-of-the-adder",
             "isMagic": true
         },
         {
@@ -2966,6 +3336,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4768-staff-of-the-python",
             "isMagic": true
         },
         {
@@ -2974,6 +3345,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:sword-of-vengeance",
             "isMagic": true
         },
         {
@@ -2982,6 +3354,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4784-trident-of-fish-command",
             "isMagic": true
         },
         {
@@ -2990,6 +3363,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4794-wand-of-magic-missiles",
             "isMagic": true
         },
         {
@@ -2998,6 +3372,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/34712-wand-of-the-war-mage",
             "isMagic": true
         },
         {
@@ -3006,6 +3381,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4799-wand-of-web",
             "isMagic": true
         },
         {
@@ -3014,6 +3390,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Weapon",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:weapon-of-warning",
             "isMagic": true
         },
         {
@@ -3022,6 +3399,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4850-adamantine-chain-mail",
             "isMagic": true
         },
         {
@@ -3030,6 +3408,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4566-adamantine-chain-shirt",
             "isMagic": true
         },
         {
@@ -3038,6 +3417,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4845-adamantine-scale-mail",
             "isMagic": true
         },
         {
@@ -3046,6 +3426,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4582-bag-of-tricks",
             "isMagic": true
         },
         {
@@ -3054,6 +3435,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4582-bag-of-tricks",
             "isMagic": true
         },
         {
@@ -3062,6 +3444,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4582-bag-of-tricks",
             "isMagic": true
         },
         {
@@ -3070,6 +3453,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4591-boots-of-the-winterlands",
             "isMagic": true
         },
         {
@@ -3078,6 +3462,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4603-circlet-of-blasting",
             "isMagic": true
         },
         {
@@ -3086,6 +3471,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4616-deck-of-illusions",
             "isMagic": true
         },
         {
@@ -3094,6 +3480,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4632-eversmoking-bottle",
             "isMagic": true
         },
         {
@@ -3102,6 +3489,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4633-eyes-of-charming",
             "isMagic": true
         },
         {
@@ -3110,6 +3498,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4635-eyes-of-the-eagle",
             "isMagic": true
         },
         {
@@ -3118,6 +3507,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3126,6 +3516,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4642-gem-of-brightness",
             "isMagic": true
         },
         {
@@ -3134,6 +3525,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4646-gloves-of-missile-snaring",
             "isMagic": true
         },
         {
@@ -3142,6 +3534,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4647-gloves-of-swimming-and-climbing",
             "isMagic": true
         },
         {
@@ -3150,6 +3543,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:gloves-of-thievery",
             "isMagic": true
         },
         {
@@ -3158,6 +3552,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4652-headband-of-intellect",
             "isMagic": true
         },
         {
@@ -3166,6 +3561,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4655-helm-of-telepathy",
             "isMagic": true
         },
         {
@@ -3174,6 +3570,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -3182,6 +3579,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -3190,6 +3588,7 @@
             "rarity": "Uncommon",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -3198,14 +3597,16 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4679-medallion-of-thoughts",
             "isMagic": true
         },
         {
-            "name": "Necklace of Adaption",
+            "name": "Necklace of Adaptation",
             "goldValue": "1500",
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4682-necklace-of-adaptation",
             "isMagic": true
         },
         {
@@ -3214,6 +3615,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4694-periapt-of-wound-closure",
             "isMagic": true
         },
         {
@@ -3222,6 +3624,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4696-pipes-of-haunting",
             "isMagic": true
         },
         {
@@ -3230,6 +3633,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4697-pipes-of-the-sewers",
             "isMagic": true
         },
         {
@@ -3238,6 +3642,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4724-ring-of-jumping",
             "isMagic": true
         },
         {
@@ -3246,6 +3651,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4725-ring-of-mind-shielding",
             "isMagic": true
         },
         {
@@ -3254,6 +3660,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4736-ring-of-warmth",
             "isMagic": true
         },
         {
@@ -3262,6 +3669,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4737-ring-of-water-walking",
             "isMagic": true
         },
         {
@@ -3270,6 +3678,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=quiver-of-ehlonna",
             "isMagic": true
         },
         {
@@ -3278,6 +3687,7 @@
             "rarity": "Uncommon",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4773-stone-of-good-luck-luckstone",
             "isMagic": true
         },
         {
@@ -3286,6 +3696,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4803-wind-fan",
             "isMagic": true
         },
         {
@@ -3294,6 +3705,7 @@
             "rarity": "Uncommon",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4804-winged-boots",
             "isMagic": true
         },
         {
@@ -3302,6 +3714,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5401-weapon-2",
             "isMagic": true
         },
         {
@@ -3310,6 +3723,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3318,6 +3732,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3326,6 +3741,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3334,6 +3750,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3342,6 +3759,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3350,6 +3768,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3358,6 +3777,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -3366,6 +3786,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5370-adamantine-armor",
             "isMagic": true
         },
         {
@@ -3374,6 +3795,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5370-adamantine-armor",
             "isMagic": true
         },
         {
@@ -3382,6 +3804,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4568-amulet-of-health",
             "isMagic": true
         },
         {
@@ -3390,6 +3813,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5376-armor-of-vulnerability",
             "isMagic": true
         },
         {
@@ -3398,6 +3822,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4577-arrow-catching-shield",
             "isMagic": true
         },
         {
@@ -3406,6 +3831,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4584-belt-of-dwarvenkind",
             "isMagic": true
         },
         {
@@ -3414,6 +3840,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5372-belt-of-giant-strength",
             "isMagic": true
         },
         {
@@ -3422,6 +3849,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5382-berserker-axe",
             "isMagic": true
         },
         {
@@ -3430,6 +3858,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4588-boots-of-levitation",
             "isMagic": true
         },
         {
@@ -3438,6 +3867,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4589-boots-of-speed",
             "isMagic": true
         },
         {
@@ -3446,6 +3876,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4592-bowl-of-commanding-water-elementals",
             "isMagic": true
         },
         {
@@ -3454,6 +3885,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4594-bracers-of-defense",
             "isMagic": true
         },
         {
@@ -3462,6 +3894,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4595-brazier-of-commanding-fire-elementals",
             "isMagic": true
         },
         {
@@ -3470,6 +3903,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4599-cape-of-the-mountebank",
             "isMagic": true
         },
         {
@@ -3478,6 +3912,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4601-censer-of-controlling-air-elementals",
             "isMagic": true
         },
         {
@@ -3486,6 +3921,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -3494,6 +3930,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -3502,6 +3939,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -3510,6 +3948,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -3518,6 +3957,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4605-cloak-of-displacement",
             "isMagic": true
         },
         {
@@ -3526,6 +3966,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4608-cloak-of-the-bat",
             "isMagic": true
         },
         {
@@ -3534,6 +3975,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4611-cube-of-force",
             "isMagic": true
         },
         {
@@ -3542,6 +3984,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://roll20.net/compendium/dnd5e/Instant%20Fortress#content",
             "isMagic": true
         },
         {
@@ -3550,6 +3993,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4613-dagger-of-venom",
             "isMagic": true
         },
         {
@@ -3558,6 +4002,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4620-dimensional-shackles",
             "isMagic": true
         },
         {
@@ -3566,6 +4011,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5385-dragon-slayer",
             "isMagic": true
         },
         {
@@ -3574,6 +4020,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4631-elven-chain",
             "isMagic": true
         },
         {
@@ -3582,6 +4029,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5386-flame-tongue",
             "isMagic": true
         },
         {
@@ -3590,6 +4038,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4643-gem-of-seeing",
             "isMagic": true
         },
         {
@@ -3598,6 +4047,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5388-giant-slayer",
             "isMagic": true
         },
         {
@@ -3606,6 +4056,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4645-glamoured-studded-leather",
             "isMagic": true
         },
         {
@@ -3614,6 +4065,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4656-helm-of-teleportation",
             "isMagic": true
         },
         {
@@ -3622,6 +4074,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4658-horn-of-blasting",
             "isMagic": true
         },
         {
@@ -3630,6 +4083,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5414-horn-of-valhalla",
             "isMagic": true
         },
         {
@@ -3638,6 +4092,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5414-horn-of-valhalla",
             "isMagic": true
         },
         {
@@ -3646,6 +4101,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -3654,6 +4110,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -3662,6 +4119,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -3670,6 +4128,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -3678,6 +4137,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -3686,6 +4146,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -3694,6 +4155,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=iron-bands-of-bilarro",
             "isMagic": true
         },
         {
@@ -3702,6 +4164,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -3710,6 +4173,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -3718,6 +4182,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4670-mace-of-disruption",
             "isMagic": true
         },
         {
@@ -3726,6 +4191,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4671-mace-of-smiting",
             "isMagic": true
         },
         {
@@ -3734,6 +4200,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4672-mace-of-terror",
             "isMagic": true
         },
         {
@@ -3742,6 +4209,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4673-mantle-of-spell-resistance",
             "isMagic": true
         },
         {
@@ -3750,6 +4218,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4684-necklace-of-prayer-beads",
             "isMagic": true
         },
         {
@@ -3758,6 +4227,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4693-periapt-of-proof-against-poison",
             "isMagic": true
         },
         {
@@ -3766,6 +4236,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4717-ring-of-animal-influence",
             "isMagic": true
         },
         {
@@ -3774,6 +4245,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4720-ring-of-evasion",
             "isMagic": true
         },
         {
@@ -3782,6 +4254,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4721-ring-of-feather-falling",
             "isMagic": true
         },
         {
@@ -3790,6 +4263,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4722-ring-of-free-action",
             "isMagic": true
         },
         {
@@ -3798,6 +4272,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4726-ring-of-protection",
             "isMagic": true
         },
         {
@@ -3806,6 +4281,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/5420-ring-of-resistance",
             "isMagic": true
         },
         {
@@ -3814,6 +4290,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4730-ring-of-spell-storing",
             "isMagic": true
         },
         {
@@ -3822,6 +4299,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4734-ring-of-the-ram",
             "isMagic": true
         },
         {
@@ -3830,6 +4308,7 @@
             "rarity": "Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4738-ring-of-x-ray-vision",
             "isMagic": true
         },
         {
@@ -3838,6 +4317,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4739-robe-of-eyes",
             "isMagic": true
         },
         {
@@ -3846,6 +4326,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Rod",
+            "link": "https://www.dndbeyond.com/magic-items/4747-rod-of-rulership",
             "isMagic": true
         },
         {
@@ -3854,6 +4335,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Rod",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:rod-of-the-pact-keeper",
             "isMagic": true
         },
         {
@@ -3862,6 +4344,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4750-rope-of-entanglement",
             "isMagic": true
         },
         {
@@ -3870,6 +4353,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -3878,6 +4362,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5157-shield-2",
             "isMagic": true
         },
         {
@@ -3886,6 +4371,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4754-shield-of-missile-attraction",
             "isMagic": true
         },
         {
@@ -3894,6 +4380,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4760-staff-of-charming",
             "isMagic": true
         },
         {
@@ -3902,6 +4389,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4763-staff-of-healing",
             "isMagic": true
         },
         {
@@ -3910,6 +4398,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4766-staff-of-swarming-insects",
             "isMagic": true
         },
         {
@@ -3918,6 +4407,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4769-staff-of-the-woodlands",
             "isMagic": true
         },
         {
@@ -3926,6 +4416,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4771-staff-of-withering",
             "isMagic": true
         },
         {
@@ -3934,6 +4425,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4772-stone-of-controlling-earth-elementals",
             "isMagic": true
         },
         {
@@ -3942,6 +4434,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4774-sun-blade",
             "isMagic": true
         },
         {
@@ -3950,6 +4443,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5390-sword-of-life-stealing",
             "isMagic": true
         },
         {
@@ -3958,6 +4452,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5392-sword-of-wounding",
             "isMagic": true
         },
         {
@@ -3966,6 +4461,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Rod",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=tentacle-rod",
             "isMagic": true
         },
         {
@@ -3974,6 +4470,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5399-vicious-weapon",
             "isMagic": true
         },
         {
@@ -3982,6 +4479,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4788-wand-of-binding",
             "isMagic": true
         },
         {
@@ -3990,6 +4488,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4789-wand-of-enemy-detection",
             "isMagic": true
         },
         {
@@ -3998,6 +4497,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4790-wand-of-fear",
             "isMagic": true
         },
         {
@@ -4006,6 +4506,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4791-wand-of-fireballs",
             "isMagic": true
         },
         {
@@ -4014,6 +4515,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4792-wand-of-lightning-bolts",
             "isMagic": true
         },
         {
@@ -4022,6 +4524,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4795-wand-of-paralysis",
             "isMagic": true
         },
         {
@@ -4030,6 +4533,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/34712-wand-of-the-war-mage",
             "isMagic": true
         },
         {
@@ -4038,6 +4542,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4800-wand-of-wonder",
             "isMagic": true
         },
         {
@@ -4046,6 +4551,7 @@
             "rarity": "Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4805-wings-of-flying",
             "isMagic": true
         },
         {
@@ -4054,6 +4560,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5404-weapon-3",
             "isMagic": true
         },
         {
@@ -4062,6 +4569,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4570-amulet-of-the-planes",
             "isMagic": true
         },
         {
@@ -4070,6 +4578,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5373-carpet-of-flying",
             "isMagic": true
         },
         {
@@ -4078,6 +4587,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4610-crystal-ball",
             "isMagic": true
         },
         {
@@ -4086,6 +4596,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4727-ring-of-regeneration",
             "isMagic": true
         },
         {
@@ -4094,6 +4605,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4729-ring-of-shooting-stars",
             "isMagic": true
         },
         {
@@ -4102,6 +4614,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4733-ring-of-telekinesis",
             "isMagic": true
         },
         {
@@ -4110,6 +4623,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4740-robe-of-scintillating-colors",
             "isMagic": true
         },
         {
@@ -4118,6 +4632,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4741-robe-of-stars",
             "isMagic": true
         },
         {
@@ -4126,6 +4641,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Rod",
+            "link": "https://www.dndbeyond.com/magic-items/4744-rod-of-absorption",
             "isMagic": true
         },
         {
@@ -4134,6 +4650,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Rod",
+            "link": "https://www.dndbeyond.com/magic-items/4745-rod-of-alertness",
             "isMagic": true
         },
         {
@@ -4142,6 +4659,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Rod",
+            "link": "https://www.dndbeyond.com/magic-items/4748-rod-of-security",
             "isMagic": true
         },
         {
@@ -4150,6 +4668,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Rod",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:rod-of-the-pact-keeper",
             "isMagic": true
         },
         {
@@ -4158,6 +4677,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4752-scimitar-of-speed",
             "isMagic": true
         },
         {
@@ -4166,6 +4686,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5158-shield-3",
             "isMagic": true
         },
         {
@@ -4174,6 +4695,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4761-staff-of-fire",
             "isMagic": true
         },
         {
@@ -4182,6 +4704,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4762-staff-of-frost",
             "isMagic": true
         },
         {
@@ -4190,6 +4713,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4764-staff-of-power",
             "isMagic": true
         },
         {
@@ -4198,6 +4722,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4765-staff-of-striking",
             "isMagic": true
         },
         {
@@ -4206,6 +4731,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4770-staff-of-thunder-and-lightning",
             "isMagic": true
         },
         {
@@ -4214,6 +4740,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5391-sword-of-sharpness",
             "isMagic": true
         },
         {
@@ -4222,6 +4749,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/4796-wand-of-polymorph",
             "isMagic": true
         },
         {
@@ -4230,6 +4758,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wand",
+            "link": "https://www.dndbeyond.com/magic-items/34712-wand-of-the-war-mage",
             "isMagic": true
         },
         {
@@ -4238,6 +4767,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5370-adamantine-armor",
             "isMagic": true
         },
         {
@@ -4246,6 +4776,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5370-adamantine-armor",
             "isMagic": true
         },
         {
@@ -4254,6 +4785,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4571-animated-shield",
             "isMagic": true
         },
         {
@@ -4262,6 +4794,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5372-belt-of-giant-strength",
             "isMagic": true
         },
         {
@@ -4270,6 +4803,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5372-belt-of-giant-strength",
             "isMagic": true
         },
         {
@@ -4278,6 +4812,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5372-belt-of-giant-strength",
             "isMagic": true
         },
         {
@@ -4286,6 +4821,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -4294,6 +4830,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -4302,6 +4839,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4598-candle-of-invocation",
             "isMagic": true
         },
         {
@@ -4310,6 +4848,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4318,6 +4857,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4326,6 +4866,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4604-cloak-of-arachnida",
             "isMagic": true
         },
         {
@@ -4334,6 +4875,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5383-dancing-sword",
             "isMagic": true
         },
         {
@@ -4342,6 +4884,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4619-demon-armor",
             "isMagic": true
         },
         {
@@ -4350,6 +4893,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5380-dragon-scale-mail",
             "isMagic": true
         },
         {
@@ -4358,6 +4902,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4626-dwarven-plate",
             "isMagic": true
         },
         {
@@ -4366,6 +4911,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4627-dwarven-thrower",
             "isMagic": true
         },
         {
@@ -4374,6 +4920,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4629-efreeti-bottle",
             "isMagic": true
         },
         {
@@ -4382,6 +4929,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5413-figurine-of-wondrous-power",
             "isMagic": true
         },
         {
@@ -4390,6 +4938,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5387-frost-brand",
             "isMagic": true
         },
         {
@@ -4398,6 +4947,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4653-helm-of-brilliance",
             "isMagic": true
         },
         {
@@ -4406,6 +4956,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5414-horn-of-valhalla",
             "isMagic": true
         },
         {
@@ -4414,6 +4965,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -4422,6 +4974,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4430,6 +4983,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4438,6 +4992,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4446,6 +5001,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4454,6 +5010,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4462,6 +5019,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4470,6 +5028,7 @@
             "rarity": "Very Rare",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -4478,6 +5037,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4486,6 +5046,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4674-manual-of-bodily-health",
             "isMagic": true
         },
         {
@@ -4494,6 +5055,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4675-manual-of-gainful-exercise",
             "isMagic": true
         },
         {
@@ -4502,6 +5064,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5416-manual-of-golems",
             "isMagic": true
         },
         {
@@ -4510,6 +5073,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5416-manual-of-golems",
             "isMagic": true
         },
         {
@@ -4518,6 +5082,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5416-manual-of-golems",
             "isMagic": true
         },
         {
@@ -4526,6 +5091,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5416-manual-of-golems",
             "isMagic": true
         },
         {
@@ -4534,6 +5100,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4677-manual-of-quickness-of-action",
             "isMagic": true
         },
         {
@@ -4542,6 +5109,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4680-mirror-of-life-trapping",
             "isMagic": true
         },
         {
@@ -4550,6 +5118,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5394-nine-lives-stealer",
             "isMagic": true
         },
         {
@@ -4558,6 +5127,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4686-oathbow",
             "isMagic": true
         },
         {
@@ -4566,6 +5136,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4574,6 +5145,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4757-spellguard-shield",
             "isMagic": true
         },
         {
@@ -4582,6 +5154,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -4590,6 +5163,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -4598,6 +5172,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -4606,6 +5181,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -4614,6 +5190,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4781-tome-of-clear-thought",
             "isMagic": true
         },
         {
@@ -4622,6 +5199,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4782-tome-of-leadership-and-influence",
             "isMagic": true
         },
         {
@@ -4630,6 +5208,7 @@
             "rarity": "Very Rare",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4783-tome-of-understanding",
             "isMagic": true
         },
         {
@@ -4638,6 +5217,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5384-defender",
             "isMagic": true
         },
         {
@@ -4646,6 +5226,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/4649-hammer-of-thunderbolts",
             "isMagic": true
         },
         {
@@ -4654,6 +5235,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5393-luck-blade",
             "isMagic": true
         },
         {
@@ -4662,6 +5244,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Weapon",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:sword-of-answering",
             "isMagic": true
         },
         {
@@ -4670,6 +5253,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5389-holy-avenger",
             "isMagic": true
         },
         {
@@ -4678,6 +5262,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4718-ring-of-djinni-summoning",
             "isMagic": true
         },
         {
@@ -4686,6 +5271,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4723-ring-of-invisibility",
             "isMagic": true
         },
         {
@@ -4694,6 +5280,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4731-ring-of-spell-turning",
             "isMagic": true
         },
         {
@@ -4702,6 +5289,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Rod",
+            "link": "https://www.dndbeyond.com/magic-items/4746-rod-of-lordly-might",
             "isMagic": true
         },
         {
@@ -4710,6 +5298,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Staff",
+            "link": "https://www.dndbeyond.com/magic-items/4767-staff-of-the-magi",
             "isMagic": true
         },
         {
@@ -4718,6 +5307,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Weapon",
+            "link": "https://www.dndbeyond.com/magic-items/5397-vorpal-sword",
             "isMagic": true
         },
         {
@@ -4726,6 +5316,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5372-belt-of-giant-strength",
             "isMagic": true
         },
         {
@@ -4734,6 +5325,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4742,6 +5334,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4750,6 +5343,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4758,6 +5352,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:cloak-of-invisibility",
             "isMagic": true
         },
         {
@@ -4766,6 +5361,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4862-crystal-ball-of-mind-reading",
             "isMagic": true
         },
         {
@@ -4774,6 +5370,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4863-crystal-ball-of-telepathy",
             "isMagic": true
         },
         {
@@ -4782,6 +5379,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4864-crystal-ball-of-true-seeing",
             "isMagic": true
         },
         {
@@ -4790,6 +5388,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -4798,6 +5397,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4666-iron-flask",
             "isMagic": true
         },
         {
@@ -4806,6 +5406,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4814,6 +5415,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5377-armor-1",
             "isMagic": true
         },
         {
@@ -4822,6 +5424,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4742-robe-of-the-archmagi",
             "isMagic": true
         },
         {
@@ -4830,6 +5433,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Rod",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:rod-of-resurrection",
             "isMagic": true
         },
         {
@@ -4838,6 +5442,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4751-scarab-of-protection",
             "isMagic": true
         },
         {
@@ -4846,6 +5451,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4854,6 +5460,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4862,6 +5469,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4802-well-of-many-worlds",
             "isMagic": true
         },
         {
@@ -4870,6 +5478,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4878,6 +5487,7 @@
             "rarity": "Very Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5378-armor-2",
             "isMagic": true
         },
         {
@@ -4886,6 +5496,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4894,6 +5505,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4902,6 +5514,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4910,6 +5523,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4918,6 +5532,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5379-armor-3",
             "isMagic": true
         },
         {
@@ -4926,6 +5541,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "https://www.aidedd.org/dnd/om.php?vo=apparatus-of-kwalish",
             "isMagic": true
         },
         {
@@ -4934,6 +5550,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4574-armor-of-invulnerability",
             "isMagic": true
         },
         {
@@ -4942,6 +5559,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5372-belt-of-giant-strength",
             "isMagic": true
         },
         {
@@ -4950,6 +5568,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4612-cubic-gate",
             "isMagic": true
         },
         {
@@ -4958,6 +5577,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4617-deck-of-many-things",
             "isMagic": true
         },
         {
@@ -4966,6 +5586,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:efreeti-chain",
             "isMagic": true
         },
         {
@@ -4974,6 +5595,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -4982,6 +5604,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5414-horn-of-valhalla",
             "isMagic": true
         },
         {
@@ -4990,6 +5613,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:instrument-of-the-bards",
             "isMagic": true
         },
         {
@@ -4998,6 +5622,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -5006,6 +5631,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -5014,6 +5640,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/5415-ioun-stone",
             "isMagic": true
         },
         {
@@ -5022,6 +5649,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/4698-plate-armor-of-etherealness",
             "isMagic": true
         },
         {
@@ -5030,6 +5658,7 @@
             "rarity": "Rare",
             "size": "L",
             "type": "Armor",
+            "link": "https://www.dndbeyond.com/magic-items/5371-armor-of-resistance",
             "isMagic": true
         },
         {
@@ -5038,6 +5667,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/5509-ring-of-elemental-command",
             "isMagic": true
         },
         {
@@ -5046,6 +5676,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/5509-ring-of-elemental-command",
             "isMagic": true
         },
         {
@@ -5054,6 +5685,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/5509-ring-of-elemental-command",
             "isMagic": true
         },
         {
@@ -5062,6 +5694,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/4735-ring-of-three-wishes",
             "isMagic": true
         },
         {
@@ -5070,6 +5703,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Ring",
+            "link": "https://www.dndbeyond.com/magic-items/5509-ring-of-elemental-command",
             "isMagic": true
         },
         {
@@ -5078,6 +5712,7 @@
             "rarity": "Legendary",
             "size": "L",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4759-sphere-of-annihilation",
             "isMagic": true
         },
         {
@@ -5086,6 +5721,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4778-talisman-of-pure-good",
             "isMagic": true
         },
         {
@@ -5094,6 +5730,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4779-talisman-of-the-sphere",
             "isMagic": true
         },
         {
@@ -5102,6 +5739,7 @@
             "rarity": "Legendary",
             "size": "S",
             "type": "Wondrous Item",
+            "link": "https://www.dndbeyond.com/magic-items/4780-talisman-of-ultimate-evil",
             "isMagic": true
         },
         {
@@ -5110,6 +5748,7 @@
             "rarity": "Legendary",
             "size": "M",
             "type": "Wondrous Item",
+            "link": "http://dnd5e.wikidot.com/wondrous-items:tome-of-the-stilled-tongue",
             "isMagic": true
         }
     ],

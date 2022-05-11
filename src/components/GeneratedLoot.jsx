@@ -24,9 +24,9 @@ class GeneratedLoot extends React.Component{
         if(this.item.countName){
             displayName = this.item.countName;
         }
-        let nameElement = <h2>{displayName}</h2>;
+        let nameElement = <a href={this.item.link}><h2>{displayName}</h2></a>;
         if(displayName.length > 20){
-            nameElement = <h2 className="longString">{displayName}</h2>
+            nameElement = <a href={this.item.link}><h2 className="longString">{displayName}</h2></a>
         }
      return(
         <div class="generatedLoot">
