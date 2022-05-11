@@ -320,6 +320,10 @@ footer p {
     line-height: 1.8rem;
     text-align: left;
     margin: 5px;
+    color: grey;
+}
+#lootPage h2:hover{
+    color: #ff654e;
 }
 #lootPage h3{
     font-family: 'Catamaran', sans-serif;

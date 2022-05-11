@@ -317,7 +317,7 @@ const rollTable = (table) => {
  const displayLoot = (loot) => {
     const generator = document.getElementById('generator');
     // futz with size of genBox
-    generator.style.height = `${loot.length * 100}px`;
+    generator.style.height = `${loot.length * 120}px`;
 
     const lootList = <LootList items = {loot}/>;
 
