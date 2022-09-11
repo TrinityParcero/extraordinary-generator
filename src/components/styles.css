@@ -544,11 +544,15 @@ button p {
         width: 100%;
         margin: 0 auto;
         color: white;
+        padding: 20px 0px;
     }
     header h1 {
         font-size: 1.8em;
         margin-left: 30px;
         color: white;
+    }
+    header ul{
+        margin-top: 10px;
     }
     ul {
         margin: 0 auto;
@@ -557,6 +561,38 @@ button p {
     li a {
         font-size: 0.8em;
         color: white;
+    }
+    footer {
+        position: fixed;
+        bottom: 0px;
+    }
+    footer p {
+        display: none;
+    }
+    #lootPage{
+        width: 300px;
+        margin-bottom: 10%;
+        height: auto;
+    }
+    #lootPage #party{
+        width: 300px;
+    }
+    #lootPage #genDiv{
+        width: 300px;
+        margin: 0 auto 80px auto;
+    }
+    #lootPage fieldset label{
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    #lootPage #generator{
+        height: auto;
+    }
+    #miscStuff .leftLabel {
+        margin-right: 10% !important;
+    }
+    #miscStuff .rightLabel {
+        margin-left: 10% !important;
     }
     #trinket #gen {
         width: 100%;
@@ -577,13 +613,28 @@ button p {
     #trinket #generator {
         display: block;
         position: static;
-        width: 80vw;
+        width: 300px;
+        margin-bottom: 0;
+    }
+    #trinket #generated{
+        width: 250px;
+    }
+    #trinket label{
+        margin-left: 8px;
+    }
+    #namePage {
+        margin: 20px auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     #namePage #generator {
         display: block;
         margin: 0 auto;
-        float: right;
-        margin-bottom: 20%;
+        clear: both;
+        width: 320px;
+    }
+    #namePage #miscellaneous{
+        height: 180px;
     }
     #name {
         font-size: 0.8em;
@@ -593,6 +644,9 @@ button p {
     #trinket #sources {
         text-align: left;
         float: none;
+    }
+    #trinket #leftChunk{
+        width: auto;
     }
     #trinket #num {
         float: none;
@@ -618,7 +672,11 @@ button p {
     }
     #namePage #gen {
         width: 90%;
-        margin: 0 auto;
+        margin: 10px auto;
+        padding: 0;
+    }
+    #eth{
+        margin-bottom: 0;
     }
     #eth fieldset,
     #namePage #gen fieldset {
