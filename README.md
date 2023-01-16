@@ -16,8 +16,6 @@ Status
 
 Known Issues / Planned Improvements
 
--   dig into Asian names - Chinese and Korean def need accuracy checking
-
 -   add logic for Welsh names
 
 -   set up patronym surname handling
@@ -71,3 +69,4 @@ Known Issues / Planned Improvements
 -   https://oromobabynames.com/ (Oromo names)
 -   https://www.myigboname.com/ (Igbo names)
 -   https://behindthename.com
+-   https://www.chinahighlights.com/travelguide/guidebook/chinese-names.htm (Chinese names)
