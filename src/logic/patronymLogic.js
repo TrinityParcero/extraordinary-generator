@@ -128,9 +128,6 @@ const getCustomPatronyms = (sourceCulture, gender, maleNames) => {
                 }
             }
             break;
-        case "hebrew":
-            // need to read more abt this
-            break;
         default:
             break;
     }

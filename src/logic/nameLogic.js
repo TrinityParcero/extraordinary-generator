@@ -237,7 +237,6 @@ const getRandomNames = (firstNames, lastNames, patronyms) => {
             const patRando = Math.floor(Math.random() * Math.floor(PatronymQuotient));
             if(patRando === 0){
                 // YOU GOT A PATRONYM!
-                console.log("RARE DROP! You got a patronym!");
                 rando = Math.floor(Math.random() * Math.floor(patronyms.length));
                 lastName = patronyms[rando];
             }
