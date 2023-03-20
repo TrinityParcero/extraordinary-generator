@@ -16,9 +16,6 @@ Status
 
 Known Issues / Planned Improvements
 
--   add logic for Welsh names
-
--   set up patronym surname handling
 
 ### Characters
 

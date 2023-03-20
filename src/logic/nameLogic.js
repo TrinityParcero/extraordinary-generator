@@ -1,4 +1,9 @@
+import { getPatronyms } from './patronymLogic';
 const nameMap = require('../json/nameMap.json');
+
+// determines how likely patronyms are
+// likeliness = 1/PatronymQuotient
+const PatronymQuotient = 10;
 
 /**
  * 
@@ -147,15 +152,17 @@ const setupNameSets = (ethSelections, genderSelection, lastNames) => {
     const validNames = {
         firstNames: [],
         lastNames: [],
+        patronyms: []
     };
 
     for (const eth of ethSelections) {
+        // this is up here so it's in scope for patronym logic
+        let maleNames = nameData[`${eth}Male`];
         // welsh is a special case, names are unisex
         if (eth === 'welsh') {
             validNames.firstNames.push(...nameData.welsh);
         }
         else if (genderSelection === 'Both') {
-            const maleNames = nameData[`${eth}Male`];
             const femaleNames = nameData[`${eth}Female`];
             if (maleNames) {
                 validNames.firstNames.push(...maleNames);
@@ -171,11 +178,21 @@ const setupNameSets = (ethSelections, genderSelection, lastNames) => {
             }
         }
 
-        // TODO: add check for whether eth has last names, uses patronyms, etc.
         if (lastNames === 'true') {
             const familyNames = nameData[`${eth}Family`];
             if (familyNames) {
                 validNames.lastNames.push(...familyNames);
+            }
+
+            // we need this so patronym logic works fr gender neutral
+            if(!maleNames){
+                maleNames = nameData[eth];
+            }
+            // patronyms go in their own category so I can make them less common
+            // than non-patronym surnames
+            const patronyms = getPatronyms(eth, genderSelection, maleNames);
+            if(patronyms){
+                validNames.patronyms.push(...patronyms);
             }
         }
     }
@@ -188,13 +205,14 @@ const setupNameSets = (ethSelections, genderSelection, lastNames) => {
  * 
  * @param {array} firstNames possible first names
  * @param {array} lastNames possible last names
+ * @param {array} patronyms possible patronym last names
  * @returns {array} generated names
  */
-const getRandomNames = (firstNames, lastNames) => {
+const getRandomNames = (firstNames, lastNames, patronyms) => {
     const generatedNames = [];
 
     let lastNameEnabled = false;
-    if (lastNames.length > 0) {
+    if (lastNames.length > 0 || patronyms.length > 0) {
         lastNameEnabled = true;
     }
 
@@ -216,8 +234,16 @@ const getRandomNames = (firstNames, lastNames) => {
         firstName = firstNames[rando];
 
         if (lastNameEnabled) {
-            rando = Math.floor(Math.random() * Math.floor(lastNames.length));
-            lastName = lastNames[rando];
+            const patRando = Math.floor(Math.random() * Math.floor(PatronymQuotient));
+            if(patRando === 0){
+                // YOU GOT A PATRONYM!
+                rando = Math.floor(Math.random() * Math.floor(patronyms.length));
+                lastName = patronyms[rando];
+            }
+            else{
+                rando = Math.floor(Math.random() * Math.floor(lastNames.length));
+                lastName = lastNames[rando];
+            }
         }
 
         if (lastName) {
@@ -270,7 +296,7 @@ const generateNames = (page) => {
         console.log('Woops! You goofed it Trin! No possible names');
         return;
     }
-    const generatedNames = getRandomNames(possibleNames.firstNames, possibleNames.lastNames);
+    const generatedNames = getRandomNames(possibleNames.firstNames, possibleNames.lastNames, possibleNames.patronyms);
     if (page === 'char') {
         return generatedNames[0];
     }
