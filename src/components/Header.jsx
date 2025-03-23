@@ -38,6 +38,11 @@ function Header(props){
                   Loot
                 </Link>
               </li>
+              <li className={`nav-item  ${props.location.pathname === "/happenstances" ? "active" : ""}`}>
+                <Link className="nav-link" to="/happenstances">
+                  Happenstances
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

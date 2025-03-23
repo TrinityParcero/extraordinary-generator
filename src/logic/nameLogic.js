@@ -191,7 +191,7 @@ const setupNameSets = (ethSelections, genderSelection, lastNames) => {
             // patronyms go in their own category so I can make them less common
             // than non-patronym surnames
             const patronyms = getPatronyms(eth, genderSelection, maleNames);
-            if(patronyms){
+            if(patronyms.length > 0){
                 validNames.patronyms.push(...patronyms);
             }
         }
@@ -234,8 +234,12 @@ const getRandomNames = (firstNames, lastNames, patronyms) => {
         firstName = firstNames[rando];
 
         if (lastNameEnabled) {
-            const patRando = Math.floor(Math.random() * Math.floor(PatronymQuotient));
-            if(patRando === 0){
+            var patRando = 0;
+            // only use randomized patronym chance if there are non-patronym surnames
+            if(lastNames.length > 0){
+                patRando = Math.floor(Math.random() * Math.floor(PatronymQuotient));    
+            }
+            if(patRando === 0 && patronyms.length > 0){
                 // YOU GOT A PATRONYM!
                 rando = Math.floor(Math.random() * Math.floor(patronyms.length));
                 lastName = patronyms[rando];

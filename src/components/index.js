@@ -7,3 +7,4 @@ export { default as Names } from "./pages/Name";
 export { default as Trinkets } from './pages/Trinket';
 export { default as Characters } from './pages/Character';
 export { default as Loot } from './pages/Loot';
+export { default as Happenstances } from './pages/Happenstance';

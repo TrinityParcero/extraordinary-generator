@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { AllButton } from './MultiButtons';
 
@@ -53,15 +52,6 @@ class CheckboxFieldset extends React.Component{
             </fieldset>
         );
     }
-};
-
-CheckboxFieldset.propTypes = {
-    id: PropTypes.string,
-    legend: PropTypes.string,
-    name: PropTypes.string,
-    selectAll: PropTypes.bool,
-    deselectAll: PropTypes.bool,
-    values: PropTypes.array
 };
 
 class GenderSelector extends React.Component{

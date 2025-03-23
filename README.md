@@ -54,6 +54,19 @@ Known Issues / Planned Improvements
 
 -   Tune rarity balance - currently feels too based on party level, not enough on lootquality
 
+### Happenstances
+
+Random "happenstance"/event generator in the spirit of the "Something Happens" table on the back of most DM screens.
+
+Status
+
+-   Functioning, but very basic and ugly.
+
+Known Issues / Planned Improvements
+
+-   Add more events/sources 
+-   Clean up presentation
+
 ## Name Sources
 
 -   The Extraordinary Book of Names by Gary Gygax
