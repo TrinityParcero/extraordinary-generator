@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Header, Footer, Home, Names, Trinkets, Characters, Loot } from "./components";
+import { Header, Footer, Home, Names, Trinkets, Characters, Loot, Happenstances } from "./components";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <Route path="/trinkets" exact component={() => <Trinkets />} />
           <Route path="/characters" exact component={() => <Characters />} />
           <Route path="/loot" exact component={() => <Loot />} />
+          <Route path="/happenstances" exact component={() => <Happenstances/>}/>
         </Switch>
         <Footer />
       </Router>

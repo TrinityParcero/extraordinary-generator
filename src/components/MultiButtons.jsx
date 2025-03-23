@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 // used for selecting all options from a series of fieldsets
 class CategoryAllButton extends React.Component{

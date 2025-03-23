@@ -28,6 +28,12 @@ function Home() {
                 alt="illustration of adventurers fighting over loot"/>
                 Loot
             </Link>
+
+            <Link className="nav-link" to="/happenstances">
+                <img src="./resources/images/trinket.jpg"
+                alt="illustration of"/>
+                Happenstances
+            </Link>
         </main>
   );
 }
